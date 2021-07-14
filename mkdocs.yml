@@ -1,1 +1,41 @@
 site_name: Zect
+site_description: The web site of Zect
+site_author: Zect
+site_url: https://sas08.github.io
+repo_name: Zect
+repo_url: https://github.com/sas08/sas08.github.io
+
+theme:
+    name: material
+    palette:
+        scheme: preference
+        primary: indigo
+        accent: amber
+    font:
+        text: Noto Sans
+    language: ja
+    # logo: img/
+    # favicon: img/
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.indexes
+        - navigation.tabs
+        - navigation.tabs.sticky
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.tabbed
+    - footnotes
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex:
+        generic: true
+    - meta
