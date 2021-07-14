@@ -1,7 +1,8 @@
 # Hi there, I'm Zect 👋
 
 ## 所属(?)
-- 【Amachiの開発仲間(仮)】(TeamAmaner)
+- 【Amachiの開発仲間(仮)】([TeamAmaner](https://github.com/TeamAmaner))
+- 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【JSSC】(un-known)
 
 ## 進行中のプロジェクト
