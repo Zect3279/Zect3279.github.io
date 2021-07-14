@@ -5,9 +5,17 @@
 - 【JSSC】(un-known)
 
 ## 進行中のプロジェクト
-- マイクラ戦争プラグイン【BattlePlugin】
-- ボカリーグをアプリに！【Vocaleague.App】
+- マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
+- ボカリーグをアプリに！【[Vocaleague.App](https://github.com/sas08/VocaleagueApp)】
 - 部活のHP【JSSC】
+
+## 終了したプロジェクト
+- VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/sas08/VocaLeague)】
+- ボカリーグがスラッシュコマンド対応に 【[Vocaleague.Slash](https://github.com/sas08/Vocaleague-Slash)】
+- Amaner界隈HP 【[Amaner.Web](https://github.com/TeamAmaner/TeamAmaner.github.io)】
+- 用意したテンプレートをコマンド一つで展開 【[Instant.DiscordBot](https://github.com/sas08/instant)】
+- Discordのチームを操作 【[TeamController.DiscordBot](https://github.com/sas08/team)】
+- Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/sas08/werewolf)】
 
 ## 対応言語
 - Python
