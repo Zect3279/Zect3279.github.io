@@ -10,6 +10,7 @@
 ## 進行中のプロジェクト
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
 - ボカリーグをアプリに！【[Vocaleague.App](https://github.com/sas08/VocaleagueApp)】
+- ウェブ上で単語を学習！【Memorize.NodeApp】
 
 ## 終了したプロジェクト
 - VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/sas08/VocaLeague)】
