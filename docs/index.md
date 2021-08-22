@@ -10,7 +10,6 @@
 ## 進行中のプロジェクト
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
 - ボカリーグをアプリに！【[Vocaleague.App](https://github.com/sas08/VocaleagueApp)】
-- ウェブ上で単語を学習！【Memorize.NodeApp】
 
 ## 終了したプロジェクト
 - VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/sas08/VocaLeague)】
@@ -19,6 +18,7 @@
 - 用意したテンプレートをコマンド一つで展開 【[Instant.DiscordBot](https://github.com/sas08/instant)】
 - Discordのチームを操作 【[TeamController.DiscordBot](https://github.com/sas08/team)】
 - Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/sas08/werewolf)】
+- ウェブ上で図形問題を学習【[MathMemorize.App](https://github.com/sas08/Study-App)】
 - 部活のHP【JSSC.Web】
 
 ## 対応言語
