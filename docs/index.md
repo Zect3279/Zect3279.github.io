@@ -3,9 +3,12 @@
 ## Hi there, I'm Zect 👋
 
 ## 所属(?)
-- 【Amachiの開発仲間(仮)】([TeamAmaner](https://github.com/TeamAmaner))
+- ~~【Amachiの開発仲間(仮)】([TeamAmaner](https://github.com/TeamAmaner))~~
 - 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【JSSC】(un-known)
+
+## Contact
+- Twitter: [@Zect3279](https://twitter.com/Zect3279)
 
 ## 進行中のプロジェクト
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
@@ -20,6 +23,11 @@
 - Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/sas08/werewolf)】
 - ウェブ上で図形問題を学習(β版)【[MathApp.HTML](https://github.com/sas08/Study-App)】
 - 部活のHP【JSSC.Web】
+
+## テンプレートリポジトリ
+- メニューバー付きVueアプリ【[temp-VueApp](https://github.com/sas08/temp-VueApp)】
+- discord.pyを使ったDiscord-Bot【[temp-dpy](https://github.com/sas08/temp-dpy)】
+- Paper Plugin【[temp-MinePlugin](https://github.com/sas08/temp-MinePlugin)】
 
 ## 対応言語
 - Python
