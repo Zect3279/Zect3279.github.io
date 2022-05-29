@@ -2,8 +2,6 @@ site_name: Zscode
 site_description: The web site of Zscode
 site_author: Z
 site_url: https://Zect3279.github.io
-repo_name: Z
-repo_url: https://github.com/Zect3279/Zect3279.github.io
 
 theme:
     name: material
@@ -18,10 +16,8 @@ theme:
     # favicon: img/
     icon:
         repo: fontawesome/brands/github
-    features:
+    # features:
         # - navigation.indexes
-        - navigation.tabs
-        - navigation.tabs.sticky
 
 markdown_extensions:
     - toc:
