@@ -1,9 +1,9 @@
-site_name: Zect
-site_description: The web site of Zect
-site_author: Zect
-site_url: https://sas08.github.io
-repo_name: Zect
-repo_url: https://github.com/sas08/sas08.github.io
+site_name: Zscode
+site_description: The web site of Zscode
+site_author: Z
+site_url: https://Zect3279.github.io
+repo_name: Z
+repo_url: https://github.com/Zect3279/Zect3279.github.io
 
 theme:
     name: material
