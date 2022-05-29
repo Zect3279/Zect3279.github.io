@@ -3,26 +3,21 @@ hide:
   - navigation
 ---
 
-# Zect
-
-## Hi there, I'm Zect 👋
+# Hi there 👋
 
 ## 所属(?)
 - 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【運営者ギルド】
 - 【JSSC】
 
-## Links
-- Twitter: [@Zect3279](https://twitter.com/Zect3279)
-- Qiita: [@Zect](https://qiita.com/Zect)
 
 ## 進行中のプロジェクト
 - 週一アプリチャレンジ【[WAC](https://github.com/sas08/Weekly-App) / [Web](https://wac.zscode.net)】
-- Discordのチャンネルをwebで編集【[DisGit.Web](https://github.com/sas08/DisGit) / [DisGit.DiscordBot](https://github.com/qmelo/disgit)】
 
 ## 飽きた (((
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
 - ボカリーグをWebアプリに【[Vocaleague.App](https://github.com/TeamAmaner/Vocaleague)】
+- Discordのチャンネルをwebで編集【[DisGit.Web](https://github.com/sas08/DisGit) / [DisGit.DiscordBot](https://github.com/qmelo/disgit)】
 
 ## テンプレートリポジトリ
 - メニューバー付きVueアプリ【[temp-VueApp](https://github.com/sas08/temp-VueApp)】
