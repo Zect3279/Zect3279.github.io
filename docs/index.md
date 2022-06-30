@@ -12,26 +12,26 @@ hide:
 
 
 ## 進行中のプロジェクト
-- 週一アプリチャレンジ【[WAC](https://github.com/sas08/Weekly-App) / [Web](https://wac.zscode.net)】
+- 週一アプリチャレンジ【[WAC](https://github.com/Zect3279/Weekly-App) / [Web](https://wac.zscode.net)】
 
 ## 飽きた (((
-- マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/sas08/BattlePlugin)】
+- マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/Zect3279/BattlePlugin)】
 - ボカリーグをWebアプリに【[Vocaleague.App](https://github.com/TeamAmaner/Vocaleague)】
-- Discordのチャンネルをwebで編集【[DisGit.Web](https://github.com/sas08/DisGit) / [DisGit.DiscordBot](https://github.com/qmelo/disgit)】
+- Discordのチャンネルをwebで編集【[DisGit.Web](https://github.com/Zect3279/DisGit) / [DisGit.DiscordBot](https://github.com/qmelo/disgit)】
 
 ## テンプレートリポジトリ
-- メニューバー付きVueアプリ【[temp-VueApp](https://github.com/sas08/temp-VueApp)】
-- discord.pyを使ったDiscord-Bot【[temp-dpy](https://github.com/sas08/temp-dpy)】
-- Paper Plugin【[temp-MinePlugin](https://github.com/sas08/temp-MinePlugin)】
+- メニューバー付きVueアプリ【[temp-VueApp](https://github.com/Zect3279/temp-VueApp)】
+- discord.pyを使ったDiscord-Bot【[temp-dpy](https://github.com/Zect3279/temp-dpy)】
+- Paper Plugin【[temp-MinePlugin](https://github.com/Zect3279/temp-MinePlugin)】
 
 ## 終了したプロジェクト
-- VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/sas08/VocaLeague)】
-- ボカリーグがスラッシュコマンド対応に 【[Vocaleague.Slash](https://github.com/sas08/Vocaleague-Slash)】
+- VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/Zect3279/VocaLeague)】
+- ボカリーグがスラッシュコマンド対応に 【[Vocaleague.Slash](https://github.com/Zect3279/Vocaleague-Slash)】
 - Amaner界隈HP 【[Amaner.Web](https://github.com/TeamAmaner/TeamAmaner.github.io)】
-- 用意したテンプレートをコマンド一つで展開 【[Instant.DiscordBot](https://github.com/sas08/instant)】
-- Discordのチームを操作 【[TeamController.DiscordBot](https://github.com/sas08/team)】
-- Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/sas08/werewolf)】
-- ウェブ上で図形問題を学習(β版)【[MathApp.HTML](https://github.com/sas08/Study-App)】
+- 用意したテンプレートをコマンド一つで展開 【[Instant.DiscordBot](https://github.com/Zect3279/instant)】
+- Discordのチームを操作 【[TeamController.DiscordBot](https://github.com/Zect3279/team)】
+- Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/Zect3279/werewolf)】
+- ウェブ上で図形問題を学習(β版)【[MathApp.HTML](https://github.com/Zect3279/Study-App)】
 - ランダム抽選機【[Randomer](https://randomer.zscode.net/)】
 
 ## 対応言語
@@ -44,9 +44,9 @@ hide:
 - PostgreSQL
 
 ## ステータスとか
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sas08&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sas08&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-[![trophy](https://github-profile-trophy.vercel.app/?username=sas08&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zect3279&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zect3279&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Zect3279&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## コメント
 時間と金をくれ
