@@ -17,6 +17,7 @@ hide:
 
 ## 制作中のプロジェクト
 - ボカロ関連アプリ
+- ローカルで動いてるモノ多し
 
 ## 一時停止
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/Zect3279/BattlePlugin)】
