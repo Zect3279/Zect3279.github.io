@@ -9,15 +9,21 @@ hide:
 - 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【運営者ギルド】
 - 【JSSC】
+- 【D-Techs】[Diverse-Techs Circle](https://github.com/Diverse-Techs-Circle)
 
+## サポート中
+- KiiteCafeナウプレ垢【[Kiiteitte](https://twitter.com/Kiiteitte)】([リポ](https://github.com/Zect3279/Kiiteitte))
+- MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
-## 進行中のプロジェクト
-- 週一アプリチャレンジ【[WAC](https://github.com/Zect3279/Weekly-App) / [Web](https://wac.zscode.net)】
+## 制作中のプロジェクト
+- ボカロ関連アプリ
 
-## 飽きた (((
+## 一時停止
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/Zect3279/BattlePlugin)】
 - ボカリーグをWebアプリに【[Vocaleague.App](https://github.com/TeamAmaner/Vocaleague)】
 - Discordのチャンネルをwebで編集【[DisGit.Web](https://github.com/Zect3279/DisGit) / [DisGit.DiscordBot](https://github.com/qmelo/disgit)】
+- 週一アプリチャレンジ【[WAC](https://github.com/Zect3279/Weekly-App) / [Web](https://wac.zscode.net)】
+- ???用仮想通貨【LIFI】
 
 ## テンプレートリポジトリ
 - メニューバー付きVueアプリ【[temp-VueApp](https://github.com/Zect3279/temp-VueApp)】
