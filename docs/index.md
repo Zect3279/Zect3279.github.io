@@ -6,9 +6,9 @@ hide:
 # Hi there 👋
 
 ## 所属(?)
-- 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【運営者ギルド】
 - 【JSSC】
+- 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【D-Techs】[Diverse-Techs Circle](https://github.com/Diverse-Techs-Circle)
 
 ## サポート中
@@ -17,6 +17,7 @@ hide:
 
 ## 制作中のプロジェクト
 - ボカロ関連アプリ
+- AI/NLP関連サービス
 - ローカルで動いてるモノ多し
 
 ## 一時停止
