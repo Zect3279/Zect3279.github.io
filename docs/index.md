@@ -39,7 +39,7 @@ hide:
 ## 終了したプロジェクト
 - VocaloidクイズBot 【[Vocaleage.DiscordBot](https://github.com/Zect3279/VocaLeague)】
 - ボカリーグがスラッシュコマンド対応に 【[Vocaleague.Slash](https://github.com/Zect3279/Vocaleague-Slash)】
-- Amaner界隈HP 【[Amaner.Web](https://github.com/TeamAmaner/TeamAmaner.github.io)】
+- Am界隈HP 【[Amaner.Web](https://github.com/TeamAmaner/TeamAmaner.github.io)】
 - 用意したテンプレートをコマンド一つで展開 【[Instant.DiscordBot](https://github.com/Zect3279/instant)】
 - Discordのチームを操作 【[TeamController.DiscordBot](https://github.com/Zect3279/team)】
 - Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/Zect3279/werewolf)】
