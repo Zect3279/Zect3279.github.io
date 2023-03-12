@@ -5,6 +5,7 @@ site_url: https://Zect3279.github.io
 
 theme:
     name: material
+    custom_dir: overrides
     palette:
         scheme: preference
         primary: indigo
