@@ -16,13 +16,13 @@ hide:
 - 【D-Techs】[Diverse-Techs Circle](https://github.com/Diverse-Techs-Circle)
 
 ## サポート中
-- KiiteCafeナウプレ垢【[Kiiteitte](https://twitter.com/Kiiteitte)】([リポ](https://github.com/Zect3279/Kiiteitte))
 - MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 制作中のプロジェクト
 - ボカロ関連アプリ
 - AI/NLP関連サービス
 - ローカルで動いてるモノ多し
+- Kiiteナウプレサイト Kiiteitte+(仮)
 
 ## 一時停止
 - マイクラ戦争プラグイン【[BattlePlugin.PaperPlugin](https://github.com/Zect3279/BattlePlugin)】
@@ -45,6 +45,7 @@ hide:
 - Discordで人狼ゲーム！ 【[WereWolf.DiscordBot](https://github.com/Zect3279/werewolf)】
 - ウェブ上で図形問題を学習(β版)【[MathApp.HTML](https://github.com/Zect3279/Study-App)】
 - ランダム抽選機【[Randomer](https://randomer.zscode.net/)】
+- KiiteCafeナウプレ垢【[Kiiteitte](https://twitter.com/Kiiteitte)】([リポ](https://github.com/Zect3279/Kiiteitte))（このアプリはTwitter APIの制限により終了しました）
 
 ## 対応言語
 - JS
