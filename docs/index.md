@@ -54,6 +54,7 @@ hide:
 - JS
 - Python
 - C#
+- Unity Shader Script
 - Java
 - HTML
 - CSS
