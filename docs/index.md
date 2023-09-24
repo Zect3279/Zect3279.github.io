@@ -12,14 +12,17 @@ hide:
 ## 所属(?)
 - 【運営者ギルド】
 - 【JSSC】
+- 【HELLO, VOCALOID】
 - 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
 - 【D-Techs】[Diverse-Techs Circle](https://github.com/Diverse-Techs-Circle)
 
 ## サポート中
+- 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】
 - MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 制作中のプロジェクト
 - ボカロ関連アプリ
+- ライブ用ソフト
 - AI/NLP関連サービス
 - ローカルで動いてるモノ多し
 - Kiiteナウプレサイト Kiiteitte+(仮)
@@ -50,6 +53,7 @@ hide:
 ## 対応言語
 - JS
 - Python
+- C#
 - Java
 - HTML
 - CSS
