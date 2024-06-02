@@ -5,20 +5,30 @@ hide:
 
 # Hi there 👋
 
+## 自己紹介
+エンジニア、VJ
+ライブ制作・運営、djイベント運営
+最近ではUnity/Blenderで3Dライブの開発
+
 ## Members
 - Z
 - S
 - N
 
 ## 所属(?)
+- 【OWN LIVE】([twitter](https://twitter.com/OWN_LIVE39))
+- 【FuLUKAlor ink.】([twitter](https://twitter.com/luka_fanmade))
+- 【Try Force】([twitter](https://twitter.com/Try04_squad)])
+- 【ZDK】
+- 【HELLO, VOCALOID】([twitter](https://twitter.com/HELLO_Tempest39))
 - 【運営者ギルド】
+- 【OS開発グループ】([github](https://github.com/linuxcodevserver))
+- 【D-Techs】[github](https://github.com/Diverse-Techs-Circle)
 - 【JSSC】
-- 【HELLO, VOCALOID】
-- 【OS開発グループ】([Linuxcodevserver](https://github.com/linuxcodevserver))
-- 【D-Techs】[Diverse-Techs Circle](https://github.com/Diverse-Techs-Circle)
 
 ## サポート中
 - 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】
+- ライブの映像オペレーション用【AuraLink】(supported by OL)
 - MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 制作中のプロジェクト
