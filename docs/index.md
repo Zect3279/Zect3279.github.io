@@ -6,8 +6,8 @@ hide:
 # Hi there 👋
 
 ## 自己紹介
-エンジニア、VJ
-ライブ制作・運営、djイベント運営
+エンジニア、VJ<br />
+ライブ制作・運営、djイベント運営<br />
 最近ではUnity/Blenderで3Dライブの開発
 
 ## Members
