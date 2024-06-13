@@ -37,6 +37,13 @@
 
 <img src="https://twipla.jp/imgs/2405/705291910840112.jpg" alt="キョイセ フライヤー">
 
+### ミクストリーム vol.3
+- date : 2024/8/12 Mon.
+- at : music lounge 24/7
+- ticket : [https://twipla.jp/events/608683](https://twipla.jp/events/608683 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2406/957629792762336.jpg" alt="ミクストvol.3フライヤー">
+
 ### 奥羽初霜ボカロ祭
 - by : [OWN LIVE](https://twitter.com/OWN_LIVE39 "twitterリンク")
 - at : けんしん郡山文化センター
@@ -78,6 +85,10 @@
 - job : 映像オペレーション
 
 <img src="https://pbs.twimg.com/media/GDspjcKacAAolIS?format=jpg&name=medium" alt="ルカファン フライヤー">
+
+---
+
+---
 
 ## VJ (クラブ)
 
