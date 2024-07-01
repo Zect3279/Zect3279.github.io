@@ -8,7 +8,8 @@ hide:
 ## 自己紹介
 エンジニア、VJ<br />
 ライブ制作・運営、djイベント運営<br />
-最近ではUnity/Blenderで3Dライブの開発
+最近はUnity / Blenderで3Dライブの開発<br />
+[Linktree](https://linktr.ee/zect3279 "いろんなリンク集")
 
 ## Members
 - Z
