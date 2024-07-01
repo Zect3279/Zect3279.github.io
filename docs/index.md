@@ -89,3 +89,13 @@ hide:
 
 ## コメント
 時間と金をくれ
+
+## A8 (美味い表示方法を模索中)
+
+<a href="https://px.a8.net/svt/ejp?a8mat=3ZB3AT+3PYJW2+4EKC+62U35" rel="nofollow">
+<img border="0" width="936" height="120" alt="" src="https://www29.a8.net/svt/bgt?aid=240702581225&wid=001&eno=01&mid=s00000020550001021000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZB3AT+3PYJW2+4EKC+62U35" alt="">
+
+<a href="https://px.a8.net/svt/ejp?a8mat=3ZB3AT+3ENBEA+0K+10W0N5" rel="nofollow">
+<img border="0" width="88" height="31" alt="" src="https://www29.a8.net/svt/bgt?aid=240702581206&wid=001&eno=01&mid=s00000000002006196000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=3ZB3AT+3ENBEA+0K+10W0N5" alt="">
