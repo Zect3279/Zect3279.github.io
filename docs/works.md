@@ -2,13 +2,6 @@
 
 ## 今後の予定
 
-### 39's Luminous
-- date : 2024/6/29 Sat.
-- at : 渋谷 WOMB LOUNGE
-- ticket : [https://twipla.jp/events/607030](https://twipla.jp/events/607030 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2404/41560179695248.jpg" alt="ミクルミ フライヤー">
-
 ### Color-full VOCALOID vol.1
 - date : 2024/7/6 Sat.
 - at : 新宿 azito
@@ -29,6 +22,13 @@
 - ticket : [https://twipla.jp/events/602143](https://twipla.jp/events/602143 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2406/892781492128260.jpg" alt="プレボカ フライヤー">
+
+### TRY FORCE vol.1
+- date : 2024/7/21 Sun. 
+- at : 秋葉原MOGRA
+- ticket : [https://twipla.jp/events/621593](https://twipla.jp/events/621593 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/GQr9YGraMAAoAne?format=png&name=900x900" alt="try04v1フライヤー">
 
 ### 鏡像異性体
 - date : 2024/7/27 Sat.
@@ -149,6 +149,13 @@
     - 夜公演｜ [https://t.livepocket.jp/e/6j42t](https://t.livepocket.jp/e/6j42t "夜公演チケット")
 
 <img src="https://pbs.twimg.com/media/GOfev5Xa8AAKnVR?format=jpg&name=medium" alt="ルカファン アフターDJ告知画像">
+
+### 39's Luminous
+- date : 2024/6/29 Sat.
+- at : 渋谷 WOMB LOUNGE
+- ticket : [https://twipla.jp/events/607030](https://twipla.jp/events/607030 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2404/41560179695248.jpg" alt="ミクルミ フライヤー">
 
 <!-- ---
 
