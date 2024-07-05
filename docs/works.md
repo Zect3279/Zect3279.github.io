@@ -30,6 +30,13 @@
 
 <img src="https://pbs.twimg.com/media/GQr9YGraMAAoAne?format=png&name=900x900" alt="try04v1フライヤー">
 
+### tonight!
+- date : 2024/7/26 Fri.
+- at : Bar FROG
+- ticket : N/A
+
+フライヤー : Coming Soon...
+
 ### 鏡像異性体
 - date : 2024/7/27 Sat.
 - at : 新宿 azito
