@@ -11,10 +11,12 @@ hide:
 最近はUnity / Blenderで3Dライブの開発<br />
 [Linktree](https://linktr.ee/zect3279 "いろんなリンク集")
 
-## Members
-- Z
-- S
-- N
+## WORKS
+- VJ
+- 開発等
+- Unity (2D) アプリ開発
+
+<a href="/works/" rel="my works">＜＜ 詳細 ＞＞</a>
 
 ## 所属(?)
 - 【OWN LIVE】([twitter](https://twitter.com/OWN_LIVE39))
@@ -28,12 +30,10 @@ hide:
 - 【D-Techs】([github](https://github.com/Diverse-Techs-Circle))
 - 【JSSC】
 
-## WORKS
-- VJ
-- 開発等
-- Unity (2D) アプリ開発
-
-<a href="/works/" rel="my works">＜＜ 詳細 ＞＞</a>
+## Members
+- Z
+- S
+- N
 
 ## サポート中
 - 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】

@@ -2,47 +2,6 @@
 
 ## 今後の予定
 
-### Color-full VOCALOID vol.1
-- date : 2024/7/6 Sat.
-- at : 新宿 azito
-- ticket : [https://twipla.jp/events/613722](https://twipla.jp/events/613722 "twiplaリンク")
-
-<img src="https://pbs.twimg.com/media/GMqCuvxbYAAwWMv?format=jpg&name=large" alt="カラボカvol.1フライヤー">
-
-### VOCALOID CONTEXT
-- date : 2024/7/13 Sat.
-- at : Cafe BAr LIVRE
-- ticket : [https://twipla.jp/events/614866](https://twipla.jp/events/614866 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2405/653142133539462.jpg" alt="ボカ脈 フライヤー">
-
-### Presto VOCALOID
-- date : 2024/7/13 Sat.
-- at : Asakusa Stella
-- ticket : [https://twipla.jp/events/602143](https://twipla.jp/events/602143 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2406/892781492128260.jpg" alt="プレボカ フライヤー">
-
-### TRY FORCE vol.1
-- date : 2024/7/21 Sun. 
-- at : 秋葉原MOGRA
-- ticket : [https://twipla.jp/events/621593](https://twipla.jp/events/621593 "twiplaリンク")
-
-<img src="https://pbs.twimg.com/media/GQr9YGraMAAoAne?format=png&name=900x900" alt="try04v1フライヤー">
-
-### tonight!
-- date : 2024/7/26 Fri.
-- at : Bar FROG
-- ticket : N/A
-
-フライヤー : Coming Soon...
-
-### 鏡像異性体
-- date : 2024/7/27 Sat.
-- at : 新宿 azito
-- ticket : [https://twipla.jp/events/614066](https://twipla.jp/events/614066 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2405/705291910840112.jpg" alt="キョイセ フライヤー">
 
 ### ミクストリーム vol.3
 - date : 2024/8/12 Mon.
@@ -63,7 +22,7 @@
 
 ---
 
-## ライブ
+## 過去ライブ
 
 ### Raise our Flag
 - by : [04SQUAD](https://twitter.com/04squ4d "twitterリンク")
@@ -97,7 +56,7 @@
 
 ---
 
-## VJ (クラブ)
+## 過去VJ (クラブ)
 
 ### HELLO, VOCALOID vol.1
 - date : 2023/8/18 Fri.
@@ -163,6 +122,55 @@
 - ticket : [https://twipla.jp/events/607030](https://twipla.jp/events/607030 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2404/41560179695248.jpg" alt="ミクルミ フライヤー">
+
+### Color-full VOCALOID vol.1
+- date : 2024/7/6 Sat.
+- at : 新宿 azito
+- ticket : [https://twipla.jp/events/613722](https://twipla.jp/events/613722 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/GMqCuvxbYAAwWMv?format=jpg&name=large" alt="カラボカvol.1フライヤー">
+
+### VOCALOID CONTEXT
+- date : 2024/7/13 Sat.
+- at : Cafe BAr LIVRE
+- ticket : [https://twipla.jp/events/614866](https://twipla.jp/events/614866 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2405/653142133539462.jpg" alt="ボカ脈 フライヤー">
+
+### Presto VOCALOID
+- date : 2024/7/13 Sat.
+- at : Asakusa Stella
+- ticket : [https://twipla.jp/events/602143](https://twipla.jp/events/602143 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2406/892781492128260.jpg" alt="プレボカ フライヤー">
+
+### TRY FORCE vol.1
+- date : 2024/7/21 Sun.
+- at : 秋葉原MOGRA
+- ticket : [https://twipla.jp/events/621593](https://twipla.jp/events/621593 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/GQr9YGraMAAoAne?format=png&name=900x900" alt="try04v1フライヤー">
+
+### tonight!
+- date : 2024/7/26 Fri.
+- at : Bar FROG
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GTPq8phaYAIaZNM?format=jpg&name=900x900" alt="to night フライヤー">
+
+### 鏡像異性体
+- date : 2024/7/27 Sat.
+- at : 新宿 azito
+- ticket : [https://twipla.jp/events/614066](https://twipla.jp/events/614066 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2405/705291910840112.jpg" alt="キョイセ フライヤー">
+
+### Road to ボカチバ
+- date : 2024/7/28 Sun.
+- at : Vocabar Melty
+- ticket : [https://twipla.jp/events/623158](https://twipla.jp/events/623158)
+
+<img src="https://twipla.jp/imgs/2407/380191514399851.jpg" alt="ロトボカ フライヤー">
 
 <!-- ---
 
