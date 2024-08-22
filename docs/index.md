@@ -19,16 +19,14 @@ hide:
 <a href="/works/" rel="my works">＜＜ 詳細 ＞＞</a>
 
 ## 所属(?)
-- 【OWN LIVE】([twitter](https://twitter.com/OWN_LIVE39))
 - 【Try Force】([twitter](https://twitter.com/Try04_squad))
 - 【HELLO, VOCALOID】([twitter](https://twitter.com/HELLO_Tempest39))
+- 【39's Luminous】([twitter](https://twitter.com/39sLuminous))
 - 【FuLUKAlor ink.】([twitter](https://twitter.com/luka_fanmade))
 - 【ZDK】
 - 【TMP】(to_night)
 - 【運営者ギルド】
-- 【OS開発グループ】([github](https://github.com/linuxcodevserver))
 - 【D-Techs】([github](https://github.com/Diverse-Techs-Circle))
-- 【JSSC】
 
 ## Members
 - Z
@@ -37,8 +35,7 @@ hide:
 
 ## サポート中
 - 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】
-- OWN LIVE公式サイト【[ownlive.net](https://www.ownlive.net)】
-- ライブの映像オペレーション用【AuraLink】(supported by OL)
+- ライブの映像オペレーション用【AuraLink】
 - MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 制作中のプロジェクト
