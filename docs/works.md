@@ -3,20 +3,12 @@
 ## 今後の予定
 
 
-### ミクストリーム vol.3
-- date : 2024/8/12 Mon.
-- at : music lounge 24/7
-- ticket : [https://twipla.jp/events/608683](https://twipla.jp/events/608683 "twiplaリンク")
+### 竜胆の集い
+- date : 2024/9/7 Sat.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/627498](https://twipla.jp/events/627498 "twiplaリンク")
 
-<img src="https://twipla.jp/imgs/2406/957629792762336.jpg" alt="ミクストvol.3フライヤー">
-
-### 奥羽初霜ボカロ祭
-- by : [OWN LIVE](https://twitter.com/OWN_LIVE39 "twitterリンク")
-- at : けんしん郡山文化センター
-- ticket : N/A
-- job : 総合ディレクション(幹部)、技術開発
-
-<img src="https://pbs.twimg.com/media/GPly1zCasAE1CbJ?format=png&name=large" alt="ルミフェス開催決定画像">
+<img src="https://twipla.jp/imgs/2408/653251087922374.jpg" alt="竜胆の集いフライヤー">
 
 ---
 
@@ -171,6 +163,15 @@
 - ticket : [https://twipla.jp/events/623158](https://twipla.jp/events/623158)
 
 <img src="https://twipla.jp/imgs/2407/380191514399851.jpg" alt="ロトボカ フライヤー">
+
+### ミクストリーム vol.3
+- date : 2024/8/12 Mon.
+- at : music lounge 24/7
+- ticket : [https://twipla.jp/events/608683](https://twipla.jp/events/608683 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2406/957629792762336.jpg" alt="ミクストvol.3フライヤー">
+
+
 
 <!-- ---
 
