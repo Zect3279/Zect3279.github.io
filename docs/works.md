@@ -3,7 +3,7 @@
 ## 今後の予定
 
 
-### 竜胆の集い
+### HELLO, VOCALOID vol.8
 - date : 2024/9/22 Sun.
 - at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
 - ticket : [https://twipla.jp/events/632027](https://twipla.jp/events/632027 "twiplaリンク")
