@@ -4,11 +4,11 @@
 
 
 ### 竜胆の集い
-- date : 2024/9/7 Sat.
+- date : 2024/9/22 Sun.
 - at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/627498](https://twipla.jp/events/627498 "twiplaリンク")
+- ticket : [https://twipla.jp/events/632027](https://twipla.jp/events/632027 "twiplaリンク")
 
-<img src="https://twipla.jp/imgs/2408/653251087922374.jpg" alt="竜胆の集いフライヤー">
+<img src="https://twipla.jp/imgs/2409/499550278773644.png" alt="ハロボカv8フライヤー">
 
 ---
 
@@ -171,6 +171,12 @@
 
 <img src="https://twipla.jp/imgs/2406/957629792762336.jpg" alt="ミクストvol.3フライヤー">
 
+### 竜胆の集い
+- date : 2024/9/7 Sat.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/627498](https://twipla.jp/events/627498 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2408/653251087922374.jpg" alt="竜胆の集いフライヤー">
 
 
 <!-- ---
