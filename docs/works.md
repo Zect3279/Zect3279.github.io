@@ -3,12 +3,11 @@
 ## 今後の予定
 
 
-### HELLO, VOCALOID vol.8
-- date : 2024/9/22 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/632027](https://twipla.jp/events/632027 "twiplaリンク")
+### ThkU39
+- date : 2025/3/9 Sun.
+- at : [Bar Locntonte](https://www.locotonte.com/ "Bar Locntonteの公式サイト")
+- ticket : N/A
 
-<img src="https://twipla.jp/imgs/2409/499550278773644.png" alt="ハロボカv8フライヤー">
 
 ---
 
@@ -177,6 +176,13 @@
 - ticket : [https://twipla.jp/events/627498](https://twipla.jp/events/627498 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2408/653251087922374.jpg" alt="竜胆の集いフライヤー">
+
+### HELLO, VOCALOID vol.8
+- date : 2024/9/22 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/632027](https://twipla.jp/events/632027 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2409/499550278773644.png" alt="ハロボカv8フライヤー">
 
 
 <!-- ---
