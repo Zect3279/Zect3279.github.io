@@ -1,7 +1,7 @@
 ## 今後の予定
 
 ### HELLO, VOCALOID vol.9
-- date : 2024/9\10/20 Sun.
+- date : 2024/10/20 Sun.
 - at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
 - ticket : [https://twipla.jp/events/636253](https://twipla.jp/events/636253 "twiplaリンク")
 
