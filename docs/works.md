@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/0b64baa9-e109-40e5-b809-eac2f487ad07)# WORKS
-
 ## 今後の予定
 
 ### HELLO, VOCALOID vol.9
