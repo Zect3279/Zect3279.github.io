@@ -1,12 +1,5 @@
 ## 今後の予定
 
-### HELLO, VOCALOID vol.9
-- date : 2024/10/20 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/636253](https://twipla.jp/events/636253 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2409/859973423179946.jpg" alt="ハロボカv9フライヤー">
-
 ### VOCALOID 治安倶楽部
 - date : 2024/11/16 Sat.
 - at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
@@ -201,6 +194,13 @@
 - ticket : [https://twipla.jp/events/632027](https://twipla.jp/events/632027 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2409/499550278773644.png" alt="ハロボカv8フライヤー">
+
+### HELLO, VOCALOID vol.9
+- date : 2024/10/20 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/636253](https://twipla.jp/events/636253 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2409/859973423179946.jpg" alt="ハロボカv9フライヤー">
 
 
 <!-- ---
