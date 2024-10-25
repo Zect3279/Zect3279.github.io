@@ -7,12 +7,26 @@
 
 <img src="https://twipla.jp/imgs/2410/191670068069005.jpg" alt="ボカ治安 フライヤー">
 
+### ミク廃の集い
+- date : 2024/11/17 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/639441](https://twipla.jp/events/639441 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2410/580347521334689.jpg" alt="ミクハイ フライヤー">
+
 ### ボカロ曲聴きながら食うピザが1番美味い
 - date : 2024/12/7 Sat.
 - at : PIZZA＆WINE CONA Bivi沼津店
 - ticket : [https://twipla.jp/events/636398](https://twipla.jp/events/636398 "twiplaリンク")
 
-<img src="https://pbs.twimg.com/media/GPomaOTawAA-YSn?format=jpg&name=large" alt="ﾋﾟｻﾞの写真">
+<img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
+
+### VOCAMONO
+- date : 2024/12/22 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/639476](https://twipla.jp/events/639476 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2410/92717134151762.jpg" alt="ボカモノ フライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
