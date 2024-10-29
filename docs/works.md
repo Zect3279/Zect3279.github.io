@@ -35,12 +35,12 @@
 
 <img src="https://twipla.jp/imgs/2410/92717134151762.jpg" alt="ボカモノ フライヤー">
 
-### TRY FORCE vol.0.0
+### TRY FORCE vol.1.0
 - date : 2025/1/11 Sat.
 - at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
 - ticket : N/A
 
-<img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v0-0フライヤー">
+<img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v1-0フライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
