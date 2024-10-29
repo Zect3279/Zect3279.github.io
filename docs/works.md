@@ -21,12 +21,26 @@
 
 <img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
 
+### TRY FORCE vol.0.0
+- date : 2024/12/21 Sat.
+- at : twitch live
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/Ga-O867bQAAWLAw?format=jpg&name=large" alt="t4v0-0フライヤー">
+
 ### VOCAMONO
 - date : 2024/12/22 Sun.
 - at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
 - ticket : [https://twipla.jp/events/639476](https://twipla.jp/events/639476 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2410/92717134151762.jpg" alt="ボカモノ フライヤー">
+
+### TRY FORCE vol.0.0
+- date : 2025/1/11 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v0-0フライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
