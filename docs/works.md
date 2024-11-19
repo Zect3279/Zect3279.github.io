@@ -1,25 +1,18 @@
 ## 今後の予定
 
-### VOCALOID 治安倶楽部
-- date : 2024/11/16 Sat.
-- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
-- ticket : [https://twipla.jp/events/636261](https://twipla.jp/events/636261 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2410/191670068069005.jpg" alt="ボカ治安 フライヤー">
-
-### ミク廃の集い
-- date : 2024/11/17 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/639441](https://twipla.jp/events/639441 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2410/580347521334689.jpg" alt="ミクハイ フライヤー">
-
 ### ボカロ曲聴きながら食うピザが1番美味い
 - date : 2024/12/7 Sat.
 - at : PIZZA＆WINE CONA Bivi沼津店
 - ticket : [https://twipla.jp/events/636398](https://twipla.jp/events/636398 "twiplaリンク")
 
 <img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
+
+### ボーカロイド流体力学
+- date : 2024/12/114 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : [https://twipla.jp/events/639193](https://twipla.jp/events/639193 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/Gcf-TNia0AALLpE?format=jpg&name=large" alt="ボカ流体 フライヤー">
 
 ### TRY FORCE vol.0.0
 - date : 2024/12/21 Sat.
@@ -229,6 +222,20 @@
 - ticket : [https://twipla.jp/events/636253](https://twipla.jp/events/636253 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2409/859973423179946.jpg" alt="ハロボカv9フライヤー">
+
+### VOCALOID 治安倶楽部
+- date : 2024/11/16 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : [https://twipla.jp/events/636261](https://twipla.jp/events/636261 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2410/191670068069005.jpg" alt="ボカ治安 フライヤー">
+
+### ミク廃の集い
+- date : 2024/11/17 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/639441](https://twipla.jp/events/639441 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2410/580347521334689.jpg" alt="ミクハイ フライヤー">
 
 
 <!-- ---
