@@ -40,6 +40,7 @@
 - at : [Bar Locntonte](https://www.locotonte.com/ "Bar Locntonteの公式サイト")
 - ticket : N/A
 
+<img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
 
 ---
 
