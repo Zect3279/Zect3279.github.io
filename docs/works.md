@@ -1,12 +1,5 @@
 ## 今後の予定
 
-### ボカロ曲聴きながら食うピザが1番美味い
-- date : 2024/12/7 Sat.
-- at : PIZZA＆WINE CONA Bivi沼津店
-- ticket : [https://twipla.jp/events/636398](https://twipla.jp/events/636398 "twiplaリンク")
-
-<img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
-
 ### ボーカロイド流体力学
 - date : 2024/12/114 Sat.
 - at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
@@ -34,6 +27,13 @@
 - ticket : N/A
 
 <img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v1-0フライヤー">
+
+### VOCALOID:UNION STAR
+- date : 2025/2/23 Sun.
+- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
+- ticket : [https://twipla.jp/events/644198](https://twipla.jp/events/644198 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2411/327160229359060.jpg" alt="ボカユニ フライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
@@ -237,6 +237,13 @@
 - ticket : [https://twipla.jp/events/639441](https://twipla.jp/events/639441 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2410/580347521334689.jpg" alt="ミクハイ フライヤー">
+
+### ボカロ曲聴きながら食うピザが1番美味い
+- date : 2024/12/7 Sat.
+- at : PIZZA＆WINE CONA Bivi沼津店
+- ticket : [https://twipla.jp/events/636398](https://twipla.jp/events/636398 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
 
 
 <!-- ---
