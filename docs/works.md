@@ -46,6 +46,13 @@
 
 <img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
 
+### 4 GROOVE vol.3 -1st Aniv.-
+- date : 2025/3/22 Sst.
+- at : [六本木CUBE](https://mp-cube.net/ "六本木 cubeの公式サイト")
+- ticket : [https://twipla.jp/events/644274](https://twipla.jp/events/644274 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2412/793652496974847.jpg" alt="4groove v3フライヤー">
+
 ---
 
 ---
