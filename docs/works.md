@@ -23,6 +23,8 @@
 - at : 渋谷 R Lounge
 - ticket : [https://twipla.jp/events/638841](https://twipla.jp/events/638841 "twiplaリンク")
 
+<img src="https://twipla.jp/imgs/2412/78923435208252.jpg" alt="ぼかいと フライヤー">
+
 ### VOCALOID:UNION STAR
 - date : 2025/2/23 Sun.
 - at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
