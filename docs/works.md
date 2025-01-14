@@ -1,11 +1,15 @@
 ## 今後の予定
 
-### ルカファンタジア
+### ルカファンタジア リユニオン
 - by : [FuLUKAlor ink.](htt@s://twitter.com/luka_fanmade "twitterリンク")
 - date : 2025/1/19 Sun.
 - at : 秋葉原エンタス
-- ticket : N/A
+- ticket : 
+    - 朝公演｜ [https://t.livepocket.jp/e/sb9u5](https://t.livepocket.jp/e/sb9u5 "朝公演チケット")
+    - 昼公演｜ [https://t.livepocket.jp/e/xxrvb](https://t.livepocket.jp/e/xxrvb "昼公演チケット")
 - job : 音/映像オペレーション
+
+<img src="https://pbs.twimg.com/media/GggpLP2akAA7B1E?format=jpg&name=medium" alt="ルカファン フライヤー">
 
 ### TRY FORCE vol.2.0
 - date : 2025/2/9 Sun.
