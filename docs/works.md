@@ -1,32 +1,23 @@
 ## 今後の予定
 
-### ボーカロイド流体力学
-- date : 2024/12/114 Sat.
-- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
-- ticket : [https://twipla.jp/events/639193](https://twipla.jp/events/639193 "twiplaリンク")
+### ルカファンタジア
+- by : [FuLUKAlor ink.](htt@s://twitter.com/luka_fanmade "twitterリンク")
+- date : 2025/1/19 Sun.
+- at : 秋葉原エンタス
+- ticket : N/A
+- job : 音/映像オペレーション
 
-<img src="https://pbs.twimg.com/media/Gcf-TNia0AALLpE?format=jpg&name=large" alt="ボカ流体 フライヤー">
-
-### TRY FORCE vol.0.0
-- date : 2024/12/21 Sat.
-- at : twitch live
+### TRY FORCE vol.2.0
+- date : 2025/2/9 Sun.
+- at : Asakusa Stella
 - ticket : N/A
 
-<img src="https://pbs.twimg.com/media/Ga-O867bQAAWLAw?format=jpg&name=large" alt="t4v0-0フライヤー">
+<img src="https://pbs.twimg.com/media/GgC40pJagAAVPHM?format=jpg&name=large" alt="t4v2-0フライヤー">
 
-### VOCAMONO
-- date : 2024/12/22 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/639476](https://twipla.jp/events/639476 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2410/92717134151762.jpg" alt="ボカモノ フライヤー">
-
-### TRY FORCE vol.1.0
-- date : 2025/1/11 Sat.
-- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
-- ticket : N/A
-
-<img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v1-0フライヤー">
+### ぼかいと
+- date : 2025/2/15 Sat.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/638841](https://twipla.jp/events/638841 "twiplaリンク")
 
 ### VOCALOID:UNION STAR
 - date : 2025/2/23 Sun.
@@ -34,6 +25,13 @@
 - ticket : [https://twipla.jp/events/644198](https://twipla.jp/events/644198 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2411/327160229359060.jpg" alt="ボカユニ フライヤー">
+
+### KEYITEM FES
+- date : 2025/2/24 Mon.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/657341](https://twipla.jp/events/657341 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2501/670874149812585.jpg" alt="keyitem fesフライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
@@ -244,6 +242,35 @@
 - ticket : [https://twipla.jp/events/636398](https://twipla.jp/events/636398 "twiplaリンク")
 
 <img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
+
+
+### ボーカロイド流体力学
+- date : 2024/12/14 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : [https://twipla.jp/events/639193](https://twipla.jp/events/639193 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/Gcf-TNia0AALLpE?format=jpg&name=large" alt="ボカ流体 フライヤー">
+
+### TRY FORCE vol.0.0
+- date : 2024/12/21 Sat.
+- at : twitch live
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/Ga-O867bQAAWLAw?format=jpg&name=large" alt="t4v0-0フライヤー">
+
+### VOCAMONO
+- date : 2024/12/22 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/639476](https://twipla.jp/events/639476 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2410/92717134151762.jpg" alt="ボカモノ フライヤー">
+
+### TRY FORCE vol.1.0
+- date : 2025/1/11 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v1-0フライヤー">
 
 
 <!-- ---
