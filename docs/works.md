@@ -5,14 +5,14 @@
 - at : Asakusa Stella
 - ticket : N/A
 
-<img src="https://pbs.twimg.com/media/GgC40pJagAAVPHM?format=jpg&name=large" alt="t4v2-0フライヤー">
+<img src="https://media.discordapp.net/attachments/1313234767088713889/1331588105261547560/2025-02-stella4.png?ex=67922990&is=6790d810&hm=fc604e4ddbe6fdf69d7765a68a33ea792a183e64e029185faaafa6647b86f8ae&=&format=webp&quality=lossless&width=726&height=968" alt="t4v2-0フライヤー">
 
 ### ぼかいと
 - date : 2025/2/15 Sat.
 - at : 渋谷 R Lounge
 - ticket : [https://twipla.jp/events/638841](https://twipla.jp/events/638841 "twiplaリンク")
 
-<img src="https://twipla.jp/imgs/2412/78923435208252.jpg" alt="ぼかいと フライヤー">
+<img src="https://twipla.jp/imgs/2501/628479936324108.jpg" alt="ぼかいと フライヤー">
 
 ### VOCALOID:UNION STAR
 - date : 2025/2/23 Sun.
