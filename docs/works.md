@@ -14,6 +14,15 @@
 
 <img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
 
+### MAGICA高崎 -Reboot-
+- by : [高経大ミクライブ！](htt@s://twitter.com/takakei_miku "twitterリンク")
+- date : 2025/3/15 Sat.
+- at : 群馬県 高崎市 新町文化ホール
+- ticket : N/A
+- job : 映像オペレーション
+
+<img src="https://pbs.twimg.com/media/Gj0Po6DbIAA1EHs?format=jpg&name=large" alt="ルカファン フライヤー">
+
 ### TRY FORCE vol.3.0
 - date : 2025/3/16 Sun.
 - at : ギルドネオ
