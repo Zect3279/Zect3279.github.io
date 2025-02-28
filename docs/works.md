@@ -1,32 +1,11 @@
 ## 今後の予定
 
-### TRY FORCE vol.2.0
-- date : 2025/2/9 Sun.
-- at : Asakusa Stella
-- ticket : N/A
+### Color-full VOCALOID vol.03
+- date : 2025/3/1 Sat.
+- at : 新宿 azito
+- ticket : [https://twipla.jp/events/664492](https://twipla.jp/events/664492 "twiplaリンク")
 
-<img src="https://media.discordapp.net/attachments/1313234767088713889/1331588105261547560/2025-02-stella4.png?ex=67922990&is=6790d810&hm=fc604e4ddbe6fdf69d7765a68a33ea792a183e64e029185faaafa6647b86f8ae&=&format=webp&quality=lossless&width=726&height=968" alt="t4v2-0フライヤー">
-
-### ぼかいと
-- date : 2025/2/15 Sat.
-- at : 渋谷 R Lounge
-- ticket : [https://twipla.jp/events/638841](https://twipla.jp/events/638841 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2501/628479936324108.jpg" alt="ぼかいと フライヤー">
-
-### VOCALOID:UNION STAR
-- date : 2025/2/23 Sun.
-- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
-- ticket : [https://twipla.jp/events/644198](https://twipla.jp/events/644198 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2411/327160229359060.jpg" alt="ボカユニ フライヤー">
-
-### KEYITEM FES
-- date : 2025/2/24 Mon.
-- at : 渋谷 R Lounge
-- ticket : [https://twipla.jp/events/657341](https://twipla.jp/events/657341 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2501/670874149812585.jpg" alt="keyitem fesフライヤー">
+<img src="https://pbs.twimg.com/media/Gk3IG61XwAENQ-G?format=jpg&name=large" alt="カラボカv.3フライヤー">
 
 ### ThkU39
 - date : 2025/3/9 Sun.
@@ -35,12 +14,27 @@
 
 <img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
 
+### TRY FORCE vol.3.0
+- date : 2025/3/16 Sun.
+- at : ギルドネオ
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GhaVALDbgAALBv5?format=jpg&name=large" alt="t4v3-0フライヤー">
+
 ### 4 GROOVE vol.3 -1st Aniv.-
 - date : 2025/3/22 Sst.
 - at : [六本木CUBE](https://mp-cube.net/ "六本木 cubeの公式サイト")
 - ticket : [https://twipla.jp/events/644274](https://twipla.jp/events/644274 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2412/793652496974847.jpg" alt="4groove v3フライヤー">
+
+### TRY FORCE vol.4.0
+- date : 2025/4/5 Sat.
+- at : 御徒町KKP -> 新宿motion
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GkD8ygkakAAyYII?format=jpg&name=large" alt="t4v3-0フライヤー">
+
 
 ---
 
@@ -284,6 +278,34 @@
 - ticket : N/A
 
 <img src="https://pbs.twimg.com/media/Ga-O87nbcAEVIpk?format=jpg&name=large" alt="t4v1-0フライヤー">
+
+### TRY FORCE vol.2.0
+- date : 2025/2/9 Sun.
+- at : Asakusa Stella
+- ticket : [https://twipla.jp/events/662657](https://twipla.jp/events/662657 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2501/364738548178028.png" alt="t4v2-0フライヤー">
+
+### ぼかいと
+- date : 2025/2/15 Sat.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/638841](https://twipla.jp/events/638841 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2501/628479936324108.jpg" alt="ぼかいと フライヤー">
+
+### VOCALOID:UNION STAR
+- date : 2025/2/23 Sun.
+- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
+- ticket : [https://twipla.jp/events/644198](https://twipla.jp/events/644198 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2411/327160229359060.jpg" alt="ボカユニ フライヤー">
+
+### KEYITEM FES
+- date : 2025/2/24 Mon.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/657341](https://twipla.jp/events/657341 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2501/670874149812585.jpg" alt="keyitem fesフライヤー">
 
 
 <!-- ---
