@@ -1,48 +1,12 @@
 ## 今後の予定
 
-### Color-full VOCALOID vol.03
-- date : 2025/3/1 Sat.
-- at : 新宿 azito
-- ticket : [https://twipla.jp/events/664492](https://twipla.jp/events/664492 "twiplaリンク")
 
-<img src="https://pbs.twimg.com/media/Gk3IG61XwAENQ-G?format=jpg&name=large" alt="カラボカv.3フライヤー">
-
-### ThkU39
-- date : 2025/3/9 Sun.
-- at : [Bar Locntonte](https://www.locotonte.com/ "Bar Locntonteの公式サイト")
+### VOCALOID 治安倶楽部
+- date : 2025/5/31 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
 - ticket : N/A
 
-<img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
-
-### MAGICA高崎 -Reboot-
-- by : [高経大ミクライブ！](htt@s://twitter.com/takakei_miku "twitterリンク")
-- date : 2025/3/15 Sat.
-- at : 群馬県 高崎市 新町文化ホール
-- ticket : N/A
-- job : 映像オペレーション
-
-<img src="https://pbs.twimg.com/media/Gj0Po6DbIAA1EHs?format=jpg&name=large" alt="ルカファン フライヤー">
-
-### TRY FORCE vol.3.0
-- date : 2025/3/16 Sun.
-- at : ギルドネオ
-- ticket : N/A
-
-<img src="https://pbs.twimg.com/media/GhaVALDbgAALBv5?format=jpg&name=large" alt="t4v3-0フライヤー">
-
-### 4 GROOVE vol.3 -1st Aniv.-
-- date : 2025/3/22 Sst.
-- at : [六本木CUBE](https://mp-cube.net/ "六本木 cubeの公式サイト")
-- ticket : [https://twipla.jp/events/644274](https://twipla.jp/events/644274 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2412/793652496974847.jpg" alt="4groove v3フライヤー">
-
-### TRY FORCE vol.4.0
-- date : 2025/4/5 Sat.
-- at : 御徒町KKP -> 新宿motion
-- ticket : N/A
-
-<img src="https://pbs.twimg.com/media/GkD8ygkakAAyYII?format=jpg&name=large" alt="t4v3-0フライヤー">
+<!-- <img src="https://twipla.jp/imgs/2410/191670068069005.jpg" alt="ボカ治安 フライヤー"> -->
 
 
 ---
@@ -83,7 +47,7 @@
 - by : [FuLUKAlor ink.](htt@s://twitter.com/luka_fanmade "twitterリンク")
 - date : 2025/1/19 Sun.
 - at : 秋葉原エンタス
-- ticket : 
+- ticket :
     - 朝公演｜ [https://t.livepocket.jp/e/sb9u5](https://t.livepocket.jp/e/sb9u5 "朝公演チケット")
     - 昼公演｜ [https://t.livepocket.jp/e/xxrvb](https://t.livepocket.jp/e/xxrvb "昼公演チケット")
 - job : 音/映像オペレーション
@@ -315,6 +279,50 @@
 - ticket : [https://twipla.jp/events/657341](https://twipla.jp/events/657341 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2501/670874149812585.jpg" alt="keyitem fesフライヤー">
+
+### Color-full VOCALOID vol.03
+- date : 2025/3/1 Sat.
+- at : 新宿 azito
+- ticket : [https://twipla.jp/events/664492](https://twipla.jp/events/664492 "twiplaリンク")
+
+<img src="https://pbs.twimg.com/media/Gk3IG61XwAENQ-G?format=jpg&name=large" alt="カラボカv.3フライヤー">
+
+### ThkU39
+- date : 2025/3/9 Sun.
+- at : [Bar Locntonte](https://www.locotonte.com/ "Bar Locntonteの公式サイト")
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GdjKQDQWsAAzcJE?format=jpg&name=large" alt="ThkU39フライヤー">
+
+### MAGICA高崎 -Reboot-
+- by : [高経大ミクライブ！](htt@s://twitter.com/takakei_miku "twitterリンク")
+- date : 2025/3/15 Sat.
+- at : 群馬県 高崎市 新町文化ホール
+- ticket : N/A
+- job : 映像オペレーション
+
+<img src="https://pbs.twimg.com/media/Gj0Po6DbIAA1EHs?format=jpg&name=large" alt="ルカファン フライヤー">
+
+### TRY FORCE vol.3.0
+- date : 2025/3/16 Sun.
+- at : ギルドネオ
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GhaVALDbgAALBv5?format=jpg&name=large" alt="t4v3-0フライヤー">
+
+### 4 GROOVE vol.3 -1st Aniv.-
+- date : 2025/3/22 Sst.
+- at : [六本木CUBE](https://mp-cube.net/ "六本木 cubeの公式サイト")
+- ticket : [https://twipla.jp/events/644274](https://twipla.jp/events/644274 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2412/793652496974847.jpg" alt="4groove v3フライヤー">
+
+### TRY FORCE vol.4.0
+- date : 2025/4/5 Sat.
+- at : 御徒町KKP -> 新宿motion
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GkD8ygkakAAyYII?format=jpg&name=large" alt="t4v3-0フライヤー">
 
 
 <!-- ---
