@@ -4,10 +4,31 @@
 ### VOCALOID 治安倶楽部
 - date : 2025/5/31 Sat.
 - at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
-- ticket : N/A
+- ticket : https://twipla.jp/events/669911
 
-<!-- <img src="https://twipla.jp/imgs/2410/191670068069005.jpg" alt="ボカ治安 フライヤー"> -->
+<img src="https://twipla.jp/imgs/2504/323156217429085.jpg" alt="ボカ治安 フライヤー">
 
+### ぼかこみゅ！
+- date : 2025/6/21 Sat.
+- at : 渋谷 R Lounge
+- ticket : https://twipla.jp/events/678076
+
+<img src="https://twipla.jp/imgs/2505/986687282246753.jpg" alt="ぼかこみゅフライヤー">
+
+
+### 鏡像異性体
+- date : 2025/6/21 Sat.
+- at : 新宿azito
+- ticket : https://twipla.jp/events/674433
+
+<img src="https://twipla.jp/imgs/2504/114043367395180.jpg" alt="鏡像異性体 フライヤー">
+
+### まじまりのUTA
+- date : 2025/7/5 Sat.
+- at : nagomix
+- ticket : https://twipla.jp/events/673371
+
+<img src="https://twipla.jp/imgs/2505/571628523052039.jpg" alt="はじUTAフライヤー">
 
 ---
 
