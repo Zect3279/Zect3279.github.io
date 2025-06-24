@@ -23,9 +23,12 @@ hide:
 - 【HELLO, VOCALOID】([twitter](https://twitter.com/HELLO_Tempest39))
 - 【39's Luminous】([twitter](https://twitter.com/39sLuminous))
 - 【FuLUKAlor ink.】([twitter](https://twitter.com/luka_fanmade))
-- 【ZDK】
+- 【ミクストリーム】
+- 【ぼかこみゅ！】
 - 【TMP】(to_night)
 - 【運営者ギルド】
+- 【ZDK】
+- 【UNTIL.】
 - 【D-Techs】([github](https://github.com/Diverse-Techs-Circle))
 
 ## Members
@@ -36,7 +39,6 @@ hide:
 ## サポート中
 - 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】
 - ライブの映像オペレーション用【AuraLink】
-- MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 制作中のプロジェクト
 - ボカロ関連アプリ
@@ -67,12 +69,13 @@ hide:
 - ウェブ上で図形問題を学習(β版)【[MathApp.HTML](https://github.com/Zect3279/Study-App)】
 - ランダム抽選機【[Randomer](https://randomer.zscode.net/)】
 - KiiteCafeナウプレ垢【[Kiiteitte](https://twitter.com/Kiiteitte)】([リポ](https://github.com/Zect3279/Kiiteitte))（このアプリはTwitter APIの制限により終了しました）
+- MVでボカロを当てるゲーム【VocaGuessr】(Cafeテラスで公開中)
 
 ## 対応言語
-- JS
 - Python
 - C#
 - Unity Shader Script
+- JS
 - Java
 - HTML
 - CSS
