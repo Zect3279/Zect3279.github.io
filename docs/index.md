@@ -13,7 +13,7 @@ hide:
 
 ## WORKS
 - VJ
-- 開発等
+- Web開発
 - Unity (2D) アプリ開発
 
 <a href="/works/" rel="my works">＜＜ 詳細 ＞＞</a>
@@ -29,6 +29,7 @@ hide:
 - 【運営者ギルド】
 - 【ZDK】
 - 【UNTIL.】
+- 【WORD編集部】
 - 【D-Techs】([github](https://github.com/Diverse-Techs-Circle))
 
 ## Members
