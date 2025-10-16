@@ -1,17 +1,18 @@
 ## 今後の予定
 
-### MKL Party
+### VOCALOID 治安倶楽部 1st Anniversary
+- date : 2025/11/22 Sat.
+- at : 六本木CUBE
+- ticket : https://twipla.jp/events/690324
 
-### まじまりのUTA
-- date : 2025/7/5 Sat.
-- at : nagomix
-- ticket : https://twipla.jp/events/673371
+<img src="https://twipla.jp/imgs/2509/132957059536033.jpg" alt="ボカ治安1stフライヤー">
 
-<img src="https://twipla.jp/imgs/2505/571628523052039.jpg" alt="はじUTAフライヤー">
+### I.C.U
+- date : 2025/12/21 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : https://twipla.jp/events/691032
 
-### M_arch
-
-### HELLO, VOCALOID.
+<img src="https://pbs.twimg.com/media/G3HuLJma8AAgFz4?format=jpg&name=large" alt="ICUフライヤー">
 
 
 ---
@@ -228,7 +229,6 @@
 
 <img src="https://pbs.twimg.com/media/GaPq0Q0bUAIqZQU?format=jpg&name=large" alt="ボカピザ フライヤー">
 
-
 ### ボーカロイド流体力学
 - date : 2024/12/14 Sat.
 - at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
@@ -349,6 +349,91 @@
 - ticket : https://twipla.jp/events/674433
 
 <img src="https://twipla.jp/imgs/2504/114043367395180.jpg" alt="鏡像異性体 フライヤー">
+
+### MKL Party
+- date : 2025/6/29 Sun.
+- at : 渋谷 R Lounge
+- ticket : https://twipla.jp/events/671454
+
+<img src="https://twipla.jp/imgs/2506/739341624918136.jpg" alt="MKLフライヤー">
+
+### まじまりのUTA
+- date : 2025/7/5 Sat.
+- at : nagomix
+- ticket : https://twipla.jp/events/673371
+
+<img src="https://twipla.jp/imgs/2505/571628523052039.jpg" alt="はじUTAフライヤー">
+
+### M_arch
+- date : 2025/7/21 Mon.
+- at : 渋谷 R Lounge
+- ticket : https://twipla.jp/events/676639
+
+<img src="https://www.twipla.jp/imgs/2506/568441166423341.png" alt="Marchフライヤー">
+
+### ボカ地雷
+- date : 2025/7/25 Fri.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GuxBD0cXoAEZcXl?format=jpg&name=large" alt="ボカ地雷フライヤー">
+
+### HELLO, VOCALOID vol.12
+- date : 2025/7/27 Sun.
+- at : Asakusa Stella
+- ticket : https://twipla.jp/events/683318
+
+<img src="https://twipla.jp/imgs/2506/893427730492370.jpg" alt="ハロボカvol.12フライヤー">
+
+### ボカブキ 1st Anniversary
+- date : 2025/8/2 Sat.
+- at : [新宿 motion](https://www.shinjyuku-motion.jp/ "motionの公式サイト")
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/GvlA_LAXoAAbeIP?format=jpg&name=large" alt="ﾎﾞｶﾌﾞｷ1stフライヤー">
+
+### ボカ流し
+- date : 2025/8/17 Sun.
+- at : 秋葉原 雷神 & BECK
+- ticket : https://www.twipla.jp/events/678323
+
+<img src="https://www.twipla.jp/imgs/2505/653995656466285.jpg" alt="ボカ流しフライヤー">
+
+### VOCA_Tetra
+- date : 2025/9/6 Sat.
+- at : なんば MILULARI Delight
+- ticket : https://www.twipla.jp/events/687677
+
+<img src="https://twipla.jp/imgs/2507/24904645264821.jpg" alt="ボカテトラフライヤー">
+
+### ボカブラックvol.3
+- date : 2025/9/14 Sun.
+- at : 阿佐ヶ谷 drift
+- ticket : https://www.twipla.jp/events/685056
+
+<img src="https://twipla.jp/imgs/2506/293786273110139.jpg" alt="ボカブラックフライヤー">
+
+### ボカミュージアム ～プロローグ～
+- date : 2025/9/22 Mon.
+- at : nagomix
+- ticket : https://twipla.jp/events/686359
+
+<img src="https://twipla.jp/imgs/2507/606482779388947.jpg" alt="ボカミュージアムフライヤー">
+
+### Future Basser
+- date : 2025/9/27 Sat.
+- at : bar granma MITO
+- ticket : https://twipla.jp/events/690445
+
+<img src="https://twipla.jp/imgs/2509/393671708878922.png" alt="FutureBasserフライヤー">
+
+### ぼかこみゅ！ Vol.02
+- date : 2025/10/4 Sat.
+- at : 渋谷 R Lounge
+- ticket : https://twipla.jp/events/694390
+
+<img src="https://twipla.jp/imgs/2509/544653450592594.jpg" alt="ぼかこみゅv2フライヤー">
+
 
 <!-- ---
 
