@@ -434,6 +434,13 @@
 
 <img src="https://twipla.jp/imgs/2509/544653450592594.jpg" alt="ぼかこみゅv2フライヤー">
 
+### VOCALOID Crossing Vol.49
+- date : 2025/11/8 Sat.
+- at : nagomix
+- ticket : https://twipla.jp/events/700367
+
+<img src="https://twipla.jp/imgs/2510/164167181349103.jpg" alt="ボカクロv49フライヤー">
+
 
 <!-- ---
 
