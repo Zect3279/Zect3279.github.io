@@ -1,18 +1,27 @@
 ## 今後の予定
 
-### VOCALOID 治安倶楽部 1st Anniversary
-- date : 2025/11/22 Sat.
-- at : 六本木CUBE
-- ticket : https://twipla.jp/events/690324
 
-<img src="https://twipla.jp/imgs/2509/132957059536033.jpg" alt="ボカ治安1stフライヤー">
+### M_arch Vol.2
+- date : 2026/02/15 Sun.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/704456](https://twipla.jp/events/704456 "twiplaリンク")
 
-### I.C.U
-- date : 2025/12/21 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : https://twipla.jp/events/691032
+<img src="https://twipla.jp/imgs/2512/79163901346230.png" alt="m_arch v2フライヤー">
 
-<img src="https://pbs.twimg.com/media/G3HuLJma8AAgFz4?format=jpg&name=large" alt="ICUフライヤー">
+### ボカミュージアム 〜プラネタリウム〜
+- date : 2026/03/23 Mon.
+- at : 西新井・ギャラクシティ2F まるちたいけんドーム
+- ticket : [https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html](https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html "PassMarketリンク")
+
+<img src="https://pbs.twimg.com/media/HAotbdUbsAAf_5W?format=jpg&name=large" alt="ボカミュージアムプラネタリウムフライヤー">
+
+### VOCALOID:UNION Future
+- date : 2026/03/28 Sat.
+- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
+- ticket : [https://twipla.jp/events/710820](https://twipla.jp/events/710820 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2601/891765308658655.jpg" alt="ボカユニFutureフライヤー">
+
 
 
 ---
@@ -441,6 +450,26 @@
 
 <img src="https://twipla.jp/imgs/2510/164167181349103.jpg" alt="ボカクロv49フライヤー">
 
+### VOCALOID 治安倶楽部 1st Anniversary
+- date : 2025/11/22 Sat.
+- at : 六本木CUBE
+- ticket : https://twipla.jp/events/690324
+
+<img src="https://twipla.jp/imgs/2509/132957059536033.jpg" alt="ボカ治安1stフライヤー">
+
+### I.C.U
+- date : 2025/12/21 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : https://twipla.jp/events/691032
+
+<img src="https://pbs.twimg.com/media/G3HuLJma8AAgFz4?format=jpg&name=large" alt="ICUフライヤー">
+
+### HELLO, VOCALOID vol.14
+- date : 2026/01/04 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/708368](https://twipla.jp/events/708368 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2601/21628900886890.jpg" alt="ハロボカvol.14フライヤー">
 
 <!-- ---
 
