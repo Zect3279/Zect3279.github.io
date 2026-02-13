@@ -5,20 +5,20 @@ hide:
 
 # Hi there 👋
 
-## 自己紹介
+## Profile
 エンジニア、VJ<br />
 ライブ制作・運営、djイベント運営<br />
-最近はUnity / Blenderで3Dライブの開発<br />
+最近は音と映像の研究開発<br />
 [Linktree](https://linktr.ee/zect3279 "いろんなリンク集")
 
-## WORKS
+## Works
 - VJ
-- Web開発
-- Unity (2D) アプリ開発
+- Web
+- Unity
 
-<a href="/works/" rel="my works">＜＜ 詳細 ＞＞</a>
+<a href="/works/" rel="my works">＜＜ VJs ＞＞</a>
 
-## 所属(?)
+## Organizations
 - 【Try Force】([twitter](https://twitter.com/Try04_squad))
 - 【HELLO, VOCALOID】([twitter](https://twitter.com/HELLO_Tempest39))
 - 【39's Luminous】([twitter](https://twitter.com/39sLuminous))
@@ -37,8 +37,9 @@ hide:
 - S
 - N
 
-## サポート中
+## Suporting
 - 簡単にVJができるソフト【[ZVJ](https://zect.booth.pm/items/4976418)】
+- WebでVJができるソフト【 [https://webgl.zscode.net](https://webgl.zscode.net) 】
 - ライブの映像オペレーション用【AuraLink】
 
 ## 制作中のプロジェクト
