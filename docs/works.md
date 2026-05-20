@@ -1,27 +1,57 @@
 ## 今後の予定
 
 
-### M_arch Vol.2
-- date : 2026/02/15 Sun.
+### HELLO, VOCALOID vol.16
+- date : 2026/05/24 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/723479](https://twipla.jp/events/723479 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2604/519788625053909.jpg" alt="ハロボカv16フライヤー">
+
+### はじまりのUTA vol.3
+- date : 2026/05/30 Sat.
+- at : nagomix
+- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2604/574824975871841.jpg" alt="はじUTA v3フライヤー">
+
+### Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-
+- by : KAITO 20th Anniversary ファンメイドライブ制作委員会
+- date : 2026/05/31 Sun.
+- at : 浦安市文化会館
+- ticket : [https://livepocket.jp/e/z3w88](https://livepocket.jp/e/z3w88 "チケット")
+- job : 映像オペレーション
+
+<img src="https://livepocket.jp/public/event_image/filename/272532/9c838e915b194e7f6f22ad4769739cb11cd8085611d43069b862aa61911229f4.webp" alt="bstフライヤー">
+
+### VOCALOID 治安倶楽部 Vol.05
+- date : 2026/06/07 Sun.
 - at : 渋谷 R Lounge
-- ticket : [https://twipla.jp/events/704456](https://twipla.jp/events/704456 "twiplaリンク")
+- ticket : [https://twipla.jp/events/727513](https://twipla.jp/events/727513 "twiplaリンク")
 
-<img src="https://twipla.jp/imgs/2512/79163901346230.png" alt="m_arch v2フライヤー">
+<img src="https://twipla.jp/imgs/2605/118857827322668.jpg" alt="ボカ治安v5フライヤー">
 
-### ボカミュージアム 〜プラネタリウム〜
-- date : 2026/03/23 Mon.
-- at : 西新井・ギャラクシティ2F まるちたいけんドーム
-- ticket : [https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html](https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html "PassMarketリンク")
+### tonight!
+- date : 2026/06/26 Fri.
+- at : aNTENA
+- ticket : N/A
 
-<img src="https://pbs.twimg.com/media/HAotbdUbsAAf_5W?format=jpg&name=large" alt="ボカミュージアムプラネタリウムフライヤー">
+### N/A
+- date : 2026/07/05 Sun.
+- at : N/A
+- ticket : N/A
 
-### VOCALOID:UNION Future
-- date : 2026/03/28 Sat.
-- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
-- ticket : [https://twipla.jp/events/710820](https://twipla.jp/events/710820 "twiplaリンク")
+### 【I.C.U+】in AKIHABARA
+- date : 2026/07/11 Sat.
+- at : 秋葉原 雷神
+- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
 
-<img src="https://twipla.jp/imgs/2601/891765308658655.jpg" alt="ボカユニFutureフライヤー">
+<img src="https://twipla.jp/imgs/2605/41983541310083.jpg" alt="ICU+フライヤー">
 
+### Imag(in)e
+- date : 2026/07/18 Sat.
+- at : 筑波大学 未来社会デザイン棟
+- ticket : N/A
 
 
 ---
@@ -52,7 +82,7 @@
 - date : 2024/5/26 Sun.
 - at : 埼玉県県民活動総合センター
 - ticket :
-    - 昼公演｜ [https://t.livepocket.jp/e/tb8j0](https://t.livepocket.jp/e/tb8j0 "昼公演チケット")
+    - 昼公演｜ [https://livepocket.jp/e/z3w88](https://livepocket.jp/e/z3w88 "昼公演チケット")
     - 夜公演｜ [https://t.livepocket.jp/e/6j42t](https://t.livepocket.jp/e/6j42t "夜公演チケット")
 - job : 映像オペレーション
 
@@ -128,7 +158,7 @@
 - date : 2024/5/26 Sun.
 - at : 埼玉県県民活動総合センター
 - ticket :
-    - 昼公演｜ [https://t.livepocket.jp/e/tb8j0](https://t.livepocket.jp/e/tb8j0 "昼公演チケット")
+    - 昼公演｜ [https://livepocket.jp/e/z3w88](https://livepocket.jp/e/z3w88 "昼公演チケット")
     - 夜公演｜ [https://t.livepocket.jp/e/6j42t](https://t.livepocket.jp/e/6j42t "夜公演チケット")
 
 <img src="https://pbs.twimg.com/media/GOfev5Xa8AAKnVR?format=jpg&name=medium" alt="ルカファン アフターDJ告知画像">
@@ -470,6 +500,64 @@
 - ticket : [https://twipla.jp/events/708368](https://twipla.jp/events/708368 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2601/21628900886890.jpg" alt="ハロボカvol.14フライヤー">
+
+### M_arch Vol.2
+- date : 2026/02/15 Sun.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/704456](https://twipla.jp/events/704456 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2512/79163901346230.png" alt="m_arch v2フライヤー">
+
+### ボカミュージアム 〜プラネタリウム〜
+- date : 2026/03/23 Mon.
+- at : 西新井・ギャラクシティ2F まるちたいけんドーム
+- ticket : [https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html](https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html "PassMarketリンク")
+
+<img src="https://pbs.twimg.com/media/HAotbdUbsAAf_5W?format=jpg&name=large" alt="ボカミュージアムプラネタリウムフライヤー">
+
+### VOCALOID:UNION Future
+- date : 2026/03/28 Sat.
+- at : [CIRCUS TOKYO](https://circus-tokyo.jp/ "CIRCUS TOKYOの公式サイト")
+- ticket : [https://twipla.jp/events/710820](https://twipla.jp/events/710820 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2601/891765308658655.jpg" alt="ボカユニFutureフライヤー">
+
+### ぼかこみゅ！ Vol.03
+- date : 2026/04/04 Sat.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/717516](https://twipla.jp/events/717516 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2602/954515596829105.jpg" alt="ぼかこみゅv3フライヤー">
+
+### Butler Service 2026
+- date : 2026/04/11 Sat.
+- at : 渋谷 R Lounge
+- ticket : [https://livepocket.jp/e/butler-service2026](https://livepocket.jp/e/butler-service2026 "livepocketリンク")
+
+<img src="https://livepocket.jp/public/event_image/filename/279002/fb6d61f22f8586736758363352e772f89a0b9450961dcc84704c3782a8adeae3.webp" alt="ButlerService2026フライヤー">
+
+### VOCAMONO vol.2
+- date : 2026/04/29 Wed.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/719320](https://twipla.jp/events/719320 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2604/176785049951498.jpg" alt="ボカモノv2フライヤー">
+
+### アキバ治安倶楽部 Vol.01
+- date : 2026/05/08 Fri.
+- at : アンセムアキバ
+- ticket : [https://twipla.jp/events/726708](https://twipla.jp/events/726708 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2605/91659098426845.jpg" alt="アキバ治安フライヤー">
+
+### tonight!
+- date : 2026/05/15 Fri.
+- at : aNTENA
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/HHeHtNJbsAEUxNC?format=jpg&name=large" alt="tonight フライヤー">
+
+
 
 <!-- ---
 
