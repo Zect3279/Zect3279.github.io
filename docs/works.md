@@ -403,12 +403,12 @@
 
 <img src="https://twipla.jp/imgs/2505/571628523052039.jpg" alt="はじUTAフライヤー">
 
-### M_arch
+### M_arch Vol.1
 - date : 2025/7/21 Mon.
 - at : 渋谷 R Lounge
 - ticket : https://twipla.jp/events/676639
 
-<img src="https://www.twipla.jp/imgs/2506/568441166423341.png" alt="Marchフライヤー">
+<img src="https://twipla.jp/imgs/2506/568441166423341.png" alt="Marchフライヤー">
 
 ### ボカ地雷
 - date : 2025/7/25 Fri.
@@ -436,7 +436,7 @@
 - at : 秋葉原 雷神 & BECK
 - ticket : https://www.twipla.jp/events/678323
 
-<img src="https://www.twipla.jp/imgs/2505/653995656466285.jpg" alt="ボカ流しフライヤー">
+<img src="https://twipla.jp/imgs/2505/653995656466285.jpg" alt="ボカ流しフライヤー">
 
 ### VOCA_Tetra
 - date : 2025/9/6 Sat.
