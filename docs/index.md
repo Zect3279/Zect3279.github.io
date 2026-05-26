@@ -23,8 +23,10 @@ hide:
 - 【HELLO, VOCALOID】([twitter](https://twitter.com/HELLO_Tempest39))
 - 【39's Luminous】([twitter](https://twitter.com/39sLuminous))
 - 【FuLUKAlor ink.】([twitter](https://twitter.com/luka_fanmade))
-- 【ミクストリーム】
-- 【ぼかこみゅ！】
+- 【ミクストリーム】([twitter](https://twitter.com/MikuExtreme39))
+- 【VOCALOID 治安倶楽部】([twitter](https://twitter.com/Vo_chian_club))
+- 【ぼかこみゅ！】([twitter](https://twitter.com/Voca_Commu))
+- 【M_arch】([twitter](https://twitter.com/arch_miku))
 - 【TMP】(to_night)
 - 【運営者ギルド】
 - 【ZDK】
