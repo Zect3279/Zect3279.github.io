@@ -31,6 +31,41 @@
 - at : N/A
 - ticket : N/A
 
+### N/A
+- date : 2026/08/07 Fri.
+- at : N/A
+- ticket : N/A
+
+### N/A
+- date : 2026/08/09 Sun.
+- at : N/A
+- ticket : N/A
+
+### N/A
+- date : 2026/09/11 Fri. - 2026/09/12 Sat.
+- at : N/A
+- ticket : N/A
+
+### N/A
+- date : 2026/10/30 Fri. - 2026/11/01 Sun.
+- at : N/A
+- ticket : N/A
+
+### N/A
+- date : 2026/11/23 Mon.
+- at : N/A
+- ticket : N/A
+
+<!-- ### N/A
+- date : 2027/02/14 Sun.
+- at : N/A
+- ticket : N/A -->
+
+### N/A
+- date : 2027/02/19 Fri. - 2027/02/21 Sun.
+- at : N/A
+- ticket : N/A
+
 
 ---
 
@@ -76,6 +111,15 @@
 - job : 音/映像オペレーション
 
 <img src="https://pbs.twimg.com/media/GggpLP2akAA7B1E?format=jpg&name=medium" alt="ルカファン フライヤー">
+
+### GSK FES 2026
+- by : 筑波大学現代視覚研究会
+- date : 2026/04/25 Sat.
+- at : 筑波大学 未来社会デザイン棟
+- ticket : https://twipla.jp/events/725640
+- job : VJ、音/映像オペレーション
+
+<img src="https://twipla.jp/imgs/2604/477284144657565.jpg" alt="GSK-FESフライヤー">
 
 ### Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-
 - by : KAITO 20th Anniversary ファンメイドライブ制作委員会
