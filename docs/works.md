@@ -1,45 +1,18 @@
 ## 今後の予定
 
-
-### HELLO, VOCALOID vol.16
-- date : 2026/05/24 Sun.
-- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
-- ticket : [https://twipla.jp/events/723479](https://twipla.jp/events/723479 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2604/519788625053909.jpg" alt="ハロボカv16フライヤー">
-
-### はじまりのUTA vol.3
-- date : 2026/05/30 Sat.
-- at : nagomix
-- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2604/574824975871841.jpg" alt="はじUTA v3フライヤー">
-
-### Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-
-- by : KAITO 20th Anniversary ファンメイドライブ制作委員会
-- date : 2026/05/31 Sun.
-- at : 浦安市文化会館
-- ticket : [https://livepocket.jp/e/z3w88](https://livepocket.jp/e/z3w88 "チケット")
-- job : 映像オペレーション
-
-<img src="https://livepocket.jp/public/event_image/filename/272532/9c838e915b194e7f6f22ad4769739cb11cd8085611d43069b862aa61911229f4.webp" alt="bstフライヤー">
-
-### VOCALOID 治安倶楽部 Vol.05
-- date : 2026/06/07 Sun.
-- at : 渋谷 R Lounge
-- ticket : [https://twipla.jp/events/727513](https://twipla.jp/events/727513 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2605/118857827322668.jpg" alt="ボカ治安v5フライヤー">
-
-### tonight!
-- date : 2026/06/26 Fri.
-- at : aNTENA
-- ticket : N/A
-
 ### N/A
-- date : 2026/07/05 Sun.
+- date : 2026/07/03 Fri.
 - at : N/A
 - ticket : N/A
+
+### M_arch Vol.3
+
+- date : 2026/07/05 Sun.
+- at : 渋谷 R Lounge 7F
+- ticket : https://twipla.jp/events/728080
+
+<img src="https://twipla.jp/imgs/2606/278288466141640.jpg" alt="March v3フライヤー">
+
 
 ### 【I.C.U+】in AKIHABARA
 - date : 2026/07/11 Sat.
@@ -51,6 +24,11 @@
 ### Imag(in)e
 - date : 2026/07/18 Sat.
 - at : 筑波大学 未来社会デザイン棟
+- ticket : N/A
+
+### N/A
+- date : 2026/07/25 Sat.
+- at : N/A
 - ticket : N/A
 
 
@@ -98,6 +76,15 @@
 - job : 音/映像オペレーション
 
 <img src="https://pbs.twimg.com/media/GggpLP2akAA7B1E?format=jpg&name=medium" alt="ルカファン フライヤー">
+
+### Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-
+- by : KAITO 20th Anniversary ファンメイドライブ制作委員会
+- date : 2026/05/31 Sun.
+- at : 浦安市文化会館
+- ticket : [https://livepocket.jp/e/z3w88](https://livepocket.jp/e/z3w88 "チケット")
+- job : 映像オペレーション
+
+<img src="https://livepocket.jp/public/event_image/filename/272532/9c838e915b194e7f6f22ad4769739cb11cd8085611d43069b862aa61911229f4.webp" alt="bstフライヤー">
 
 ---
 
@@ -556,6 +543,27 @@
 - ticket : N/A
 
 <img src="https://pbs.twimg.com/media/HHeHtNJbsAEUxNC?format=jpg&name=large" alt="tonight フライヤー">
+
+### HELLO, VOCALOID vol.16
+- date : 2026/05/24 Sun.
+- at : [新宿 azito](https://sinjuku-azito.com/ "azitoの公式サイト")
+- ticket : [https://twipla.jp/events/723479](https://twipla.jp/events/723479 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2604/519788625053909.jpg" alt="ハロボカv16フライヤー">
+
+### はじまりのUTA vol.3
+- date : 2026/05/30 Sat.
+- at : nagomix
+- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2604/574824975871841.jpg" alt="はじUTA v3フライヤー">
+
+### VOCALOID 治安倶楽部 Vol.05
+- date : 2026/06/07 Sun.
+- at : 渋谷 R Lounge
+- ticket : [https://twipla.jp/events/727513](https://twipla.jp/events/727513 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2605/118857827322668.jpg" alt="ボカ治安v5フライヤー">
 
 
 
