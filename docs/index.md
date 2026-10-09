@@ -7,8 +7,9 @@ hide:
 
 ## Profile
 エンジニア、VJ<br />
-ライブ制作・運営、djイベント運営<br />
-最近は音と映像の研究開発<br />
+ライブ制作・運営、DJイベント運営<br />
+音と映像の研究開発<br />
+趣味ラーメン🍜<br />
 [Linktree](https://linktr.ee/zect3279 "いろんなリンク集")
 
 ## Works
@@ -27,6 +28,8 @@ hide:
 - 【VOCALOID 治安倶楽部】([twitter](https://twitter.com/Vo_chian_club))
 - 【ぼかこみゅ！】([twitter](https://twitter.com/Voca_Commu))
 - 【M_arch】([twitter](https://twitter.com/arch_miku))
+- 【Cross Notes】
+- 【MAGICA高崎】
 - 【TMP】(to_night)
 - 【運営者ギルド】
 - 【ZDK】
