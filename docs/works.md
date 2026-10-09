@@ -1,48 +1,7 @@
 ## 今後の予定
 
 ### N/A
-- date : 2026/07/03 Fri.
-- at : N/A
-- ticket : N/A
-
-### M_arch Vol.3
-
-- date : 2026/07/05 Sun.
-- at : 渋谷 R Lounge 7F
-- ticket : https://twipla.jp/events/728080
-
-<img src="https://twipla.jp/imgs/2606/278288466141640.jpg" alt="March v3フライヤー">
-
-
-### 【I.C.U+】in AKIHABARA
-- date : 2026/07/11 Sat.
-- at : 秋葉原 雷神
-- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
-
-<img src="https://twipla.jp/imgs/2605/41983541310083.jpg" alt="ICU+フライヤー">
-
-### Imag(in)e
-- date : 2026/07/18 Sat.
-- at : 筑波大学 未来社会デザイン棟
-- ticket : N/A
-
-### N/A
-- date : 2026/07/25 Sat.
-- at : N/A
-- ticket : N/A
-
-### N/A
-- date : 2026/08/07 Fri.
-- at : N/A
-- ticket : N/A
-
-### N/A
-- date : 2026/08/09 Sun.
-- at : N/A
-- ticket : N/A
-
-### N/A
-- date : 2026/09/11 Fri. - 2026/09/12 Sat.
+- date : 2026/10/30 Fri.
 - at : N/A
 - ticket : N/A
 
@@ -52,17 +11,22 @@
 - ticket : N/A
 
 ### N/A
+- date : 2026/11/07 Sat.
+- at : N/A
+- ticket : N/A
+
+### N/A
 - date : 2026/11/23 Mon.
 - at : N/A
 - ticket : N/A
 
-<!-- ### N/A
-- date : 2027/02/14 Sun.
-- at : N/A
-- ticket : N/A -->
-
 ### N/A
 - date : 2027/02/19 Fri. - 2027/02/21 Sun.
+- at : N/A
+- ticket : N/A
+
+### N/A
+- date : 2027/05/02 Sun.
 - at : N/A
 - ticket : N/A
 
@@ -602,12 +566,67 @@
 
 <img src="https://twipla.jp/imgs/2604/574824975871841.jpg" alt="はじUTA v3フライヤー">
 
+
+### VOCALOID Crossing Vol.53
+- date : 2026/06/06 Sat.
+- at : nagomix
+- ticket : [https://twipla.jp/events/725096](https://twipla.jp/events/725096 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2606/812647700285502.jpg" alt="ボカクロv53ライヤー">
+
 ### VOCALOID 治安倶楽部 Vol.05
 - date : 2026/06/07 Sun.
 - at : 渋谷 R Lounge
 - ticket : [https://twipla.jp/events/727513](https://twipla.jp/events/727513 "twiplaリンク")
 
 <img src="https://twipla.jp/imgs/2605/118857827322668.jpg" alt="ボカ治安v5フライヤー">
+
+### M_arch Vol.3
+
+- date : 2026/07/05 Sun.
+- at : 渋谷 R Lounge 7F
+- ticket : https://twipla.jp/events/728080
+
+<img src="https://twipla.jp/imgs/2606/278288466141640.jpg" alt="March v3フライヤー">
+
+
+### 【I.C.U+】in AKIHABARA
+- date : 2026/07/11 Sat.
+- at : 秋葉原 雷神
+- ticket : [https://twipla.jp/events/714376](https://twipla.jp/events/714376 "twiplaリンク")
+
+<img src="https://twipla.jp/imgs/2605/41983541310083.jpg" alt="ICU+フライヤー">
+
+### Imag(in)e
+- date : 2026/07/18 Sat.
+- at : 筑波大学 未来社会デザイン棟
+- ticket : N/A
+
+<img src="https://pbs.twimg.com/media/HNeh7g2a0AAP_7J?format=jpg&name=large" alt="imagineフライヤー">
+
+### re:master-LT#1
+- date : 2026/07/25 Sat.
+- at : 筑波大学 クリエイティブメディアラボ
+- ticket : [https://remaster-lt.connpass.com/event/398763/](https://remaster-lt.connpass.com/event/398763/)
+
+<img src="https://media.connpass.com/thumbs/95/bc/95bcacece90859827de20d163cbbbe5a.png" alt="remaster#1フライヤー">
+
+### HELLO,VOCALOID Vol.17
+- date : 2026/08/09 Sun.
+- at : [六本木CUBE](https://mp-cube.net/ "六本木 cubeの公式サイト")
+- ticket : [https://twipla.jp/events/735910](https://twipla.jp/events/735910)
+
+### UNTIL. LT #0x0B
+- date : 2026/10/03 Sat.
+- at : 筑波大学 3A209
+- ticket : [https://until-tsukuba.connpass.com/event/401509/](https://until-tsukuba.connpass.com/event/401509/)
+
+### ボカスシ VOCASUSHI
+- date : 2026/10/04 Sun.
+- at : 渋谷 PUBLICPUBLIC
+- ticket : [https://twipla.jp/events/742950](https://twipla.jp/events/742950)
+
+<img src="https://twipla.jp/imgs/2609/199289398982144.jpg" alt="ボカスシ フライヤー">
 
 
 
