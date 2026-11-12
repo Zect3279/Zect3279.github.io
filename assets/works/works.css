@@ -32,11 +32,10 @@ body { background-color: var(--md-default-bg-color) !important; }
 .zw [hidden] { display: none !important; }
 .zw :focus-visible { outline: 2px solid var(--zw-accent); outline-offset: 2px; }
 .zw-mono { font-family: var(--md-code-font-family); font-size: 11px; letter-spacing: .1em; }
-/* 大きな日付・年：トップの h1 と同じく本文フォントの細字 */
-.zw-serif { font-family: var(--md-text-font-family); font-weight: 300; }
+/* 大きな日付・見出し：トップの h1 と同じく本文フォントの細字 */
+.zw-light { font-family: var(--md-text-font-family); font-weight: 300; }
 
-/* ---- toolbar（Material ヘッダーの直下に貼り付く） ---- */
-/* Material ヘッダー：[ロゴ][WORKS — 件数] ……… [検索][WALL / RING] */
+/* ---- ヘッダー（overrides/works-header.html）：[ロゴ][WORKS — 件数] ……… [検索][WALL / RING] ---- */
 .zw-mdheader .md-header__title { order: 1; flex-grow: 0; margin-right: .8rem; }
 .zw-mdheader label[for="__search"] { order: 2; margin-left: auto; }
 .zw-mdheader .md-search { order: 2; margin-left: auto; margin-right: .8rem; }
@@ -52,19 +51,17 @@ body { background-color: var(--md-default-bg-color) !important; }
 
 /* ---- WALL ---- */
 .zw-wall { --zw-gap: 8px; padding: 32px 8px 64px; }
-/* 行ごとに左→右で新しい順。JS が有効なら縦横比を見て列に詰める（石垣状） */
+/* JS が無ければ行ごとに左→右。JS が縦横比を見て、いちばん短い列へ順に詰める（石垣状） */
 .zw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--zw-gap); align-items: start; }
 .zw-grid.is-masonry { display: flex; align-items: flex-start; }
 .zw-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: var(--zw-gap); }
-.zw[data-mode="ring"] .zw-wall { display: none; }
-.zw-year { display: flex; align-items: flex-end; padding: 0 2px 8px; }
-/* p・g が下にはみ出すので行の高さを確保 */
-.zw-year span { font-family: var(--md-text-font-family); font-weight: 300; color: var(--zw-muted); font-size: clamp(64px, 8vw, 120px); line-height: .8; letter-spacing: -.03em; padding-bottom: .22em; }
+/* 見出し「Upcoming」「Archive」。p・g が下にはみ出すので行の高さを確保 */
+.zw-heading { display: flex; align-items: flex-end; padding: 0 2px 8px; }
+.zw-heading span { font-family: var(--md-text-font-family); font-weight: 300; color: var(--zw-muted); font-size: clamp(64px, 8vw, 120px); line-height: .8; letter-spacing: -.03em; padding-bottom: .22em; }
 /* 予定と過去のあいだ */
 .zw-group--upcoming { padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--zw-line); }
 .zw-tile { position: relative; display: block; width: 100%; margin: 0; text-align: left; transition: transform .5s var(--zw-ease); }
 .zw-tile:hover { transform: scale(1.02); }
-.zw-tile:focus-visible { outline: 2px solid var(--zw-accent); outline-offset: 2px; }
 .zw-tile img { display: block; width: 100%; height: auto; background: var(--zw-surface); }
 .zw-cap { position: absolute; inset: auto 0 0 0; display: flex; justify-content: space-between; gap: 8px; padding: 40px 10px 10px; color: var(--zw-ground); letter-spacing: .04em; background: linear-gradient(transparent, rgba(0,0,0,.55)); opacity: 0; transition: opacity .25s; }
 .zw-tile:hover .zw-cap, .zw-tile:focus-visible .zw-cap { opacity: 1; }
@@ -81,7 +78,7 @@ body { background-color: var(--md-default-bg-color) !important; }
   .zw-mdheader .zw-toggle button { padding: 0 .5rem; font-size: 10px; }
   .zw-wall { --zw-gap: 4px; padding: 16px 4px 48px; }
   .zw-grid { grid-template-columns: repeat(3, 1fr); }
-  .zw-year span { font-size: 56px; }
+  .zw-heading span { font-size: 56px; }
   .zw-group--upcoming { padding-bottom: 16px; margin-bottom: 16px; }
   .zw-cap { display: none; }
   .zw-card { padding: 8px; }
@@ -97,13 +94,10 @@ body { background-color: var(--md-default-bg-color) !important; }
 .zw-ryear { position: absolute; inset: 7vh 0 auto; text-align: center; font-family: var(--md-text-font-family); font-weight: 300; font-size: 30vw; line-height: .8; letter-spacing: -.04em; color: rgba(255,255,255,.55); pointer-events: none; }
 .zw-stage { position: absolute; inset: 0; perspective: var(--zw-persp, 1700px); perspective-origin: 50% 42%; transition: transform .7s var(--zw-ease), filter .7s, opacity .7s; }
 .zw-scene { position: absolute; left: 50%; top: 45%; width: 0; height: 0; transform-style: preserve-3d; }
-.zw-rc { position: absolute; left: calc(var(--zw-cw) / -2); top: calc(var(--zw-ch) / -2); width: var(--zw-cw); height: var(--zw-ch); display: block; }
-.zw-rc { text-align: left; display: flex; align-items: center; justify-content: center; }
-.zw-rc img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.zw-rc img, .zw-rc .zw-card { box-shadow: 0 20px 50px rgba(0,0,0,.18); }
-.zw-rc .zw-card { width: 100%; height: 100%; }
-.zw-rc img { background: rgba(255,255,255,.4); -webkit-user-drag: none; }
-.zw-rc .zw-card { aspect-ratio: auto; padding: calc(var(--zw-cw) * .06); }
+.zw-rc { position: absolute; left: calc(var(--zw-cw) / -2); top: calc(var(--zw-ch) / -2); width: var(--zw-cw); height: var(--zw-ch); display: flex; align-items: center; justify-content: center; text-align: left; }
+/* フライヤーは元の縦横比のまま 3:4 の枠に収める（幅・高さは JS が % で指定） */
+.zw-rc img { display: block; width: 100%; height: 100%; object-fit: contain; background: rgba(255,255,255,.4); box-shadow: 0 20px 50px rgba(0,0,0,.18); -webkit-user-drag: none; }
+.zw-rc .zw-card { width: 100%; height: 100%; aspect-ratio: auto; padding: calc(var(--zw-cw) * .06); box-shadow: 0 20px 50px rgba(0,0,0,.18); }
 .zw-rc .zw-card-t { font-size: calc(var(--zw-cw) * .15); }
 .zw-rc .zw-card-d { font-size: calc(var(--zw-cw) * .3); }
 .zw-rfoot { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 24px; pointer-events: none; transition: opacity .4s; }
@@ -178,15 +172,15 @@ body { background-color: var(--md-default-bg-color) !important; }
   .zw-detail.is-wall .zw-dfig img { width: 100%; height: auto; max-height: none; }
   .zw-detail.is-wall .zw-dfig .zw-card { width: 100%; height: auto; }
   .zw-detail.is-wall .zw-dpanel { position: static; padding: 22px 20px 96px; }
-  .zw-detail.is-wall .zw-dtop { position: fixed; top: 12px; left: 12px; right: 12px; z-index: 2; }
-  .zw-detail.is-wall .zw-dtop .zw-mono, .zw-detail.is-ring .zw-dtop .zw-mono { background: var(--zw-ground); padding: 6px 10px; border-radius: 999px; }
   .zw-detail.is-wall .zw-close { box-shadow: 0 2px 10px rgba(0,0,0,.15); }
   .zw-detail.is-wall .zw-dnav { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px 20px; background: var(--zw-ground); border-top: 1px solid var(--zw-line); }
   /* RING から：札が上に上がり、下からシート */
   .zw-detail.is-ring .zw-dfig { left: 0; right: 0; width: auto; top: 64px; height: 44vh; }
   .zw-detail.is-ring .zw-dfig > * { transform: rotateX(4deg); }
   .zw-detail.is-ring .zw-dpanel { left: 0; right: 0; top: calc(64px + 44vh + 20px); bottom: 0; padding: 22px 20px 20px; background: var(--zw-ground); border-radius: 22px 22px 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); overflow-y: auto; gap: 16px; }
-  .zw-detail.is-ring .zw-dtop { position: fixed; top: 12px; left: 12px; right: 12px; }
+  /* 共通：番号と閉じるボタンは画面上端に固定 */
+  .zw-dtop { position: fixed; top: 12px; left: 12px; right: 12px; z-index: 2; }
+  .zw-dtop .zw-mono { background: var(--zw-ground); padding: 6px 10px; border-radius: 999px; }
   .zw-dmain { gap: 14px; }
   .zw-ddate { font-size: 80px; }
   .zw-dtitle { font-size: 28px; }
