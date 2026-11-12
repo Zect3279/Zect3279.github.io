@@ -36,6 +36,8 @@
       <section class="zw-group">
       {% if g.year %}
         <div class="zw-year" id="y{{ g.year }}"><span>{{ g.year }}</span></div>
+      {% else %}
+        <div class="zw-year zw-year--upcoming" id="upcoming"><span>Upcoming</span></div>
       {% endif %}
       <div class="zw-grid">
       {% for w in g.tiles %}
