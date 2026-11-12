@@ -6,8 +6,25 @@ on:
       - master
     paths:
       - mkdocs.yml
+      - requirements.txt
       - docs/**
       - overrides/**
+      - data/**
+      - hooks/**
+      - tools/**
+  # 予定→過去の振り分けを日付で更新するため毎日ビルド（JST 0:07）
+  schedule:
+    - cron: "7 15 * * *"
+  workflow_dispatch:
+  # works-issue / fetch-flyers から呼ばれる（GITHUB_TOKEN の push では push トリガーが動かないため）
+  workflow_call:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -15,18 +32,20 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          ref: master
 
       - name: Configure Git
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git fetch origin gh-pages
-          
+
       - name: Install MkDocs
         run: |
           python3 -m pip install setuptools
           python3 -m pip install -r requirements.txt
-          
+
       - name: Deploy HTML files
         run: python3 -m mkdocs gh-deploy

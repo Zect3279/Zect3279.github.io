@@ -1,0 +1,174 @@
+/* ===== works page (overrides/works.html) ===== */
+:root {
+  --zw-ground: #EFEDE8;
+  --zw-ink: #141414;
+  --zw-accent: #FF4A1C;
+  --zw-sans: "Inter Tight", "Noto Sans JP", sans-serif;
+  --zw-serif: "Instrument Serif", "Noto Sans JP", serif;
+  --zw-mono: "JetBrains Mono", "Noto Sans JP", monospace;
+  --zw-ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+/* Material のレイアウトを無効化 */
+html, body { background: var(--zw-ground) !important; }
+.md-container, .md-main, .md-main__inner { display: block !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+.md-main__inner > :not(.zw), .md-header { display: none !important; }
+.zw.is-detail .zw-head { opacity: 0; pointer-events: none; }
+.zw-head { transition: opacity .3s; }
+
+.zw { min-height: 100vh; background: var(--zw-ground); color: var(--zw-ink); font-family: var(--zw-sans); font-size: 16px; line-height: 1.4; -webkit-font-smoothing: antialiased; }
+.zw *, .zw *::before, .zw *::after { box-sizing: border-box; }
+.zw a { color: inherit; }
+.zw button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.zw [hidden] { display: none !important; }
+.zw-mono { font-family: var(--zw-mono); font-size: 11px; letter-spacing: .1em; }
+.zw-serif { font-family: var(--zw-serif); font-weight: 400; }
+
+/* ---- header ---- */
+.zw-head { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 16px; padding: 14px 20px; background: var(--zw-ground); }
+.zw[data-mode="ring"] .zw-head { position: fixed; left: 0; right: 0; background: transparent; }
+.zw-logo { font-weight: 800; font-size: 22px; letter-spacing: -.02em; text-decoration: none; }
+.zw-count { margin-left: auto; }
+.zw-toggle { display: flex; padding: 4px; border: 1px solid var(--zw-ink); border-radius: 999px; }
+.zw-toggle button { height: 36px; padding: 0 16px; border-radius: 999px; font-family: var(--zw-mono); font-size: 11px; letter-spacing: .12em; }
+.zw-toggle button[aria-pressed="true"] { background: var(--zw-ink); color: #fff; }
+
+/* ---- WALL ---- */
+.zw-wall { --zw-gap: 8px; padding: 0 8px 64px; }
+/* 行ごとに左→右で新しい順。JS が有効なら縦横比を見て列に詰める（石垣状） */
+.zw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--zw-gap); align-items: start; }
+.zw-grid.is-masonry { display: flex; align-items: flex-start; }
+.zw-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: var(--zw-gap); }
+.zw[data-mode="ring"] .zw-wall { display: none; }
+.zw-year { display: flex; align-items: flex-end; padding: 48px 2px 8px; }
+.zw-year span { font-family: var(--zw-serif); font-style: italic; font-size: clamp(84px, 10vw, 150px); line-height: .8; letter-spacing: -.03em; }
+.zw-tile { position: relative; display: block; width: 100%; margin: 0; text-align: left; transition: transform .5s var(--zw-ease); }
+.zw-tile:hover { transform: scale(1.02); }
+.zw-tile:focus-visible { outline: 2px solid var(--zw-ink); outline-offset: 2px; }
+.zw-tile img { display: block; width: 100%; height: auto; background: rgba(20,20,20,.06); }
+.zw-cap { position: absolute; inset: auto 0 0 0; display: flex; justify-content: space-between; gap: 8px; padding: 40px 10px 10px; color: #fff; letter-spacing: .04em; background: linear-gradient(transparent, rgba(0,0,0,.55)); opacity: 0; transition: opacity .25s; }
+.zw-tile:hover .zw-cap, .zw-tile:focus-visible .zw-cap { opacity: 1; }
+.zw-next { position: absolute; top: 8px; left: 8px; padding: 5px 8px; background: var(--zw-accent); color: var(--zw-ink); }
+.zw-card { display: flex; flex-direction: column; justify-content: space-between; aspect-ratio: 3 / 4; padding: 14px; background: #fff; }
+.zw-card--tba { background: var(--zw-accent); }
+.zw-card-t { font-weight: 800; font-size: clamp(24px, 2.6vw, 38px); line-height: .98; letter-spacing: -.03em; word-break: break-word; }
+.zw-card-d { display: block; font-size: clamp(48px, 5.6vw, 80px); line-height: .85; }
+
+@media (max-width: 600px) {
+  .zw-head { padding: 10px 12px; gap: 10px; }
+  .zw-logo { font-size: 18px; }
+  .zw-count { display: none; }
+  .zw-toggle { margin-left: auto; }
+  .zw-toggle button { height: 32px; padding: 0 12px; font-size: 10px; }
+  .zw-wall { --zw-gap: 4px; padding: 0 4px 48px; }
+  .zw-grid { grid-template-columns: repeat(2, 1fr); }
+  .zw-year { padding-top: 32px; }
+  .zw-year span { font-size: 84px; }
+  .zw-cap { display: none; }
+  .zw-card { padding: 10px; }
+  .zw-card-t { font-size: 22px; }
+  .zw-card-d { font-size: 48px; }
+}
+
+/* ---- RING ---- */
+.zw-ring { position: relative; height: 100vh; height: 100svh; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-select: none; cursor: grab; transition: background-color .9s ease; background-color: var(--zw-ground); }
+.zw-ring.is-drag { cursor: grabbing; }
+.zw-ryear { position: absolute; inset: 7vh 0 auto; text-align: center; font-family: var(--zw-serif); font-style: italic; font-size: 30vw; line-height: .8; letter-spacing: -.04em; color: rgba(255,255,255,.55); pointer-events: none; }
+.zw-stage { position: absolute; inset: 0; perspective: var(--zw-persp, 1700px); perspective-origin: 50% 42%; transition: transform .7s var(--zw-ease), filter .7s, opacity .7s; }
+.zw-scene { position: absolute; left: 50%; top: 45%; width: 0; height: 0; transform-style: preserve-3d; }
+.zw-rc { position: absolute; left: calc(var(--zw-cw) / -2); top: calc(var(--zw-ch) / -2); width: var(--zw-cw); height: var(--zw-ch); display: block; }
+.zw-rc { text-align: left; }
+.zw-rc img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.zw-rc img, .zw-rc .zw-card { box-shadow: 0 20px 50px rgba(0,0,0,.18); }
+.zw-rc .zw-card { width: 100%; height: 100%; }
+.zw-rc img { background: rgba(255,255,255,.4); -webkit-user-drag: none; }
+.zw-rc .zw-card { aspect-ratio: auto; padding: calc(var(--zw-cw) * .06); }
+.zw-rc .zw-card-t { font-size: calc(var(--zw-cw) * .15); }
+.zw-rc .zw-card-d { font-size: calc(var(--zw-cw) * .3); }
+.zw-rfoot { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 24px; pointer-events: none; transition: opacity .4s; }
+.zw-rfoot > * { pointer-events: auto; }
+.zw-rcap { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.zw-rdate { font-size: 64px; line-height: .9; }
+.zw-rtitle { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 40vw; }
+.zw-years { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; }
+.zw-years button { min-height: 36px; padding: 0 10px; font-family: var(--zw-mono); font-size: 11px; letter-spacing: .08em; border-radius: 999px; }
+.zw-years button[aria-current="true"] { background: var(--zw-ink); color: #fff; }
+.zw-rnav { display: flex; align-items: center; gap: 8px; }
+.zw-rnav .zw-mono { margin-right: 10px; }
+.zw-round { width: 56px; height: 56px; border-radius: 50%; border: 1px solid var(--zw-ink) !important; font-size: 20px; }
+.zw-swipe { display: none; }
+.zw-ring.is-dim .zw-stage { transform: translateX(18vw) scale(.78); filter: blur(7px); opacity: .5; pointer-events: none; }
+.zw-ring.is-dim .zw-rfoot { opacity: 0; pointer-events: none; }
+
+@media (orientation: portrait), (max-width: 700px) {
+  .zw-ryear { inset: 12vh 0 auto; font-size: 38vw; }
+  .zw-scene { top: 47%; }
+  .zw-rfoot { flex-direction: column; align-items: center; text-align: center; gap: 10px; padding: 16px 16px 22px; }
+  .zw-rcap { align-items: center; }
+  .zw-rdate { font-size: 44px; }
+  .zw-rtitle { max-width: 80vw; }
+  .zw-rnav .zw-round { display: none; }
+  .zw-rnav .zw-mono { margin: 0; }
+  .zw-swipe { display: inline; }
+  .zw-ring.is-dim .zw-stage { transform: translateY(16vh) scale(.85); }
+}
+
+/* ---- DETAIL ---- */
+.zw-detail { position: fixed; inset: 0; z-index: 40; color: var(--zw-ink); overflow: hidden; }
+.zw-detail.is-wall { background: rgba(239,237,232,.55); -webkit-backdrop-filter: blur(28px) saturate(1.1); backdrop-filter: blur(28px) saturate(1.1); }
+.zw-dback { position: absolute; inset: 0; overflow: hidden; transition: opacity .4s; }
+.zw-dback img { position: absolute; inset: -10%; width: 120%; height: 120%; object-fit: cover; filter: blur(70px) saturate(1.3); }
+.zw-dback::after { content: ""; position: absolute; inset: 0; background: rgba(239,237,232,.5); }
+.zw-detail.is-ring .zw-dback { display: none; }
+.zw-dfig { position: absolute; left: 7vw; top: 8vh; height: 84vh; width: 42vw; display: flex; align-items: center; justify-content: center; perspective: 1400px; }
+.zw-dfig > * { max-width: 100%; max-height: 100%; box-shadow: 0 40px 100px rgba(0,0,0,.3); }
+.zw-dfig img { display: block; width: auto; height: auto; object-fit: contain; }
+.zw-detail.is-ring .zw-dfig > * { transform: rotateY(7deg); }
+.zw-dfig .zw-card { height: 100%; aspect-ratio: 3 / 4; width: auto; padding: 24px; }
+.zw-dfig .zw-card-t { font-size: 56px; }
+.zw-dfig .zw-card-d { font-size: 140px; }
+.zw-dpanel { position: absolute; left: 55vw; right: 6vw; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 24px 0 48px; }
+.zw-dtop { display: flex; justify-content: space-between; align-items: center; }
+.zw-close { width: 48px; height: 48px; border-radius: 50%; background: #fff !important; font-size: 16px; }
+.zw-dmain { display: flex; flex-direction: column; gap: 22px; }
+.zw-dmeta { margin: 0 0 6px; }
+.zw-ddate { margin: 0; font-family: var(--zw-serif); font-weight: 400; font-size: clamp(96px, 12vw, 168px); line-height: .8; letter-spacing: -.02em; }
+.zw-dtitle { margin: 8px 0 0; font-weight: 800; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -.03em; word-break: break-word; }
+.zw-dl { margin: 0; border-bottom: 1px solid rgba(20,20,20,.2); }
+.zw-dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-top: 1px solid rgba(20,20,20,.2); }
+.zw-dl dt { font-family: var(--zw-mono); font-size: 11px; letter-spacing: .12em; flex: none; }
+.zw-dl dd { margin: 0; text-align: right; font-size: 17px; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.zw-dnav { display: flex; gap: 8px; }
+.zw-dnav button { flex: 1 1 0; min-height: 52px; border: 1px solid var(--zw-ink) !important; font-family: var(--zw-mono); font-size: 12px; letter-spacing: .12em; }
+.zw-dnav button:disabled { opacity: .3; cursor: default; }
+
+@media (orientation: portrait), (max-width: 700px) {
+  /* WALL から：上にフライヤー、下に詳細のスクロール */
+  .zw-detail.is-wall { overflow-y: auto; background: var(--zw-ground); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .zw-detail.is-wall .zw-dback { display: none; }
+  .zw-detail.is-wall .zw-dfig { position: relative; left: 0; top: 0; width: 100%; height: auto; display: block; }
+  .zw-detail.is-wall .zw-dfig > * { box-shadow: none; }
+  .zw-detail.is-wall .zw-dfig img { width: 100%; height: auto; max-height: none; }
+  .zw-detail.is-wall .zw-dfig .zw-card { width: 100%; height: auto; }
+  .zw-detail.is-wall .zw-dpanel { position: static; padding: 22px 20px 96px; }
+  .zw-detail.is-wall .zw-dtop { position: fixed; top: 12px; left: 12px; right: 12px; z-index: 2; }
+  .zw-detail.is-wall .zw-dtop .zw-mono, .zw-detail.is-ring .zw-dtop .zw-mono { background: #fff; padding: 6px 10px; border-radius: 999px; }
+  .zw-detail.is-wall .zw-close { box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+  .zw-detail.is-wall .zw-dnav { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px 20px; background: var(--zw-ground); border-top: 1px solid rgba(20,20,20,.15); }
+  /* RING から：札が上に上がり、下からシート */
+  .zw-detail.is-ring .zw-dfig { left: 0; right: 0; width: auto; top: 64px; height: 44vh; }
+  .zw-detail.is-ring .zw-dfig > * { transform: rotateX(4deg); }
+  .zw-detail.is-ring .zw-dpanel { left: 0; right: 0; top: calc(64px + 44vh + 20px); bottom: 0; padding: 22px 20px 20px; background: #fff; border-radius: 22px 22px 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); overflow-y: auto; gap: 16px; }
+  .zw-detail.is-ring .zw-dtop { position: fixed; top: 12px; left: 12px; right: 12px; }
+  .zw-dmain { gap: 14px; }
+  .zw-ddate { font-size: 80px; }
+  .zw-dtitle { font-size: 28px; }
+  .zw-dl dd { font-size: 15px; }
+  .zw-dnav button { min-height: 46px; }
+  .zw-dfig .zw-card-t { font-size: 34px; }
+  .zw-dfig .zw-card-d { font-size: 96px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zw *, .zw *::before, .zw *::after { transition-duration: 0s !important; animation-duration: 0s !important; }
+}

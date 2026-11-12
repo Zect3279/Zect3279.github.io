@@ -1,0 +1,71 @@
+name: works にイベントを追加
+description: 出演イベントを works に追加します（告知前の予定の登録・更新も）。送信すると自動で反映されます。
+title: "[works] "
+labels: ["works"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        イベント名を空欄にすると「告知前」として日付だけ表示されます。
+        あとで告知が出たら、同じ日付で新しくIssueを立てると、その告知前の予定が上書きされます。
+        送信後に内容を直したい時は、このIssueを編集すれば反映し直されます。
+  - type: input
+    id: date
+    attributes:
+      label: 日付
+      description: YYYY-MM-DD
+      placeholder: "2026-12-05"
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: 最終日
+      description: 複数日のイベントのみ。YYYY-MM-DD
+  - type: input
+    id: title
+    attributes:
+      label: イベント名
+      description: 空欄なら告知前として扱います
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種別
+      options:
+        - club
+        - live
+      default: 0
+  - type: input
+    id: venue
+    attributes:
+      label: 会場
+  - type: input
+    id: venue_url
+    attributes:
+      label: 会場URL
+  - type: input
+    id: organizer
+    attributes:
+      label: 主催
+  - type: input
+    id: organizer_url
+    attributes:
+      label: 主催URL
+  - type: textarea
+    id: tickets
+    attributes:
+      label: チケット
+      description: 1行に1件。「ラベル | URL」か URL だけ
+      placeholder: |
+        https://twipla.jp/events/000000
+        昼公演 | https://livepocket.jp/e/xxxx
+  - type: input
+    id: role
+    attributes:
+      label: 役割
+      placeholder: VJ
+  - type: textarea
+    id: flyer
+    attributes:
+      label: フライヤー
+      description: 画像をここにドラッグ&ドロップ（画像のURLを貼ってもOK）。docs/img/works/ に保存されます

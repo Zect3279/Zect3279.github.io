@@ -1,0 +1,70 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ 'assets/works/works.css' | url }}">
+{% endblock %}
+
+{% block tabs %}{% endblock %}
+{% block site_nav %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block container %}
+<div class="zw" id="zw" data-mode="wall">
+
+  <header class="zw-head">
+    <a class="zw-logo" href="{{ base_url }}/">ZECT</a>
+    <span class="zw-count zw-mono">WORKS — {{ works.count }}</span>
+    <nav class="zw-toggle" aria-label="表示切替">
+      <button type="button" data-mode="wall" aria-pressed="true">WALL</button>
+      <button type="button" data-mode="ring" aria-pressed="false">RING</button>
+    </nav>
+  </header>
+
+  <main class="zw-wall" id="zw-wall">
+    {% for g in works.wall %}
+      <section class="zw-group">
+      {% if g.year %}
+        <div class="zw-year" id="y{{ g.year }}"><span>{{ g.year }}</span></div>
+      {% endif %}
+      <div class="zw-grid">
+      {% for w in g.tiles %}
+        <button type="button" class="zw-tile is-{{ w.status }}" data-i="{{ w.i }}"
+                aria-label="{{ w.full }} {{ (w.title or 'COMING SOON') | e }}">
+          {% if w.status == 'tba' %}
+            <span class="zw-card zw-card--tba">
+              <span class="zw-mono">COMING SOON</span>
+              <span><span class="zw-serif zw-card-d">{{ w.range }}</span><span class="zw-mono">{{ w.y }}</span></span>
+            </span>
+          {% elif w.img %}
+            <img src="{{ w.thumb }}" alt="{{ w.alt | e }}" loading="lazy" decoding="async"{% if w.ar %} style="aspect-ratio: {{ w.ar }}"{% endif %}>
+            <span class="zw-cap zw-mono"><span>{{ w.title | e }}</span><span>{{ w.md }}</span></span>
+            {% if w.status == 'upcoming' %}<span class="zw-next zw-mono">NEXT {{ w.md }}</span>{% endif %}
+          {% else %}
+            <span class="zw-card">
+              <span class="zw-card-t">{{ w.title | e }}</span>
+              <span class="zw-serif zw-card-d">{{ w.md }}</span>
+            </span>
+          {% endif %}
+        </button>
+      {% endfor %}
+      </div>
+      </section>
+    {% endfor %}
+  </main>
+
+  <section class="zw-ring" id="zw-ring" hidden aria-label="リング表示"></section>
+
+  <div class="zw-detail" id="zw-detail" hidden role="dialog" aria-modal="true" aria-label="イベント詳細"></div>
+
+  <script type="application/json" id="zw-data">{{ works.json }}</script>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/works/works.js' | url }}"></script>
+{% endblock %}

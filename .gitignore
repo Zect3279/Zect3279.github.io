@@ -14,3 +14,7 @@ site/
 *.box
 
 # End of https://www.gitignore.io/api/vagrant
+
+works_issue_result.md
+__pycache__/
+.venv/

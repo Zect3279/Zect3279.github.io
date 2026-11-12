@@ -1,0 +1,682 @@
+# works のイベント一覧（古い順）。
+# title が空のイベントは「告知前」として日付だけ表示されます。
+# 予定/過去の区別はビルド時に日付で自動判定されます。
+- date: 2023-08-18
+  title: HELLO, VOCALOID vol.1
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/570191
+  flyer: /img/works/2023-08-18.jpg
+  flyer_alt: ハロボカvol.1フライヤー
+- date: 2024-02-03
+  title: Try Force -Boot Camp- vol.1
+  kind: club
+  venue: 04SQUAD
+  venue_url: https://twitter.com/04squ4d
+  flyer: /img/works/2024-02-03.jpg
+  flyer_alt: t4bc vol1フライヤー
+- date: 2024-02-12
+  title: ボカラフ vol.2
+  kind: club
+  venue: 音部屋 スクエア
+  tickets:
+  - url: https://twipla.jp/events/597327
+  flyer: /img/works/2024-02-12.jpg
+  flyer_alt: ボカラフvol.2フライヤー
+- date: 2024-02-23
+  title: HELLO, VOCALOID vol.4
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/597854
+  flyer: /img/works/2024-02-23.jpg
+  flyer_alt: ハロボカvol.4フライヤー
+- date: 2024-03-02
+  title: Try Force -Boot Camp- vol.2
+  kind: club
+  venue: 04SQUAD
+  venue_url: https://twitter.com/04squ4d
+  tickets:
+  - url: https://twipla.jp/events/601512
+  flyer: /img/works/2024-03-02.png
+  flyer_alt: t4bc vol2フライヤー
+- date: 2024-03-02
+  title: Try Force -Boot Camp- vol.3
+  kind: club
+  venue: 04SQUAD
+  venue_url: https://twitter.com/04squ4d
+  tickets:
+  - url: https://twipla.jp/events/609613
+  flyer: /img/works/2024-03-02-2.png
+  flyer_alt: t4bc vol2フライヤー
+- date: 2024-03-03
+  title: MIKU's TAPE
+  kind: live
+  venue: 東京外国語大学 プロメテウス・ホール
+  organizer: 東京外大ミクライブ研究会
+  organizer_url: https://twitter.com/Tufs_Mikulive
+  role: OWN LIVEとしてのリハーサル準備協力
+  flyer: /img/works/2024-03-03.jpg
+  flyer_alt: ミクタペ フライヤー
+- date: 2024-04-01
+  title: Raise our Flag
+  kind: live
+  venue: 秋葉原 エンタス
+  organizer: 04SQUAD
+  organizer_url: https://twitter.com/04squ4d
+  tickets:
+  - url: https://twipla.jp/events/601407
+  role: 代表、映像オペレーション
+  flyer: /img/works/2024-04-01.jpg
+  flyer_alt: RoFフライヤー
+- date: 2024-04-06
+  title: Try Force -Front Line- vol.1
+  kind: club
+  venue: twitch live
+  tickets:
+  - url: https://twipla.jp/events/608289
+  flyer: /img/works/2024-04-06.png
+  flyer_alt: t4fl vol1フライヤー
+- date: 2024-05-26
+  title: ルカファンタジア
+  kind: live
+  venue: 埼玉県県民活動総合センター
+  organizer: FuLUKAlor ink.
+  organizer_url: https://twitter.com/luka_fanmade
+  tickets:
+  - label: 昼公演
+    url: https://livepocket.jp/e/z3w88
+  - label: 夜公演
+    url: https://t.livepocket.jp/e/6j42t
+  role: 映像オペレーション
+  flyer: /img/works/2024-05-26.jpg
+  flyer_alt: ルカファン フライヤー
+- date: 2024-05-26
+  title: ルカファンタジア アフターDJイベ
+  kind: club
+  venue: 埼玉県県民活動総合センター
+  tickets:
+  - label: 昼公演
+    url: https://livepocket.jp/e/z3w88
+  - label: 夜公演
+    url: https://t.livepocket.jp/e/6j42t
+  flyer: /img/works/2024-05-26-2.jpg
+  flyer_alt: ルカファン アフターDJ告知画像
+- date: 2024-06-29
+  title: 39's Luminous
+  kind: club
+  venue: 渋谷 WOMB LOUNGE
+  tickets:
+  - url: https://twipla.jp/events/607030
+  flyer: /img/works/2024-06-29.jpg
+  flyer_alt: ミクルミ フライヤー
+- date: 2024-07-06
+  title: Color-full VOCALOID vol.1
+  kind: club
+  venue: 新宿 azito
+  tickets:
+  - url: https://twipla.jp/events/613722
+  flyer: /img/works/2024-07-06.jpg
+  flyer_alt: カラボカvol.1フライヤー
+- date: 2024-07-13
+  title: Presto VOCALOID
+  kind: club
+  venue: Asakusa Stella
+  tickets:
+  - url: https://twipla.jp/events/602143
+  flyer: /img/works/2024-07-13.jpg
+  flyer_alt: プレボカ フライヤー
+- date: 2024-07-13
+  title: VOCALOID CONTEXT
+  kind: club
+  venue: Cafe BAr LIVRE
+  tickets:
+  - url: https://twipla.jp/events/614866
+  flyer: /img/works/2024-07-13-2.jpg
+  flyer_alt: ボカ脈 フライヤー
+- date: 2024-07-21
+  title: TRY FORCE vol.1
+  kind: club
+  venue: 秋葉原MOGRA
+  tickets:
+  - url: https://twipla.jp/events/621593
+  flyer: /img/works/2024-07-21.png
+  flyer_alt: try04v1フライヤー
+- date: 2024-07-26
+  title: tonight!
+  kind: club
+  venue: Bar FROG
+  flyer: /img/works/2024-07-26.jpg
+  flyer_alt: to night フライヤー
+- date: 2024-07-27
+  title: 鏡像異性体
+  kind: club
+  venue: 新宿 azito
+  tickets:
+  - url: https://twipla.jp/events/614066
+  flyer: /img/works/2024-07-27.jpg
+  flyer_alt: キョイセ フライヤー
+- date: 2024-07-28
+  title: Road to ボカチバ
+  kind: club
+  venue: Vocabar Melty
+  tickets:
+  - url: https://twipla.jp/events/623158
+  flyer: /img/works/2024-07-28.jpg
+  flyer_alt: ロトボカ フライヤー
+- date: 2024-08-12
+  title: ミクストリーム vol.3
+  kind: club
+  venue: music lounge 24/7
+  tickets:
+  - url: https://twipla.jp/events/608683
+  flyer: /img/works/2024-08-12.jpg
+  flyer_alt: ミクストvol.3フライヤー
+- date: 2024-09-07
+  title: 竜胆の集い
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/627498
+  flyer: /img/works/2024-09-07.jpg
+  flyer_alt: 竜胆の集いフライヤー
+- date: 2024-09-22
+  title: HELLO, VOCALOID vol.8
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/632027
+  flyer: /img/works/2024-09-22.png
+  flyer_alt: ハロボカv8フライヤー
+- date: 2024-10-20
+  title: HELLO, VOCALOID vol.9
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/636253
+  flyer: /img/works/2024-10-20.jpg
+  flyer_alt: ハロボカv9フライヤー
+- date: 2024-11-16
+  title: VOCALOID 治安倶楽部
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  tickets:
+  - url: https://twipla.jp/events/636261
+  flyer: /img/works/2024-11-16.jpg
+  flyer_alt: ボカ治安 フライヤー
+- date: 2024-11-17
+  title: ミク廃の集い
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/639441
+  flyer: /img/works/2024-11-17.jpg
+  flyer_alt: ミクハイ フライヤー
+- date: 2024-12-07
+  title: ボカロ曲聴きながら食うピザが1番美味い
+  kind: club
+  venue: PIZZA＆WINE CONA Bivi沼津店
+  tickets:
+  - url: https://twipla.jp/events/636398
+  flyer: /img/works/2024-12-07.jpg
+  flyer_alt: ボカピザ フライヤー
+- date: 2024-12-14
+  title: ボーカロイド流体力学
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  tickets:
+  - url: https://twipla.jp/events/639193
+  flyer: /img/works/2024-12-14.jpg
+  flyer_alt: ボカ流体 フライヤー
+- date: 2024-12-21
+  title: TRY FORCE vol.0.0
+  kind: club
+  venue: twitch live
+  flyer: /img/works/2024-12-21.jpg
+  flyer_alt: t4v0-0フライヤー
+- date: 2024-12-22
+  title: VOCAMONO
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/639476
+  flyer: /img/works/2024-12-22.jpg
+  flyer_alt: ボカモノ フライヤー
+- date: 2025-01-11
+  title: TRY FORCE vol.1.0
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  flyer: /img/works/2025-01-11.jpg
+  flyer_alt: t4v1-0フライヤー
+- date: 2025-01-19
+  title: ルカファンタジア リユニオン
+  kind: live
+  venue: 秋葉原エンタス
+  organizer: FuLUKAlor ink.
+  organizer_url: https://twitter.com/luka_fanmade
+  tickets:
+  - label: 朝公演
+    url: https://t.livepocket.jp/e/sb9u5
+  - label: 昼公演
+    url: https://t.livepocket.jp/e/xxrvb
+  role: 音/映像オペレーション
+  flyer: /img/works/2025-01-19.jpg
+  flyer_alt: ルカファン フライヤー
+- date: 2025-02-09
+  title: TRY FORCE vol.2.0
+  kind: club
+  venue: Asakusa Stella
+  tickets:
+  - url: https://twipla.jp/events/662657
+  flyer: /img/works/2025-02-09.png
+  flyer_alt: t4v2-0フライヤー
+- date: 2025-02-15
+  title: ぼかいと
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/638841
+  flyer: /img/works/2025-02-15.jpg
+  flyer_alt: ぼかいと フライヤー
+- date: 2025-02-23
+  title: VOCALOID:UNION STAR
+  kind: club
+  venue: CIRCUS TOKYO
+  venue_url: https://circus-tokyo.jp/
+  tickets:
+  - url: https://twipla.jp/events/644198
+  flyer: /img/works/2025-02-23.jpg
+  flyer_alt: ボカユニ フライヤー
+- date: 2025-02-24
+  title: KEYITEM FES
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/657341
+  flyer: /img/works/2025-02-24.jpg
+  flyer_alt: keyitem fesフライヤー
+- date: 2025-03-01
+  title: Color-full VOCALOID vol.03
+  kind: club
+  venue: 新宿 azito
+  tickets:
+  - url: https://twipla.jp/events/664492
+  flyer: /img/works/2025-03-01.jpg
+  flyer_alt: カラボカv.3フライヤー
+- date: 2025-03-09
+  title: ThkU39
+  kind: club
+  venue: Bar Locntonte
+  venue_url: https://www.locotonte.com/
+  flyer: /img/works/2025-03-09.jpg
+  flyer_alt: ThkU39フライヤー
+- date: 2025-03-15
+  title: MAGICA高崎 -Reboot-
+  kind: club
+  venue: 群馬県 高崎市 新町文化ホール
+  organizer: 高経大ミクライブ！
+  organizer_url: https://twitter.com/takakei_miku
+  role: 映像オペレーション
+  flyer: /img/works/2025-03-15.jpg
+  flyer_alt: ルカファン フライヤー
+- date: 2025-03-16
+  title: TRY FORCE vol.3.0
+  kind: club
+  venue: ギルドネオ
+  flyer: /img/works/2025-03-16.jpg
+  flyer_alt: t4v3-0フライヤー
+- date: 2025-03-22
+  title: 4 GROOVE vol.3 -1st Aniv.-
+  kind: club
+  venue: 六本木CUBE
+  venue_url: https://mp-cube.net/
+  tickets:
+  - url: https://twipla.jp/events/644274
+  flyer: /img/works/2025-03-22.jpg
+  flyer_alt: 4groove v3フライヤー
+- date: 2025-04-05
+  title: TRY FORCE vol.4.0
+  kind: club
+  venue: 御徒町KKP -> 新宿motion
+  flyer: /img/works/2025-04-05.jpg
+  flyer_alt: t4v3-0フライヤー
+- date: 2025-05-31
+  title: VOCALOID 治安倶楽部
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  tickets:
+  - url: https://twipla.jp/events/669911
+  flyer: /img/works/2025-05-31.jpg
+  flyer_alt: ボカ治安 フライヤー
+- date: 2025-06-21
+  title: ぼかこみゅ！
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/678076
+  flyer: /img/works/2025-06-21.jpg
+  flyer_alt: ぼかこみゅフライヤー
+- date: 2025-06-21
+  title: 鏡像異性体
+  kind: club
+  venue: 新宿azito
+  tickets:
+  - url: https://twipla.jp/events/674433
+  flyer: /img/works/2025-06-21-2.jpg
+  flyer_alt: 鏡像異性体 フライヤー
+- date: 2025-06-29
+  title: MKL Party
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/671454
+  flyer: /img/works/2025-06-29.jpg
+  flyer_alt: MKLフライヤー
+- date: 2025-07-05
+  title: まじまりのUTA
+  kind: club
+  venue: nagomix
+  tickets:
+  - url: https://twipla.jp/events/673371
+  flyer: /img/works/2025-07-05.jpg
+  flyer_alt: はじUTAフライヤー
+- date: 2025-07-21
+  title: M_arch Vol.1
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/676639
+  flyer: /img/works/2025-07-21.png
+  flyer_alt: Marchフライヤー
+- date: 2025-07-25
+  title: ボカ地雷
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  flyer: /img/works/2025-07-25.jpg
+  flyer_alt: ボカ地雷フライヤー
+- date: 2025-07-27
+  title: HELLO, VOCALOID vol.12
+  kind: club
+  venue: Asakusa Stella
+  tickets:
+  - url: https://twipla.jp/events/683318
+  flyer: /img/works/2025-07-27.jpg
+  flyer_alt: ハロボカvol.12フライヤー
+- date: 2025-08-02
+  title: ボカブキ 1st Anniversary
+  kind: club
+  venue: 新宿 motion
+  venue_url: https://www.shinjyuku-motion.jp/
+  flyer: /img/works/2025-08-02.jpg
+  flyer_alt: ﾎﾞｶﾌﾞｷ1stフライヤー
+- date: 2025-08-17
+  title: ボカ流し
+  kind: club
+  venue: 秋葉原 雷神 & BECK
+  tickets:
+  - url: https://www.twipla.jp/events/678323
+  flyer: /img/works/2025-08-17.jpg
+  flyer_alt: ボカ流しフライヤー
+- date: 2025-09-06
+  title: VOCA_Tetra
+  kind: club
+  venue: なんば MILULARI Delight
+  tickets:
+  - url: https://www.twipla.jp/events/687677
+  flyer: /img/works/2025-09-06.jpg
+  flyer_alt: ボカテトラフライヤー
+- date: 2025-09-14
+  title: ボカブラックvol.3
+  kind: club
+  venue: 阿佐ヶ谷 drift
+  tickets:
+  - url: https://www.twipla.jp/events/685056
+  flyer: /img/works/2025-09-14.jpg
+  flyer_alt: ボカブラックフライヤー
+- date: 2025-09-22
+  title: ボカミュージアム ～プロローグ～
+  kind: club
+  venue: nagomix
+  tickets:
+  - url: https://twipla.jp/events/686359
+  flyer: /img/works/2025-09-22.jpg
+  flyer_alt: ボカミュージアムフライヤー
+- date: 2025-09-27
+  title: Future Basser
+  kind: club
+  venue: bar granma MITO
+  tickets:
+  - url: https://twipla.jp/events/690445
+  flyer: /img/works/2025-09-27.png
+  flyer_alt: FutureBasserフライヤー
+- date: 2025-10-04
+  title: ぼかこみゅ！ Vol.02
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/694390
+  flyer: /img/works/2025-10-04.jpg
+  flyer_alt: ぼかこみゅv2フライヤー
+- date: 2025-11-08
+  title: VOCALOID Crossing Vol.49
+  kind: club
+  venue: nagomix
+  tickets:
+  - url: https://twipla.jp/events/700367
+  flyer: /img/works/2025-11-08.jpg
+  flyer_alt: ボカクロv49フライヤー
+- date: 2025-11-22
+  title: VOCALOID 治安倶楽部 1st Anniversary
+  kind: club
+  venue: 六本木CUBE
+  tickets:
+  - url: https://twipla.jp/events/690324
+  flyer: /img/works/2025-11-22.jpg
+  flyer_alt: ボカ治安1stフライヤー
+- date: 2025-12-21
+  title: I.C.U
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/691032
+  flyer: /img/works/2025-12-21.jpg
+  flyer_alt: ICUフライヤー
+- date: 2026-01-04
+  title: HELLO, VOCALOID vol.14
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/708368
+  flyer: /img/works/2026-01-04.jpg
+  flyer_alt: ハロボカvol.14フライヤー
+- date: 2026-02-15
+  title: M_arch Vol.2
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/704456
+  flyer: /img/works/2026-02-15.png
+  flyer_alt: m_arch v2フライヤー
+- date: 2026-03-23
+  title: ボカミュージアム 〜プラネタリウム〜
+  kind: club
+  venue: 西新井・ギャラクシティ2F まるちたいけんドーム
+  tickets:
+  - url: https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html
+  flyer: /img/works/2026-03-23.jpg
+  flyer_alt: ボカミュージアムプラネタリウムフライヤー
+- date: 2026-03-28
+  title: VOCALOID:UNION Future
+  kind: club
+  venue: CIRCUS TOKYO
+  venue_url: https://circus-tokyo.jp/
+  tickets:
+  - url: https://twipla.jp/events/710820
+  flyer: /img/works/2026-03-28.jpg
+  flyer_alt: ボカユニFutureフライヤー
+- date: 2026-04-04
+  title: ぼかこみゅ！ Vol.03
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/717516
+  flyer: /img/works/2026-04-04.jpg
+  flyer_alt: ぼかこみゅv3フライヤー
+- date: 2026-04-11
+  title: Butler Service 2026
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://livepocket.jp/e/butler-service2026
+  flyer: /img/works/2026-04-11.webp
+  flyer_alt: ButlerService2026フライヤー
+- date: 2026-04-25
+  title: GSK FES 2026
+  kind: live
+  venue: 筑波大学 未来社会デザイン棟
+  organizer: 筑波大学現代視覚研究会
+  tickets:
+  - url: https://twipla.jp/events/725640
+  role: VJ、音/映像オペレーション
+  flyer: /img/works/2026-04-25.jpg
+  flyer_alt: GSK-FESフライヤー
+- date: 2026-04-29
+  title: VOCAMONO vol.2
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/719320
+  flyer: /img/works/2026-04-29.jpg
+  flyer_alt: ボカモノv2フライヤー
+- date: 2026-05-08
+  title: アキバ治安倶楽部 Vol.01
+  kind: club
+  venue: アンセムアキバ
+  tickets:
+  - url: https://twipla.jp/events/726708
+  flyer: /img/works/2026-05-08.jpg
+  flyer_alt: アキバ治安フライヤー
+- date: 2026-05-15
+  title: tonight!
+  kind: club
+  venue: aNTENA
+  flyer: /img/works/2026-05-15.jpg
+  flyer_alt: tonight フライヤー
+- date: 2026-05-24
+  title: HELLO, VOCALOID vol.16
+  kind: club
+  venue: 新宿 azito
+  venue_url: https://sinjuku-azito.com/
+  tickets:
+  - url: https://twipla.jp/events/723479
+  flyer: /img/works/2026-05-24.jpg
+  flyer_alt: ハロボカv16フライヤー
+- date: 2026-05-30
+  title: はじまりのUTA vol.3
+  kind: club
+  venue: nagomix
+  tickets:
+  - url: https://twipla.jp/events/714376
+  flyer: /img/works/2026-05-30.jpg
+  flyer_alt: はじUTA v3フライヤー
+- date: 2026-05-31
+  title: Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-
+  kind: live
+  venue: 浦安市文化会館
+  organizer: KAITO 20th Anniversary ファンメイドライブ制作委員会
+  tickets:
+  - url: https://livepocket.jp/e/z3w88
+  role: 映像オペレーション
+  flyer: /img/works/2026-05-31.webp
+  flyer_alt: bstフライヤー
+- date: 2026-06-06
+  title: VOCALOID Crossing Vol.53
+  kind: club
+  venue: nagomix
+  tickets:
+  - url: https://twipla.jp/events/725096
+  flyer: /img/works/2026-06-06.jpg
+  flyer_alt: ボカクロv53ライヤー
+- date: 2026-06-07
+  title: VOCALOID 治安倶楽部 Vol.05
+  kind: club
+  venue: 渋谷 R Lounge
+  tickets:
+  - url: https://twipla.jp/events/727513
+  flyer: /img/works/2026-06-07.jpg
+  flyer_alt: ボカ治安v5フライヤー
+- date: 2026-07-05
+  title: M_arch Vol.3
+  kind: club
+  venue: 渋谷 R Lounge 7F
+  tickets:
+  - url: https://twipla.jp/events/728080
+  flyer: /img/works/2026-07-05.jpg
+  flyer_alt: March v3フライヤー
+- date: 2026-07-11
+  title: 【I.C.U+】in AKIHABARA
+  kind: club
+  venue: 秋葉原 雷神
+  tickets:
+  - url: https://twipla.jp/events/714376
+  flyer: /img/works/2026-07-11.jpg
+  flyer_alt: ICU+フライヤー
+- date: 2026-07-18
+  title: Imag(in)e
+  kind: club
+  venue: 筑波大学 未来社会デザイン棟
+  flyer: /img/works/2026-07-18.jpg
+  flyer_alt: imagineフライヤー
+- date: 2026-07-25
+  title: re:master-LT#1
+  kind: club
+  venue: 筑波大学 クリエイティブメディアラボ
+  tickets:
+  - url: https://remaster-lt.connpass.com/event/398763/
+  flyer: /img/works/2026-07-25.png
+  flyer_alt: remaster#1フライヤー
+- date: 2026-08-09
+  title: HELLO,VOCALOID Vol.17
+  kind: club
+  venue: 六本木CUBE
+  venue_url: https://mp-cube.net/
+  tickets:
+  - url: https://twipla.jp/events/735910
+- date: 2026-10-03
+  title: 'UNTIL. LT #0x0B'
+  kind: club
+  venue: 筑波大学 3A209
+  tickets:
+  - url: https://until-tsukuba.connpass.com/event/401509/
+- date: 2026-10-04
+  title: ボカスシ VOCASUSHI
+  kind: club
+  venue: 渋谷 PUBLICPUBLIC
+  tickets:
+  - url: https://twipla.jp/events/742950
+  flyer: /img/works/2026-10-04.jpg
+  flyer_alt: ボカスシ フライヤー
+- date: 2026-10-30
+- date: 2026-10-30
+  end: 2026-11-01
+- date: 2026-11-07
+- date: 2026-11-23
+- date: 2027-02-19
+  end: 2027-02-21
+- date: 2027-05-02

@@ -1,0 +1,36 @@
+name: フライヤーを取り込む
+
+# works.yml の flyer が URL のものを docs/img/works/ に保存してパスに書き換える（手動実行）
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: works-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install PyYAML
+      - run: python3 tools/fetch_flyers.py
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/works.yml docs/img/works
+          if git diff --cached --quiet; then echo "変更なし"; else git commit -m "works: フライヤーを取り込み" && git push origin HEAD:master; fi
+
+  deploy:
+    needs: fetch
+    permissions:
+      contents: write
+    uses: ./.github/workflows/gh-deploy.yml

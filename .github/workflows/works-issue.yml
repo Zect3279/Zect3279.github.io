@@ -1,0 +1,64 @@
+name: works にイベントを追加
+
+on:
+  issues:
+    types: [opened, edited]
+
+concurrency:
+  group: works-data
+  cancel-in-progress: false
+
+jobs:
+  add:
+    # works フォームのIssue（ラベル or タイトル先頭 [works]）かつ リポジトリ所有者が立てたものだけ
+    if: (contains(github.event.issue.labels.*.name, 'works') || startsWith(github.event.issue.title, '[works]')) && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python3 -m pip install PyYAML
+
+      - name: Issue の内容を works.yml に反映
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/works_issue.py
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/works.yml docs/img/works
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "works: #${{ github.event.issue.number }} ${{ github.event.action == 'opened' && 'を追加' || 'を更新' }}"
+            git push origin HEAD:master
+          fi
+
+      - name: 結果をコメントしてクローズ
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ github.event.issue.number }}
+          OK: ${{ job.status == 'success' }}
+        run: |
+          [ -f works_issue_result.md ] || echo "⚠️ 反映に失敗しました。Actions のログを確認してください。" > works_issue_result.md
+          gh issue comment "$N" --body-file works_issue_result.md
+          if [ "$OK" = "true" ]; then gh issue close "$N"; fi
+
+  deploy:
+    needs: add
+    permissions:
+      contents: write
+    uses: ./.github/workflows/gh-deploy.yml
