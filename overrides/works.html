@@ -2,6 +2,7 @@
 
 {% block extrahead %}
   {{ super() }}
+  <meta name="theme-color" content="#FFFFFF">
   {% set ogp_title = "VJ Works | Zect" %}
   {% set ogp_desc = page.meta.description or config.site_description %}
   {% set ogp_url = config.site_url | trim("/") ~ "/" ~ page.url %}

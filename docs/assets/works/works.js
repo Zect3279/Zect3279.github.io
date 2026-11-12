@@ -15,7 +15,7 @@
     get() { try { return localStorage.getItem("zw-mode"); } catch { return null; } },
     set(v) { try { localStorage.setItem("zw-mode", v); } catch { /* noop */ } },
   };
-  const tint = (it) => `color-mix(in srgb, ${it.color || "#d9d6cf"} 42%, #F2F0EB)`;
+  const tint = (it) => `color-mix(in srgb, ${it.color || "#E4E7EC"} 42%, #FFFFFF)`;
 
   /* ---------- 共通：札/カードの中身 ---------- */
   function face(it, full) {
