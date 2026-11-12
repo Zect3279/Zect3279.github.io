@@ -658,6 +658,8 @@
   venue_url: https://mp-cube.net/
   tickets:
   - url: https://twipla.jp/events/735910
+  flyer: /img/works/2026-08-09.jpg
+  flyer_alt: HELLO,VOCALOID Vol.17フライヤー
 - date: 2026-10-03
   title: 'UNTIL. LT #0x0B'
   kind: club
