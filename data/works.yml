@@ -697,6 +697,15 @@
   flyer_alt: SENA FES ~10th Anniversary Party~ フライヤー
   issue: 1
 - date: 2026-11-23
+  title: コラボカ2026
+  kind: club
+  venue: アニソンDJカフェ・バー雷神
+  venue_url: http://www.raizeen.com/
+  tickets:
+  - url: https://twipla.jp/events/744635
+  flyer: /img/works/2026-11-23.jpg
+  flyer_alt: コラボカ2026 フライヤー
+  issue: 3
 - date: 2027-02-19
   end: 2027-02-21
 - date: 2027-05-02
