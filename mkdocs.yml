@@ -7,9 +7,9 @@ theme:
     name: material
     custom_dir: overrides
     palette:
-        scheme: preference
-        primary: indigo
-        accent: amber
+        scheme: default
+        primary: custom
+        accent: custom
     font:
         text: Noto Sans
     language: ja
@@ -36,6 +36,9 @@ markdown_extensions:
     - pymdownx.arithmatex:
         generic: true
     - meta
+
+extra_css:
+    - stylesheets/extra.css
 
 hooks:
     - hooks/works.py
