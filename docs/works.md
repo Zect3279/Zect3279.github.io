@@ -1,5 +1,6 @@
 ---
 title: Works
+description: Zect の VJ・映像オペレーションの出演記録と今後の予定
 template: works.html
 hide:
   - navigation

@@ -2,6 +2,24 @@
 
 {% block extrahead %}
   {{ super() }}
+  {% set ogp_title = "VJ Works | Zect" %}
+  {% set ogp_desc = page.meta.description or config.site_description %}
+  {% set ogp_url = config.site_url | trim("/") ~ "/" ~ page.url %}
+  {% set ogp_img = config.site_url | trim("/") ~ "/img/ogp/works.png" %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ ogp_title }}">
+  <meta property="og:description" content="{{ ogp_desc }}">
+  <meta property="og:url" content="{{ ogp_url }}">
+  <meta property="og:image" content="{{ ogp_img }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VJ Works | Zect">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ ogp_title }}">
+  <meta name="twitter:description" content="{{ ogp_desc }}">
+  <meta name="twitter:image" content="{{ ogp_img }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet">
