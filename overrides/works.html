@@ -32,37 +32,28 @@
 <div class="zw" id="zw" data-mode="wall">
 
   <main class="zw-wall" id="zw-wall">
-    {% for g in works.wall %}
-      <section class="zw-group">
-      {% if g.year %}
-        <div class="zw-year" id="y{{ g.year }}"><span>{{ g.year }}</span></div>
-      {% else %}
-        <div class="zw-year zw-year--upcoming" id="upcoming"><span>Upcoming</span></div>
-      {% endif %}
-      <div class="zw-grid">
-      {% for w in g.tiles %}
-        <button type="button" class="zw-tile is-{{ w.status }}" data-i="{{ w.i }}"
-                aria-label="{{ w.full }} {{ (w.title or 'COMING SOON') | e }}">
-          {% if w.status == 'tba' %}
-            <span class="zw-card zw-card--tba">
-              <span class="zw-mono">COMING SOON</span>
-              <span><span class="zw-serif zw-card-d">{{ w.range }}</span><span class="zw-mono">{{ w.y }}</span></span>
-            </span>
-          {% elif w.img %}
-            <img src="{{ w.thumb }}" alt="{{ w.alt | e }}" loading="lazy" decoding="async"{% if w.ar %} style="aspect-ratio: {{ w.ar }}"{% endif %}>
-            <span class="zw-cap zw-mono"><span>{{ w.title | e }}</span><span>{{ w.md }}</span></span>
-            {% if w.status == 'upcoming' %}<span class="zw-next zw-mono">NEXT {{ w.md }}</span>{% endif %}
-          {% else %}
-            <span class="zw-card">
-              <span class="zw-card-t">{{ w.title | e }}</span>
-              <span class="zw-serif zw-card-d">{{ w.md }}</span>
-            </span>
-          {% endif %}
-        </button>
-      {% endfor %}
-      </div>
-      </section>
+    <div class="zw-grid">
+    {% for w in works.wall %}
+      <button type="button" class="zw-tile is-{{ w.status }}" data-i="{{ w.i }}"
+              aria-label="{{ w.full }} {{ (w.title or 'COMING SOON') | e }}">
+        {% if w.status == 'tba' %}
+          <span class="zw-card zw-card--tba">
+            <span class="zw-mono">COMING SOON</span>
+            <span><span class="zw-serif zw-card-d">{{ w.range }}</span><span class="zw-mono">{{ w.y }}</span></span>
+          </span>
+        {% elif w.img %}
+          <img src="{{ w.thumb }}" alt="{{ w.alt | e }}" loading="lazy" decoding="async"{% if w.ar %} style="aspect-ratio: {{ w.ar }}"{% endif %}>
+          <span class="zw-cap zw-mono"><span>{{ w.title | e }}</span><span>{{ w.y }}.{{ w.md }}</span></span>
+          {% if w.status == 'upcoming' %}<span class="zw-next zw-mono">NEXT {{ w.md }}</span>{% endif %}
+        {% else %}
+          <span class="zw-card">
+            <span class="zw-card-t">{{ w.title | e }}</span>
+            <span><span class="zw-serif zw-card-d">{{ w.md }}</span><span class="zw-mono">{{ w.y }}</span></span>
+          </span>
+        {% endif %}
+      </button>
     {% endfor %}
+    </div>
   </main>
 
   <section class="zw-ring" id="zw-ring" hidden aria-label="リング表示"></section>

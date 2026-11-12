@@ -107,13 +107,8 @@ def on_page_context(context, page, config, nav):  # noqa: ARG001
              if W.announced(e) or (e.get("end") or e["date"]) >= today]
     items = [item(e, i, today, page.url) for i, e in enumerate(shown)]
 
-    # 新しい順のグループ。予定（見出しなし）→ 過去は年ごと
-    wall: list[dict] = []
-    for it in reversed(items):
-        y = it["y"] if it["status"] == "past" else None
-        if not wall or wall[-1]["year"] != y:
-            wall.append({"year": y, "tiles": []})
-        wall[-1]["tiles"].append(it)
+    # 新しい順に1枚の壁へ（年の区切りなし）
+    wall = list(reversed(items))
     context["works"] = {
         "items": items, "wall": wall,
         "count": sum(1 for it in items if it["status"] == "past"),

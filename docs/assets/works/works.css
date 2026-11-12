@@ -57,12 +57,6 @@ body { background-color: var(--md-default-bg-color) !important; }
 .zw-grid.is-masonry { display: flex; align-items: flex-start; }
 .zw-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: var(--zw-gap); }
 .zw[data-mode="ring"] .zw-wall { display: none; }
-.zw-year { display: flex; align-items: flex-end; padding: 48px 2px 8px; }
-.zw-year span { font-family: var(--md-text-font-family); font-weight: 300; color: var(--zw-muted); font-size: clamp(84px, 10vw, 150px); line-height: .8; letter-spacing: -.03em; }
-/* 「Upcoming」は p・g が下にはみ出すので行の高さを確保 */
-.zw-year--upcoming span { padding-bottom: .22em; }
-/* 先頭の見出しは壁の上の余白があるので詰める */
-.zw-group:first-child .zw-year { padding-top: 0; }
 .zw-tile { position: relative; display: block; width: 100%; margin: 0; text-align: left; transition: transform .5s var(--zw-ease); }
 .zw-tile:hover { transform: scale(1.02); }
 .zw-tile:focus-visible { outline: 2px solid var(--zw-accent); outline-offset: 2px; }
@@ -82,9 +76,6 @@ body { background-color: var(--md-default-bg-color) !important; }
   .zw-mdheader .zw-toggle button { padding: 0 .5rem; font-size: 10px; }
   .zw-wall { --zw-gap: 4px; padding: 16px 4px 48px; }
   .zw-grid { grid-template-columns: repeat(3, 1fr); }
-  .zw-year { padding-top: 32px; }
-  .zw-year span { font-size: 84px; }
-  .zw-year--upcoming span { font-size: 64px; }
   .zw-cap { display: none; }
   .zw-card { padding: 8px; }
   .zw-card .zw-mono { font-size: 8px; letter-spacing: .06em; }
