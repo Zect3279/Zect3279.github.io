@@ -36,9 +36,10 @@ body { background-color: var(--md-default-bg-color) !important; }
 .zw-serif { font-family: var(--md-text-font-family); font-weight: 300; }
 
 /* ---- toolbar（Material ヘッダーの直下に貼り付く） ---- */
-/* Material ヘッダー：[ロゴ][検索] ……… [WORKS — 件数][WALL / RING] */
-.zw-mdheader .md-search, .zw-mdheader label[for="__search"] { order: 1; }
-.zw-mdheader .md-header__title { order: 2; flex-grow: 0; margin: 0 .8rem 0 auto; }
+/* Material ヘッダー：[ロゴ][WORKS — 件数] ……… [検索][WALL / RING] */
+.zw-mdheader .md-header__title { order: 1; flex-grow: 0; margin-right: .8rem; }
+.zw-mdheader label[for="__search"] { order: 2; margin-left: auto; }
+.zw-mdheader .md-search { order: 2; margin-left: auto; margin-right: .8rem; }
 /* Material は topic を absolute で重ねているので、伸ばさないタイトルでは通常配置に戻して幅を持たせる */
 .zw-mdheader .md-header__ellipsis { position: static; width: auto; }
 .zw-mdheader .md-header__topic { position: static; display: flex; max-width: none; font-family: var(--md-code-font-family); font-weight: 400; letter-spacing: .08em; white-space: nowrap; }
