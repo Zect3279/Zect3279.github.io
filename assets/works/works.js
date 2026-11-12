@@ -35,7 +35,7 @@
     if (m === mode) return;
     mode = m;
     root.dataset.mode = m;
-    root.querySelectorAll(".zw-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === m)));
+    document.querySelectorAll(".zw-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === m)));
     wallEl.hidden = m !== "wall";
     ringEl.hidden = m !== "ring";
     if (m === "ring") ring.show();
@@ -44,7 +44,7 @@
     if (push) history.replaceState(null, "", m === "ring" ? "#ring" : location.pathname + location.search);
     window.scrollTo(0, 0);
   }
-  root.querySelectorAll(".zw-toggle button").forEach((b) => b.addEventListener("click", () => setMode(b.dataset.mode)));
+  document.querySelectorAll(".zw-toggle button").forEach((b) => b.addEventListener("click", () => setMode(b.dataset.mode)));
 
   /* ---------- RING（螺旋状のリング。1周 K 枚、横スワイプで時間を移動） ---------- */
   const ring = (() => {
@@ -104,6 +104,8 @@
       const pt = portrait();
       K = pt ? 16 : 22;
       cw = pt ? Math.min(240, innerWidth * 0.52) : Math.min(300, Math.max(200, innerWidth * 0.2));
+      // Material ヘッダーとツールバーの分だけ低くなったリングに収まるように
+      cw = Math.min(cw, (ringEl.clientHeight || innerHeight) * 0.32);
       ch = cw * 4 / 3;
       step = 360 / K;
       R = (K * cw * 1.14) / (2 * Math.PI);

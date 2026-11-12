@@ -53,6 +53,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,9 +62,9 @@
     
     
   
+<meta name="theme-color" content="#1A2C99">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9340856335389661" crossorigin="anonymous"></script>
 
-  <meta name="theme-color" content="#FFFFFF">
   
   
   
@@ -81,9 +83,6 @@
   <meta name="twitter:title" content="VJ Works | Zect">
   <meta name="twitter:description" content="Zect の VJ・映像オペレーションの出演記録と今後の予定">
   <meta name="twitter:image" content="https://Zect3279.github.io/img/ogp/works.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/works/works.css">
 
   </head>
@@ -94,7 +93,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="indigo" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -107,12 +106,7 @@
       
     </div>
     
-    
-      
-
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+    <header class="md-header md-header--shadow zw-mdheader" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="ヘッダー">
     <a href=".." title="Zscode" class="md-header__button md-logo" aria-label="Zscode" data-md-component="logo">
       
@@ -124,27 +118,13 @@
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
-    <div class="md-header__title" data-md-component="header-title">
+    <div class="md-header__title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Zscode
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Works
-            
-          </span>
+          <span class="md-ellipsis">WORKS — 81</span>
         </div>
       </div>
     </div>
-    
-      
-    
-    
-    
     
       
       
@@ -186,11 +166,12 @@
 </div>
       
     
-    
+    <nav class="zw-toggle" aria-label="表示切替">
+      <button type="button" data-mode="wall" aria-pressed="true">WALL</button>
+      <button type="button" data-mode="ring" aria-pressed="false">RING</button>
+    </nav>
   </nav>
-  
 </header>
-    
     <div class="md-container" data-md-component="container">
       
       
@@ -200,18 +181,10 @@
           
 <div class="zw" id="zw" data-mode="wall">
 
-  <header class="zw-head">
-    <a class="zw-logo" href="../">ZECT</a>
-    <span class="zw-count zw-mono">WORKS — 81</span>
-    <nav class="zw-toggle" aria-label="表示切替">
-      <button type="button" data-mode="wall" aria-pressed="true">WALL</button>
-      <button type="button" data-mode="ring" aria-pressed="false">RING</button>
-    </nav>
-  </header>
-
   <main class="zw-wall" id="zw-wall">
     
-      <section class="zw-group">
+    <section class="zw-group zw-group--upcoming">
+      <div class="zw-year" id="upcoming"><span>Upcoming</span></div>
       
       <div class="zw-grid">
       
@@ -246,19 +219,17 @@
         </button>
       
       </div>
-      </section>
+    </section>
     
-      <section class="zw-group">
-      
-        <div class="zw-year" id="y2026"><span>2026</span></div>
-      
+    <section class="zw-group">
+      <div class="zw-year" id="archive"><span>Archive</span></div>
       <div class="zw-grid">
       
         <button type="button" class="zw-tile is-past" data-i="80"
                 aria-label="2026.10.04 ボカスシ VOCASUSHI">
           
             <img src="../img/works/thumbs/2026-10-04.webp" alt="ボカスシ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>ボカスシ VOCASUSHI</span><span>10.04</span></span>
+            <span class="zw-cap zw-mono"><span>ボカスシ VOCASUSHI</span><span>2026.10.04</span></span>
             
           
         </button>
@@ -268,7 +239,7 @@
           
             <span class="zw-card">
               <span class="zw-card-t">UNTIL. LT #0x0B</span>
-              <span class="zw-serif zw-card-d">10.03</span>
+              <span><span class="zw-serif zw-card-d">10.03</span><span class="zw-mono">2026</span></span>
             </span>
           
         </button>
@@ -278,7 +249,7 @@
           
             <span class="zw-card">
               <span class="zw-card-t">HELLO,VOCALOID Vol.17</span>
-              <span class="zw-serif zw-card-d">08.09</span>
+              <span><span class="zw-serif zw-card-d">08.09</span><span class="zw-mono">2026</span></span>
             </span>
           
         </button>
@@ -287,7 +258,7 @@
                 aria-label="2026.07.25 re:master-LT#1">
           
             <img src="../img/works/thumbs/2026-07-25.webp" alt="remaster#1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 660 / 934">
-            <span class="zw-cap zw-mono"><span>re:master-LT#1</span><span>07.25</span></span>
+            <span class="zw-cap zw-mono"><span>re:master-LT#1</span><span>2026.07.25</span></span>
             
           
         </button>
@@ -296,7 +267,7 @@
                 aria-label="2026.07.18 Imag(in)e">
           
             <img src="../img/works/thumbs/2026-07-18.webp" alt="imagineフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>Imag(in)e</span><span>07.18</span></span>
+            <span class="zw-cap zw-mono"><span>Imag(in)e</span><span>2026.07.18</span></span>
             
           
         </button>
@@ -305,7 +276,7 @@
                 aria-label="2026.07.11 【I.C.U+】in AKIHABARA">
           
             <img src="../img/works/thumbs/2026-07-11.webp" alt="ICU+フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>【I.C.U+】in AKIHABARA</span><span>07.11</span></span>
+            <span class="zw-cap zw-mono"><span>【I.C.U+】in AKIHABARA</span><span>2026.07.11</span></span>
             
           
         </button>
@@ -314,7 +285,7 @@
                 aria-label="2026.07.05 M_arch Vol.3">
           
             <img src="../img/works/thumbs/2026-07-05.webp" alt="March v3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>M_arch Vol.3</span><span>07.05</span></span>
+            <span class="zw-cap zw-mono"><span>M_arch Vol.3</span><span>2026.07.05</span></span>
             
           
         </button>
@@ -323,7 +294,7 @@
                 aria-label="2026.06.07 VOCALOID 治安倶楽部 Vol.05">
           
             <img src="../img/works/thumbs/2026-06-07.webp" alt="ボカ治安v5フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 827">
-            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部 Vol.05</span><span>06.07</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部 Vol.05</span><span>2026.06.07</span></span>
             
           
         </button>
@@ -332,7 +303,7 @@
                 aria-label="2026.06.06 VOCALOID Crossing Vol.53">
           
             <img src="../img/works/thumbs/2026-06-06.webp" alt="ボカクロv53ライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 798">
-            <span class="zw-cap zw-mono"><span>VOCALOID Crossing Vol.53</span><span>06.06</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID Crossing Vol.53</span><span>2026.06.06</span></span>
             
           
         </button>
@@ -341,7 +312,7 @@
                 aria-label="2026.05.31 Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-">
           
             <img src="../img/works/thumbs/2026-05-31.webp" alt="bstフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 768 / 1024">
-            <span class="zw-cap zw-mono"><span>Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-</span><span>05.31</span></span>
+            <span class="zw-cap zw-mono"><span>Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-</span><span>2026.05.31</span></span>
             
           
         </button>
@@ -350,7 +321,7 @@
                 aria-label="2026.05.30 はじまりのUTA vol.3">
           
             <img src="../img/works/thumbs/2026-05-30.webp" alt="はじUTA v3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>はじまりのUTA vol.3</span><span>05.30</span></span>
+            <span class="zw-cap zw-mono"><span>はじまりのUTA vol.3</span><span>2026.05.30</span></span>
             
           
         </button>
@@ -359,7 +330,7 @@
                 aria-label="2026.05.24 HELLO, VOCALOID vol.16">
           
             <img src="../img/works/thumbs/2026-05-24.webp" alt="ハロボカv16フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.16</span><span>05.24</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.16</span><span>2026.05.24</span></span>
             
           
         </button>
@@ -368,7 +339,7 @@
                 aria-label="2026.05.15 tonight!">
           
             <img src="../img/works/thumbs/2026-05-15.webp" alt="tonight フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1080 / 1350">
-            <span class="zw-cap zw-mono"><span>tonight!</span><span>05.15</span></span>
+            <span class="zw-cap zw-mono"><span>tonight!</span><span>2026.05.15</span></span>
             
           
         </button>
@@ -377,7 +348,7 @@
                 aria-label="2026.05.08 アキバ治安倶楽部 Vol.01">
           
             <img src="../img/works/thumbs/2026-05-08.webp" alt="アキバ治安フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 810">
-            <span class="zw-cap zw-mono"><span>アキバ治安倶楽部 Vol.01</span><span>05.08</span></span>
+            <span class="zw-cap zw-mono"><span>アキバ治安倶楽部 Vol.01</span><span>2026.05.08</span></span>
             
           
         </button>
@@ -386,7 +357,7 @@
                 aria-label="2026.04.29 VOCAMONO vol.2">
           
             <img src="../img/works/thumbs/2026-04-29.webp" alt="ボカモノv2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>VOCAMONO vol.2</span><span>04.29</span></span>
+            <span class="zw-cap zw-mono"><span>VOCAMONO vol.2</span><span>2026.04.29</span></span>
             
           
         </button>
@@ -395,7 +366,7 @@
                 aria-label="2026.04.25 GSK FES 2026">
           
             <img src="../img/works/thumbs/2026-04-25.webp" alt="GSK-FESフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>GSK FES 2026</span><span>04.25</span></span>
+            <span class="zw-cap zw-mono"><span>GSK FES 2026</span><span>2026.04.25</span></span>
             
           
         </button>
@@ -404,7 +375,7 @@
                 aria-label="2026.04.11 Butler Service 2026">
           
             <img src="../img/works/thumbs/2026-04-11.webp" alt="ButlerService2026フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1190 / 1684">
-            <span class="zw-cap zw-mono"><span>Butler Service 2026</span><span>04.11</span></span>
+            <span class="zw-cap zw-mono"><span>Butler Service 2026</span><span>2026.04.11</span></span>
             
           
         </button>
@@ -413,7 +384,7 @@
                 aria-label="2026.04.04 ぼかこみゅ！ Vol.03">
           
             <img src="../img/works/thumbs/2026-04-04.webp" alt="ぼかこみゅv3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>ぼかこみゅ！ Vol.03</span><span>04.04</span></span>
+            <span class="zw-cap zw-mono"><span>ぼかこみゅ！ Vol.03</span><span>2026.04.04</span></span>
             
           
         </button>
@@ -422,7 +393,7 @@
                 aria-label="2026.03.28 VOCALOID:UNION Future">
           
             <img src="../img/works/thumbs/2026-03-28.webp" alt="ボカユニFutureフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>VOCALOID:UNION Future</span><span>03.28</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID:UNION Future</span><span>2026.03.28</span></span>
             
           
         </button>
@@ -431,7 +402,7 @@
                 aria-label="2026.03.23 ボカミュージアム 〜プラネタリウム〜">
           
             <img src="../img/works/thumbs/2026-03-23.webp" alt="ボカミュージアムプラネタリウムフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1414 / 2000">
-            <span class="zw-cap zw-mono"><span>ボカミュージアム 〜プラネタリウム〜</span><span>03.23</span></span>
+            <span class="zw-cap zw-mono"><span>ボカミュージアム 〜プラネタリウム〜</span><span>2026.03.23</span></span>
             
           
         </button>
@@ -440,7 +411,7 @@
                 aria-label="2026.02.15 M_arch Vol.2">
           
             <img src="../img/works/thumbs/2026-02-15.webp" alt="m_arch v2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 832">
-            <span class="zw-cap zw-mono"><span>M_arch Vol.2</span><span>02.15</span></span>
+            <span class="zw-cap zw-mono"><span>M_arch Vol.2</span><span>2026.02.15</span></span>
             
           
         </button>
@@ -449,25 +420,16 @@
                 aria-label="2026.01.04 HELLO, VOCALOID vol.14">
           
             <img src="../img/works/thumbs/2026-01-04.webp" alt="ハロボカvol.14フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.14</span><span>01.04</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.14</span><span>2026.01.04</span></span>
             
           
         </button>
-      
-      </div>
-      </section>
-    
-      <section class="zw-group">
-      
-        <div class="zw-year" id="y2025"><span>2025</span></div>
-      
-      <div class="zw-grid">
       
         <button type="button" class="zw-tile is-past" data-i="58"
                 aria-label="2025.12.21 I.C.U">
           
             <img src="../img/works/thumbs/2025-12-21.webp" alt="ICUフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 900 / 1200">
-            <span class="zw-cap zw-mono"><span>I.C.U</span><span>12.21</span></span>
+            <span class="zw-cap zw-mono"><span>I.C.U</span><span>2025.12.21</span></span>
             
           
         </button>
@@ -476,7 +438,7 @@
                 aria-label="2025.11.22 VOCALOID 治安倶楽部 1st Anniversary">
           
             <img src="../img/works/thumbs/2025-11-22.webp" alt="ボカ治安1stフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部 1st Anniversary</span><span>11.22</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部 1st Anniversary</span><span>2025.11.22</span></span>
             
           
         </button>
@@ -485,7 +447,7 @@
                 aria-label="2025.11.08 VOCALOID Crossing Vol.49">
           
             <img src="../img/works/thumbs/2025-11-08.webp" alt="ボカクロv49フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 798">
-            <span class="zw-cap zw-mono"><span>VOCALOID Crossing Vol.49</span><span>11.08</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID Crossing Vol.49</span><span>2025.11.08</span></span>
             
           
         </button>
@@ -494,7 +456,7 @@
                 aria-label="2025.10.04 ぼかこみゅ！ Vol.02">
           
             <img src="../img/works/thumbs/2025-10-04.webp" alt="ぼかこみゅv2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>ぼかこみゅ！ Vol.02</span><span>10.04</span></span>
+            <span class="zw-cap zw-mono"><span>ぼかこみゅ！ Vol.02</span><span>2025.10.04</span></span>
             
           
         </button>
@@ -503,7 +465,7 @@
                 aria-label="2025.09.27 Future Basser">
           
             <img src="../img/works/thumbs/2025-09-27.webp" alt="FutureBasserフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>Future Basser</span><span>09.27</span></span>
+            <span class="zw-cap zw-mono"><span>Future Basser</span><span>2025.09.27</span></span>
             
           
         </button>
@@ -512,7 +474,7 @@
                 aria-label="2025.09.22 ボカミュージアム ～プロローグ～">
           
             <img src="../img/works/thumbs/2025-09-22.webp" alt="ボカミュージアムフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 702">
-            <span class="zw-cap zw-mono"><span>ボカミュージアム ～プロローグ～</span><span>09.22</span></span>
+            <span class="zw-cap zw-mono"><span>ボカミュージアム ～プロローグ～</span><span>2025.09.22</span></span>
             
           
         </button>
@@ -521,7 +483,7 @@
                 aria-label="2025.09.14 ボカブラックvol.3">
           
             <img src="../img/works/thumbs/2025-09-14.webp" alt="ボカブラックフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 776">
-            <span class="zw-cap zw-mono"><span>ボカブラックvol.3</span><span>09.14</span></span>
+            <span class="zw-cap zw-mono"><span>ボカブラックvol.3</span><span>2025.09.14</span></span>
             
           
         </button>
@@ -530,7 +492,7 @@
                 aria-label="2025.09.06 VOCA_Tetra">
           
             <img src="../img/works/thumbs/2025-09-06.webp" alt="ボカテトラフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>VOCA_Tetra</span><span>09.06</span></span>
+            <span class="zw-cap zw-mono"><span>VOCA_Tetra</span><span>2025.09.06</span></span>
             
           
         </button>
@@ -539,7 +501,7 @@
                 aria-label="2025.08.17 ボカ流し">
           
             <img src="../img/works/thumbs/2025-08-17.webp" alt="ボカ流しフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 865">
-            <span class="zw-cap zw-mono"><span>ボカ流し</span><span>08.17</span></span>
+            <span class="zw-cap zw-mono"><span>ボカ流し</span><span>2025.08.17</span></span>
             
           
         </button>
@@ -548,7 +510,7 @@
                 aria-label="2025.08.02 ボカブキ 1st Anniversary">
           
             <img src="../img/works/thumbs/2025-08-02.webp" alt="ﾎﾞｶﾌﾞｷ1stフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1414 / 2000">
-            <span class="zw-cap zw-mono"><span>ボカブキ 1st Anniversary</span><span>08.02</span></span>
+            <span class="zw-cap zw-mono"><span>ボカブキ 1st Anniversary</span><span>2025.08.02</span></span>
             
           
         </button>
@@ -557,7 +519,7 @@
                 aria-label="2025.07.27 HELLO, VOCALOID vol.12">
           
             <img src="../img/works/thumbs/2025-07-27.webp" alt="ハロボカvol.12フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.12</span><span>07.27</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.12</span><span>2025.07.27</span></span>
             
           
         </button>
@@ -566,7 +528,7 @@
                 aria-label="2025.07.25 ボカ地雷">
           
             <img src="../img/works/thumbs/2025-07-25.webp" alt="ボカ地雷フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>ボカ地雷</span><span>07.25</span></span>
+            <span class="zw-cap zw-mono"><span>ボカ地雷</span><span>2025.07.25</span></span>
             
           
         </button>
@@ -575,7 +537,7 @@
                 aria-label="2025.07.21 M_arch Vol.1">
           
             <img src="../img/works/thumbs/2025-07-21.webp" alt="Marchフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 536 / 760">
-            <span class="zw-cap zw-mono"><span>M_arch Vol.1</span><span>07.21</span></span>
+            <span class="zw-cap zw-mono"><span>M_arch Vol.1</span><span>2025.07.21</span></span>
             
           
         </button>
@@ -584,7 +546,7 @@
                 aria-label="2025.07.05 まじまりのUTA">
           
             <img src="../img/works/thumbs/2025-07-05.webp" alt="はじUTAフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>まじまりのUTA</span><span>07.05</span></span>
+            <span class="zw-cap zw-mono"><span>まじまりのUTA</span><span>2025.07.05</span></span>
             
           
         </button>
@@ -593,7 +555,7 @@
                 aria-label="2025.06.29 MKL Party">
           
             <img src="../img/works/thumbs/2025-06-29.webp" alt="MKLフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 822">
-            <span class="zw-cap zw-mono"><span>MKL Party</span><span>06.29</span></span>
+            <span class="zw-cap zw-mono"><span>MKL Party</span><span>2025.06.29</span></span>
             
           
         </button>
@@ -602,7 +564,7 @@
                 aria-label="2025.06.21 鏡像異性体">
           
             <img src="../img/works/thumbs/2025-06-21-2.webp" alt="鏡像異性体 フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 569 / 804">
-            <span class="zw-cap zw-mono"><span>鏡像異性体</span><span>06.21</span></span>
+            <span class="zw-cap zw-mono"><span>鏡像異性体</span><span>2025.06.21</span></span>
             
           
         </button>
@@ -611,7 +573,7 @@
                 aria-label="2025.06.21 ぼかこみゅ！">
           
             <img src="../img/works/thumbs/2025-06-21.webp" alt="ぼかこみゅフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>ぼかこみゅ！</span><span>06.21</span></span>
+            <span class="zw-cap zw-mono"><span>ぼかこみゅ！</span><span>2025.06.21</span></span>
             
           
         </button>
@@ -620,7 +582,7 @@
                 aria-label="2025.05.31 VOCALOID 治安倶楽部">
           
             <img src="../img/works/thumbs/2025-05-31.webp" alt="ボカ治安 フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 829">
-            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部</span><span>05.31</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部</span><span>2025.05.31</span></span>
             
           
         </button>
@@ -629,7 +591,7 @@
                 aria-label="2025.04.05 TRY FORCE vol.4.0">
           
             <img src="../img/works/thumbs/2025-04-05.webp" alt="t4v3-0フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1536 / 2048">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.4.0</span><span>04.05</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.4.0</span><span>2025.04.05</span></span>
             
           
         </button>
@@ -638,7 +600,7 @@
                 aria-label="2025.03.22 4 GROOVE vol.3 -1st Aniv.-">
           
             <img src="../img/works/thumbs/2025-03-22.webp" alt="4groove v3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>4 GROOVE vol.3 -1st Aniv.-</span><span>03.22</span></span>
+            <span class="zw-cap zw-mono"><span>4 GROOVE vol.3 -1st Aniv.-</span><span>2025.03.22</span></span>
             
           
         </button>
@@ -647,7 +609,7 @@
                 aria-label="2025.03.16 TRY FORCE vol.3.0">
           
             <img src="../img/works/thumbs/2025-03-16.webp" alt="t4v3-0フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1536 / 2048">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.3.0</span><span>03.16</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.3.0</span><span>2025.03.16</span></span>
             
           
         </button>
@@ -656,7 +618,7 @@
                 aria-label="2025.03.15 MAGICA高崎 -Reboot-">
           
             <img src="../img/works/thumbs/2025-03-15.webp" alt="ルカファン フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1536 / 2048">
-            <span class="zw-cap zw-mono"><span>MAGICA高崎 -Reboot-</span><span>03.15</span></span>
+            <span class="zw-cap zw-mono"><span>MAGICA高崎 -Reboot-</span><span>2025.03.15</span></span>
             
           
         </button>
@@ -665,7 +627,7 @@
                 aria-label="2025.03.09 ThkU39">
           
             <img src="../img/works/thumbs/2025-03-09.webp" alt="ThkU39フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>ThkU39</span><span>03.09</span></span>
+            <span class="zw-cap zw-mono"><span>ThkU39</span><span>2025.03.09</span></span>
             
           
         </button>
@@ -674,7 +636,7 @@
                 aria-label="2025.03.01 Color-full VOCALOID vol.03">
           
             <img src="../img/works/thumbs/2025-03-01.webp" alt="カラボカv.3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1076 / 1522">
-            <span class="zw-cap zw-mono"><span>Color-full VOCALOID vol.03</span><span>03.01</span></span>
+            <span class="zw-cap zw-mono"><span>Color-full VOCALOID vol.03</span><span>2025.03.01</span></span>
             
           
         </button>
@@ -683,7 +645,7 @@
                 aria-label="2025.02.24 KEYITEM FES">
           
             <img src="../img/works/thumbs/2025-02-24.webp" alt="keyitem fesフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 829">
-            <span class="zw-cap zw-mono"><span>KEYITEM FES</span><span>02.24</span></span>
+            <span class="zw-cap zw-mono"><span>KEYITEM FES</span><span>2025.02.24</span></span>
             
           
         </button>
@@ -692,7 +654,7 @@
                 aria-label="2025.02.23 VOCALOID:UNION STAR">
           
             <img src="../img/works/thumbs/2025-02-23.webp" alt="ボカユニ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>VOCALOID:UNION STAR</span><span>02.23</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID:UNION STAR</span><span>2025.02.23</span></span>
             
           
         </button>
@@ -701,7 +663,7 @@
                 aria-label="2025.02.15 ぼかいと">
           
             <img src="../img/works/thumbs/2025-02-15.webp" alt="ぼかいと フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>ぼかいと</span><span>02.15</span></span>
+            <span class="zw-cap zw-mono"><span>ぼかいと</span><span>2025.02.15</span></span>
             
           
         </button>
@@ -710,7 +672,7 @@
                 aria-label="2025.02.09 TRY FORCE vol.2.0">
           
             <img src="../img/works/thumbs/2025-02-09.webp" alt="t4v2-0フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.2.0</span><span>02.09</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.2.0</span><span>2025.02.09</span></span>
             
           
         </button>
@@ -719,7 +681,7 @@
                 aria-label="2025.01.19 ルカファンタジア リユニオン">
           
             <img src="../img/works/thumbs/2025-01-19.webp" alt="ルカファン フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 842 / 1191">
-            <span class="zw-cap zw-mono"><span>ルカファンタジア リユニオン</span><span>01.19</span></span>
+            <span class="zw-cap zw-mono"><span>ルカファンタジア リユニオン</span><span>2025.01.19</span></span>
             
           
         </button>
@@ -728,25 +690,16 @@
                 aria-label="2025.01.11 TRY FORCE vol.1.0">
           
             <img src="../img/works/thumbs/2025-01-11.webp" alt="t4v1-0フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1536 / 2048">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.1.0</span><span>01.11</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.1.0</span><span>2025.01.11</span></span>
             
           
         </button>
-      
-      </div>
-      </section>
-    
-      <section class="zw-group">
-      
-        <div class="zw-year" id="y2024"><span>2024</span></div>
-      
-      <div class="zw-grid">
       
         <button type="button" class="zw-tile is-past" data-i="28"
                 aria-label="2024.12.22 VOCAMONO">
           
             <img src="../img/works/thumbs/2024-12-22.webp" alt="ボカモノ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 540 / 808">
-            <span class="zw-cap zw-mono"><span>VOCAMONO</span><span>12.22</span></span>
+            <span class="zw-cap zw-mono"><span>VOCAMONO</span><span>2024.12.22</span></span>
             
           
         </button>
@@ -755,7 +708,7 @@
                 aria-label="2024.12.21 TRY FORCE vol.0.0">
           
             <img src="../img/works/thumbs/2024-12-21.webp" alt="t4v0-0フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1536 / 2048">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.0.0</span><span>12.21</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.0.0</span><span>2024.12.21</span></span>
             
           
         </button>
@@ -764,7 +717,7 @@
                 aria-label="2024.12.14 ボーカロイド流体力学">
           
             <img src="../img/works/thumbs/2024-12-14.webp" alt="ボカ流体 フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1467 / 2048">
-            <span class="zw-cap zw-mono"><span>ボーカロイド流体力学</span><span>12.14</span></span>
+            <span class="zw-cap zw-mono"><span>ボーカロイド流体力学</span><span>2024.12.14</span></span>
             
           
         </button>
@@ -773,7 +726,7 @@
                 aria-label="2024.12.07 ボカロ曲聴きながら食うピザが1番美味い">
           
             <img src="../img/works/thumbs/2024-12-07.webp" alt="ボカピザ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1533 / 2048">
-            <span class="zw-cap zw-mono"><span>ボカロ曲聴きながら食うピザが1番美味い</span><span>12.07</span></span>
+            <span class="zw-cap zw-mono"><span>ボカロ曲聴きながら食うピザが1番美味い</span><span>2024.12.07</span></span>
             
           
         </button>
@@ -782,7 +735,7 @@
                 aria-label="2024.11.17 ミク廃の集い">
           
             <img src="../img/works/thumbs/2024-11-17.webp" alt="ミクハイ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 486 / 680">
-            <span class="zw-cap zw-mono"><span>ミク廃の集い</span><span>11.17</span></span>
+            <span class="zw-cap zw-mono"><span>ミク廃の集い</span><span>2024.11.17</span></span>
             
           
         </button>
@@ -791,7 +744,7 @@
                 aria-label="2024.11.16 VOCALOID 治安倶楽部">
           
             <img src="../img/works/thumbs/2024-11-16.webp" alt="ボカ治安 フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部</span><span>11.16</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID 治安倶楽部</span><span>2024.11.16</span></span>
             
           
         </button>
@@ -800,7 +753,7 @@
                 aria-label="2024.10.20 HELLO, VOCALOID vol.9">
           
             <img src="../img/works/thumbs/2024-10-20.webp" alt="ハロボカv9フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.9</span><span>10.20</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.9</span><span>2024.10.20</span></span>
             
           
         </button>
@@ -809,7 +762,7 @@
                 aria-label="2024.09.22 HELLO, VOCALOID vol.8">
           
             <img src="../img/works/thumbs/2024-09-22.webp" alt="ハロボカv8フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.8</span><span>09.22</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.8</span><span>2024.09.22</span></span>
             
           
         </button>
@@ -818,7 +771,7 @@
                 aria-label="2024.09.07 竜胆の集い">
           
             <img src="../img/works/thumbs/2024-09-07.webp" alt="竜胆の集いフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>竜胆の集い</span><span>09.07</span></span>
+            <span class="zw-cap zw-mono"><span>竜胆の集い</span><span>2024.09.07</span></span>
             
           
         </button>
@@ -827,7 +780,7 @@
                 aria-label="2024.08.12 ミクストリーム vol.3">
           
             <img src="../img/works/thumbs/2024-08-12.webp" alt="ミクストvol.3フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>ミクストリーム vol.3</span><span>08.12</span></span>
+            <span class="zw-cap zw-mono"><span>ミクストリーム vol.3</span><span>2024.08.12</span></span>
             
           
         </button>
@@ -836,7 +789,7 @@
                 aria-label="2024.07.28 Road to ボカチバ">
           
             <img src="../img/works/thumbs/2024-07-28.webp" alt="ロトボカ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 398">
-            <span class="zw-cap zw-mono"><span>Road to ボカチバ</span><span>07.28</span></span>
+            <span class="zw-cap zw-mono"><span>Road to ボカチバ</span><span>2024.07.28</span></span>
             
           
         </button>
@@ -845,7 +798,7 @@
                 aria-label="2024.07.27 鏡像異性体">
           
             <img src="../img/works/thumbs/2024-07-27.webp" alt="キョイセ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 825">
-            <span class="zw-cap zw-mono"><span>鏡像異性体</span><span>07.27</span></span>
+            <span class="zw-cap zw-mono"><span>鏡像異性体</span><span>2024.07.27</span></span>
             
           
         </button>
@@ -854,7 +807,7 @@
                 aria-label="2024.07.26 tonight!">
           
             <img src="../img/works/thumbs/2024-07-26.webp" alt="to night フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 596 / 842">
-            <span class="zw-cap zw-mono"><span>tonight!</span><span>07.26</span></span>
+            <span class="zw-cap zw-mono"><span>tonight!</span><span>2024.07.26</span></span>
             
           
         </button>
@@ -863,7 +816,7 @@
                 aria-label="2024.07.21 TRY FORCE vol.1">
           
             <img src="../img/works/thumbs/2024-07-21.webp" alt="try04v1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 595 / 842">
-            <span class="zw-cap zw-mono"><span>TRY FORCE vol.1</span><span>07.21</span></span>
+            <span class="zw-cap zw-mono"><span>TRY FORCE vol.1</span><span>2024.07.21</span></span>
             
           
         </button>
@@ -872,7 +825,7 @@
                 aria-label="2024.07.13 VOCALOID CONTEXT">
           
             <img src="../img/works/thumbs/2024-07-13-2.webp" alt="ボカ脈 フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 781">
-            <span class="zw-cap zw-mono"><span>VOCALOID CONTEXT</span><span>07.13</span></span>
+            <span class="zw-cap zw-mono"><span>VOCALOID CONTEXT</span><span>2024.07.13</span></span>
             
           
         </button>
@@ -881,7 +834,7 @@
                 aria-label="2024.07.13 Presto VOCALOID">
           
             <img src="../img/works/thumbs/2024-07-13.webp" alt="プレボカ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 820">
-            <span class="zw-cap zw-mono"><span>Presto VOCALOID</span><span>07.13</span></span>
+            <span class="zw-cap zw-mono"><span>Presto VOCALOID</span><span>2024.07.13</span></span>
             
           
         </button>
@@ -890,7 +843,7 @@
                 aria-label="2024.07.06 Color-full VOCALOID vol.1">
           
             <img src="../img/works/thumbs/2024-07-06.webp" alt="カラボカvol.1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1076 / 1522">
-            <span class="zw-cap zw-mono"><span>Color-full VOCALOID vol.1</span><span>07.06</span></span>
+            <span class="zw-cap zw-mono"><span>Color-full VOCALOID vol.1</span><span>2024.07.06</span></span>
             
           
         </button>
@@ -899,7 +852,7 @@
                 aria-label="2024.06.29 39&#39;s Luminous">
           
             <img src="../img/works/thumbs/2024-06-29.webp" alt="ミクルミ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>39&#39;s Luminous</span><span>06.29</span></span>
+            <span class="zw-cap zw-mono"><span>39&#39;s Luminous</span><span>2024.06.29</span></span>
             
           
         </button>
@@ -908,7 +861,7 @@
                 aria-label="2024.05.26 ルカファンタジア アフターDJイベ">
           
             <img src="../img/works/thumbs/2024-05-26-2.webp" alt="ルカファン アフターDJ告知画像" loading="lazy" decoding="async" style="aspect-ratio: 1200 / 721">
-            <span class="zw-cap zw-mono"><span>ルカファンタジア アフターDJイベ</span><span>05.26</span></span>
+            <span class="zw-cap zw-mono"><span>ルカファンタジア アフターDJイベ</span><span>2024.05.26</span></span>
             
           
         </button>
@@ -917,7 +870,7 @@
                 aria-label="2024.05.26 ルカファンタジア">
           
             <img src="../img/works/thumbs/2024-05-26.webp" alt="ルカファン フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 842 / 1191">
-            <span class="zw-cap zw-mono"><span>ルカファンタジア</span><span>05.26</span></span>
+            <span class="zw-cap zw-mono"><span>ルカファンタジア</span><span>2024.05.26</span></span>
             
           
         </button>
@@ -926,7 +879,7 @@
                 aria-label="2024.04.06 Try Force -Front Line- vol.1">
           
             <img src="../img/works/thumbs/2024-04-06.webp" alt="t4fl vol1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>Try Force -Front Line- vol.1</span><span>04.06</span></span>
+            <span class="zw-cap zw-mono"><span>Try Force -Front Line- vol.1</span><span>2024.04.06</span></span>
             
           
         </button>
@@ -935,7 +888,7 @@
                 aria-label="2024.04.01 Raise our Flag">
           
             <img src="../img/works/thumbs/2024-04-01.webp" alt="RoFフライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 829">
-            <span class="zw-cap zw-mono"><span>Raise our Flag</span><span>04.01</span></span>
+            <span class="zw-cap zw-mono"><span>Raise our Flag</span><span>2024.04.01</span></span>
             
           
         </button>
@@ -944,7 +897,7 @@
                 aria-label="2024.03.03 MIKU&#39;s TAPE">
           
             <img src="../img/works/thumbs/2024-03-03.webp" alt="ミクタペ フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>MIKU&#39;s TAPE</span><span>03.03</span></span>
+            <span class="zw-cap zw-mono"><span>MIKU&#39;s TAPE</span><span>2024.03.03</span></span>
             
           
         </button>
@@ -953,7 +906,7 @@
                 aria-label="2024.03.02 Try Force -Boot Camp- vol.3">
           
             <img src="../img/works/thumbs/2024-03-02-2.webp" alt="t4bc vol2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.3</span><span>03.02</span></span>
+            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.3</span><span>2024.03.02</span></span>
             
           
         </button>
@@ -962,7 +915,7 @@
                 aria-label="2024.03.02 Try Force -Boot Camp- vol.2">
           
             <img src="../img/works/thumbs/2024-03-02.webp" alt="t4bc vol2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.2</span><span>03.02</span></span>
+            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.2</span><span>2024.03.02</span></span>
             
           
         </button>
@@ -971,7 +924,7 @@
                 aria-label="2024.02.23 HELLO, VOCALOID vol.4">
           
             <img src="../img/works/thumbs/2024-02-23.webp" alt="ハロボカvol.4フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 828">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.4</span><span>02.23</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.4</span><span>2024.02.23</span></span>
             
           
         </button>
@@ -980,7 +933,7 @@
                 aria-label="2024.02.12 ボカラフ vol.2">
           
             <img src="../img/works/thumbs/2024-02-12.webp" alt="ボカラフvol.2フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>ボカラフ vol.2</span><span>02.12</span></span>
+            <span class="zw-cap zw-mono"><span>ボカラフ vol.2</span><span>2024.02.12</span></span>
             
           
         </button>
@@ -989,31 +942,22 @@
                 aria-label="2024.02.03 Try Force -Boot Camp- vol.1">
           
             <img src="../img/works/thumbs/2024-02-03.webp" alt="t4bc vol1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 1448 / 2048">
-            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.1</span><span>02.03</span></span>
+            <span class="zw-cap zw-mono"><span>Try Force -Boot Camp- vol.1</span><span>2024.02.03</span></span>
             
           
         </button>
-      
-      </div>
-      </section>
-    
-      <section class="zw-group">
-      
-        <div class="zw-year" id="y2023"><span>2023</span></div>
-      
-      <div class="zw-grid">
       
         <button type="button" class="zw-tile is-past" data-i="0"
                 aria-label="2023.08.18 HELLO, VOCALOID vol.1">
           
             <img src="../img/works/thumbs/2023-08-18.webp" alt="ハロボカvol.1フライヤー" loading="lazy" decoding="async" style="aspect-ratio: 586 / 811">
-            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.1</span><span>08.18</span></span>
+            <span class="zw-cap zw-mono"><span>HELLO, VOCALOID vol.1</span><span>2023.08.18</span></span>
             
           
         </button>
       
       </div>
-      </section>
+    </section>
     
   </main>
 

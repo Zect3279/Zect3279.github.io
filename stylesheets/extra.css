@@ -1,0 +1,29 @@
+/* ===== サイト共通の配色：CALM BLUE（白地 + 暗い青 / 明るめの青） =====
+   Material の色変数を上書きする。works ページ（docs/assets/works/works.css）も
+   この変数を参照しているので、ここを変えればサイト全体が追従する。 */
+:root,
+[data-md-color-scheme] {
+  /* 地 */
+  --md-default-bg-color: #FFFFFF;
+
+  /* 文字：ink / muted / 補助 / 区切り線 */
+  --md-default-fg-color: #101828;
+  --md-default-fg-color--light: #667085;
+  --md-default-fg-color--lighter: #98A2B3;
+  --md-default-fg-color--lightest: #E4E7EC;
+
+  /* 暗い青（ヘッダーの帯など広い面・操作部品） */
+  --md-primary-fg-color: #1A2C99;
+  --md-primary-fg-color--light: #3048E0;
+  --md-primary-fg-color--dark: #121F6E;
+  --md-primary-bg-color: #FFFFFF;
+  --md-primary-bg-color--light: rgba(255, 255, 255, .7);
+
+  /* ホバー・フォーカス：暗い青 */
+  --md-accent-fg-color: #1A2C99;
+  --md-accent-fg-color--transparent: #3048E01A;
+  --md-accent-bg-color: #FFFFFF;
+
+  /* リンク：明るめの青（小さな印） */
+  --md-typeset-a-color: #3048E0;
+}
