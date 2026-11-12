@@ -673,8 +673,20 @@
   flyer: /img/works/2026-10-04.jpg
   flyer_alt: ボカスシ フライヤー
 - date: 2026-10-30
-- date: 2026-10-30
   end: 2026-11-01
+- date: 2026-10-30
+  title: Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』
+  kind: live
+  venue: clubasia
+  venue_url: https://clubasia.jp/
+  organizer: Hellzapoppin'
+  organizer_url: https://x.com/Hellzapoppin_JP
+  tickets:
+  - url: https://ticketdive.com/event/hellzapoppin_FULLHOUSE
+  role: VJ
+  flyer: /img/works/2026-10-30.jpg
+  flyer_alt: Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』 フライヤー
+  issue: 2
 - date: 2026-11-07
   title: SENA FES ~10th Anniversary Party~
   kind: club
