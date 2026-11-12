@@ -50,7 +50,7 @@ body { background-color: var(--md-default-bg-color) !important; }
 .zw-mdheader .zw-toggle button:focus-visible { outline: 2px solid var(--md-primary-bg-color); outline-offset: 2px; }
 
 /* ---- WALL ---- */
-.zw-wall { --zw-gap: 8px; padding: 8px 8px 64px; }
+.zw-wall { --zw-gap: 8px; padding: 32px 8px 64px; }
 /* 行ごとに左→右で新しい順。JS が有効なら縦横比を見て列に詰める（石垣状） */
 .zw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--zw-gap); align-items: start; }
 .zw-grid.is-masonry { display: flex; align-items: flex-start; }
@@ -75,7 +75,7 @@ body { background-color: var(--md-default-bg-color) !important; }
   .zw-mdheader .md-header__title { margin-right: .4rem; }
   .zw-mdheader .md-header__topic { font-size: .75rem; }
   .zw-mdheader .zw-toggle button { padding: 0 .5rem; font-size: 10px; }
-  .zw-wall { --zw-gap: 4px; padding: 4px 4px 48px; }
+  .zw-wall { --zw-gap: 4px; padding: 16px 4px 48px; }
   .zw-grid { grid-template-columns: repeat(3, 1fr); }
   .zw-year { padding-top: 32px; }
   .zw-year span { font-size: 84px; }
