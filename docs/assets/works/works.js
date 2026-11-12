@@ -71,6 +71,15 @@
         years: [...ringEl.querySelectorAll(".zw-years button")],
       };
       cards = [...ringEl.querySelectorAll(".zw-rc")];
+      // フライヤーは元の縦横比のまま 3:4 の枠に収める
+      cards.forEach((c) => {
+        const img = c.querySelector("img");
+        const m = img && (items[+c.dataset.i].ar || "").match(/([\d.]+)\s*\/\s*([\d.]+)/);
+        if (!m) return;
+        const r = (+m[1] / +m[2]) / (3 / 4); // >1 なら横長寄り
+        img.style.width = r > 1 ? "100%" : (r * 100).toFixed(2) + "%";
+        img.style.height = r > 1 ? (100 / r).toFixed(2) + "%" : "100%";
+      });
       cards.forEach((c) => c.addEventListener("click", () => {
         if (moved) return;
         const i = +c.dataset.i;
@@ -290,7 +299,7 @@
       return m ? +m[2] / +m[1] : 4 / 3;
     };
     const cols = () => {
-      if (innerWidth <= 600) return 2;
+      if (innerWidth <= 600) return 3;
       const gap = 8, w = wallEl.clientWidth - 16;
       return Math.max(1, Math.min(5, Math.floor((w + gap) / (220 + gap))));
     };

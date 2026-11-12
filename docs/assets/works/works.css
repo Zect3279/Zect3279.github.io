@@ -66,13 +66,15 @@ html, body { background: var(--zw-ground) !important; }
   .zw-toggle { margin-left: auto; }
   .zw-toggle button { height: 32px; padding: 0 12px; font-size: 10px; }
   .zw-wall { --zw-gap: 4px; padding: 0 4px 48px; }
-  .zw-grid { grid-template-columns: repeat(2, 1fr); }
+  .zw-grid { grid-template-columns: repeat(3, 1fr); }
   .zw-year { padding-top: 32px; }
   .zw-year span { font-size: 84px; }
   .zw-cap { display: none; }
-  .zw-card { padding: 10px; }
-  .zw-card-t { font-size: 22px; }
-  .zw-card-d { font-size: 48px; }
+  .zw-card { padding: 8px; }
+  .zw-card .zw-mono { font-size: 8px; letter-spacing: .06em; }
+  .zw-card-t { font-size: 15px; }
+  .zw-card-d { font-size: 32px; }
+  .zw-next { top: 4px; left: 4px; padding: 3px 5px; font-size: 8px; letter-spacing: .06em; }
 }
 
 /* ---- RING ---- */
@@ -82,8 +84,8 @@ html, body { background: var(--zw-ground) !important; }
 .zw-stage { position: absolute; inset: 0; perspective: var(--zw-persp, 1700px); perspective-origin: 50% 42%; transition: transform .7s var(--zw-ease), filter .7s, opacity .7s; }
 .zw-scene { position: absolute; left: 50%; top: 45%; width: 0; height: 0; transform-style: preserve-3d; }
 .zw-rc { position: absolute; left: calc(var(--zw-cw) / -2); top: calc(var(--zw-ch) / -2); width: var(--zw-cw); height: var(--zw-ch); display: block; }
-.zw-rc { text-align: left; }
-.zw-rc img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.zw-rc { text-align: left; display: flex; align-items: center; justify-content: center; }
+.zw-rc img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .zw-rc img, .zw-rc .zw-card { box-shadow: 0 20px 50px rgba(0,0,0,.18); }
 .zw-rc .zw-card { width: 100%; height: 100%; }
 .zw-rc img { background: rgba(255,255,255,.4); -webkit-user-drag: none; }
