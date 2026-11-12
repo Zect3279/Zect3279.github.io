@@ -677,10 +677,48 @@
   flyer: /img/works/2026-10-04.jpg
   flyer_alt: ボカスシ フライヤー
 - date: 2026-10-30
-- date: 2026-10-30
   end: 2026-11-01
+- date: 2026-10-30
+  title: Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』
+  kind: live
+  venue: clubasia
+  venue_url: https://clubasia.jp/
+  organizer: Hellzapoppin'
+  organizer_url: https://x.com/Hellzapoppin_JP
+  tickets:
+  - url: https://ticketdive.com/event/hellzapoppin_FULLHOUSE
+  role: VJ
+  flyer: /img/works/2026-10-30.jpg
+  flyer_alt: Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』 フライヤー
+  issue: 2
 - date: 2026-11-07
+  title: SENA FES ~10th Anniversary Party~
+  kind: club
+  venue: 六本木CUBE
+  tickets:
+  - url: https://tiget.net/events/530499
+  flyer: /img/works/2026-11-07.jpg
+  flyer_alt: SENA FES ~10th Anniversary Party~ フライヤー
+  issue: 1
 - date: 2026-11-23
+  title: コラボカ2026
+  kind: club
+  venue: アニソンDJカフェ・バー雷神
+  venue_url: http://www.raizeen.com/
+  tickets:
+  - url: https://twipla.jp/events/744635
+  flyer: /img/works/2026-11-23.jpg
+  flyer_alt: コラボカ2026 フライヤー
+  issue: 3
+- date: 2026-12-30
+  kind: club
+  issue: 4
+- date: 2027-01-30
+  kind: club
+  issue: 5
 - date: 2027-02-19
   end: 2027-02-21
+- date: 2027-03-27
+  kind: club
+  issue: 6
 - date: 2027-05-02
