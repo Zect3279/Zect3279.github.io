@@ -1,0 +1,35 @@
+{#- works ページ用の Material ヘッダー（partials/header.html をもとに改変）
+    - サイト名の代わりに「WORKS — 件数」を出す
+    - 検索はタイトルのすぐ右に寄せ、右端に WALL / RING の切り替えを置く -#}
+<header class="md-header md-header--shadow zw-mdheader" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="md-header__title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">WORKS — {{ works.count }}</span>
+        </div>
+      </div>
+    </div>
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="md-header__button md-icon" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+    <nav class="zw-toggle" aria-label="表示切替">
+      <button type="button" data-mode="wall" aria-pressed="true">WALL</button>
+      <button type="button" data-mode="ring" aria-pressed="false">RING</button>
+    </nav>
+  </nav>
+</header>

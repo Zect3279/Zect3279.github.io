@@ -23,20 +23,13 @@
   <link rel="stylesheet" href="{{ 'assets/works/works.css' | url }}">
 {% endblock %}
 
+{% block header %}{% include "works-header.html" %}{% endblock %}
 {% block tabs %}{% endblock %}
 {% block site_nav %}{% endblock %}
 {% block footer %}{% endblock %}
 
 {% block container %}
 <div class="zw" id="zw" data-mode="wall">
-
-  <header class="zw-head">
-    <span class="zw-count zw-mono">WORKS — {{ works.count }}</span>
-    <nav class="zw-toggle" aria-label="表示切替">
-      <button type="button" data-mode="wall" aria-pressed="true">WALL</button>
-      <button type="button" data-mode="ring" aria-pressed="false">RING</button>
-    </nav>
-  </header>
 
   <h1 class="zw-title">VJ Works</h1>
 
