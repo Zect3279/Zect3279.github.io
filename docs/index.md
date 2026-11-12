@@ -13,11 +13,11 @@ hide:
 [Linktree](https://linktr.ee/zect3279 "いろんなリンク集")
 
 ## Works
-- VJ
+- <a href="/works/" rel="my works"><strong>VJ</strong></a>
 - Web
 - Unity
 
-<a href="/works/" rel="my works">＜＜ VJs ＞＞</a>
+
 
 ## Organizations
 - 【Try Force】([twitter](https://twitter.com/Try04_squad))
@@ -35,6 +35,7 @@ hide:
 - 【ZDK】
 - 【UNTIL.】
 - 【WORD編集部】
+- 【openfab創房】([twitter](https://twitter.com/openfab_sobo))
 - 【D-Techs】([github](https://github.com/Diverse-Techs-Circle))
 
 ## Members
