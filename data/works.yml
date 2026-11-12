@@ -666,6 +666,8 @@
   venue: 筑波大学 3A209
   tickets:
   - url: https://until-tsukuba.connpass.com/event/401509/
+  flyer: /img/works/2026-10-03.jpg
+  flyer_alt: 'UNTIL. LT #0x0Bポスター'
 - date: 2026-10-04
   title: ボカスシ VOCASUSHI
   kind: club
