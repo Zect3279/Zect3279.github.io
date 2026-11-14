@@ -710,6 +710,9 @@
   flyer: /img/works/2026-11-23.jpg
   flyer_alt: コラボカ2026 フライヤー
   issue: 3
+- date: 2026-12-12
+  kind: club
+  issue: 8
 - date: 2026-12-30
   kind: club
   issue: 4
@@ -724,3 +727,6 @@
   kind: club
   issue: 6
 - date: 2027-05-02
+- date: 2027-07-10
+  kind: club
+  issue: 7
