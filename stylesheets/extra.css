@@ -27,3 +27,15 @@
   /* リンク：明るめの青（小さな印） */
   --md-typeset-a-color: #3048E0;
 }
+
+/* ===== ナビゲーションのないページではハンバーガーを出さない =====
+   トップ（hide: navigation）と works（site_nav を空にしている）はドロワーが空になるので、
+   スマホ幅でもハンバーガーを隠し、代わりにロゴ（ホームへのリンク）を出す。 */
+@media screen and (max-width: 76.234375em) {
+  body:not(:has(.md-sidebar--primary:not([hidden]))) .md-header__button[for="__drawer"] {
+    display: none;
+  }
+  body:not(:has(.md-sidebar--primary:not([hidden]))) .md-header__button.md-logo {
+    display: inline-block;
+  }
+}
