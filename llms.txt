@@ -1,0 +1,113 @@
+# Zect（Zscode）
+
+> Zect は、ボカロ系クラブイベントを中心に活動する日本の VJ・エンジニア。音と映像の研究開発、ライブ制作・運営、DJ イベント運営を行い、VJ ソフト「ZVJ」や Web ブラウザで動く VJ ツールなどを開発している。Zscode（zscode.net）は Zect の個人サイト。
+
+- 活動名: Zect（サイト名・屋号: Zscode）
+- 肩書き: VJ / エンジニア
+- 活動: クラブイベント・ライブでの VJ（映像演出）、ライブ制作・運営、DJ イベント運営、音と映像の研究開発
+- 使用言語・技術: Python, C#, Unity（Shader 含む）, JavaScript, Java, HTML/CSS, MySQL, PostgreSQL
+
+## ページ
+
+- [トップ / プロフィール](https://zscode.net/): プロフィール、所属団体、開発中・過去のプロジェクト一覧
+- [VJ Works](https://zscode.net/works/): VJ 出演履歴と出演予定（日付・イベント名・会場・フライヤー）
+
+## 制作物
+
+- [ZVJ](https://zect.booth.pm/items/4976418): 簡単に VJ ができるソフト（BOOTH で頒布）
+- [WebGL VJ](https://webgl.zscode.net): Web ブラウザで VJ ができるソフト
+- AuraLink: ライブの映像オペレーション用ソフト
+
+## リンク
+
+- [GitHub](https://github.com/Zect3279)
+- [Linktree](https://linktr.ee/zect3279)
+- [BOOTH](https://zect.booth.pm/)
+
+## VJ 出演履歴（新しい順）
+
+- 2027-02-19〜2027-02-21 MAGICA TAKASAKI β @ 群馬 新町文化ホール（予定）
+- 2026-11-23 コラボカ2026 @ アニソンDJカフェ・バー雷神
+- 2026-11-07 SENA FES ~10th Anniversary Party~ @ 六本木CUBE
+- 2026-10-30 Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』 @ clubasia — VJ
+- 2026-10-04 ボカスシ VOCASUSHI @ 渋谷 PUBLICPUBLIC
+- 2026-10-03 UNTIL. LT #0x0B @ 筑波大学 3A209
+- 2026-08-09 HELLO,VOCALOID Vol.17 @ 六本木CUBE
+- 2026-07-25 re:master-LT#1 @ 筑波大学 クリエイティブメディアラボ
+- 2026-07-18 Imag(in)e @ 筑波大学 未来社会デザイン棟
+- 2026-07-11 【I.C.U+】in AKIHABARA @ 秋葉原 雷神
+- 2026-07-05 M_arch Vol.3 @ 渋谷 R Lounge 7F
+- 2026-06-07 VOCALOID 治安倶楽部 Vol.05 @ 渋谷 R Lounge
+- 2026-06-06 VOCALOID Crossing Vol.53 @ nagomix
+- 2026-05-31 Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ- @ 浦安市文化会館 — 映像オペレーション
+- 2026-05-30 はじまりのUTA vol.3 @ nagomix
+- 2026-05-24 HELLO, VOCALOID vol.16 @ 新宿 azito
+- 2026-05-15 tonight! @ aNTENA
+- 2026-05-08 アキバ治安倶楽部 Vol.01 @ アンセムアキバ
+- 2026-04-29 VOCAMONO vol.2 @ 新宿 azito
+- 2026-04-25 GSK FES 2026 @ 筑波大学 未来社会デザイン棟 — VJ、音/映像オペレーション
+- 2026-04-11 Butler Service 2026 @ 渋谷 R Lounge
+- 2026-04-04 ぼかこみゅ！ Vol.03 @ 渋谷 R Lounge
+- 2026-03-28 VOCALOID:UNION Future @ CIRCUS TOKYO
+- 2026-03-23 ボカミュージアム 〜プラネタリウム〜 @ 西新井・ギャラクシティ2F まるちたいけんドーム
+- 2026-02-15 M_arch Vol.2 @ 渋谷 R Lounge
+- 2026-01-04 HELLO, VOCALOID vol.14 @ 新宿 azito
+- 2025-12-21 I.C.U @ 新宿 azito
+- 2025-11-22 VOCALOID 治安倶楽部 1st Anniversary @ 六本木CUBE
+- 2025-11-08 VOCALOID Crossing Vol.49 @ nagomix
+- 2025-10-04 ぼかこみゅ！ Vol.02 @ 渋谷 R Lounge
+- 2025-09-27 Future Basser @ bar granma MITO
+- 2025-09-22 ボカミュージアム ～プロローグ～ @ nagomix
+- 2025-09-14 ボカブラックvol.3 @ 阿佐ヶ谷 drift
+- 2025-09-06 VOCA_Tetra @ なんば MILULARI Delight
+- 2025-08-17 ボカ流し @ 秋葉原 雷神 & BECK
+- 2025-08-02 ボカブキ 1st Anniversary @ 新宿 motion
+- 2025-07-27 HELLO, VOCALOID vol.12 @ Asakusa Stella
+- 2025-07-25 ボカ地雷 @ 新宿 motion
+- 2025-07-21 M_arch Vol.1 @ 渋谷 R Lounge
+- 2025-07-05 まじまりのUTA @ nagomix
+- 2025-06-29 MKL Party @ 渋谷 R Lounge
+- 2025-06-21 ぼかこみゅ！ @ 渋谷 R Lounge
+- 2025-06-21 鏡像異性体 @ 新宿azito
+- 2025-05-31 VOCALOID 治安倶楽部 @ 新宿 motion
+- 2025-04-05 TRY FORCE vol.4.0 @ 御徒町KKP -> 新宿motion
+- 2025-03-22 4 GROOVE vol.3 -1st Aniv.- @ 六本木CUBE
+- 2025-03-16 TRY FORCE vol.3.0 @ ギルドネオ
+- 2025-03-15 MAGICA高崎 -Reboot- @ 群馬県 高崎市 新町文化ホール — 映像オペレーション
+- 2025-03-09 ThkU39 @ Bar Locntonte
+- 2025-03-01 Color-full VOCALOID vol.03 @ 新宿 azito
+- 2025-02-24 KEYITEM FES @ 渋谷 R Lounge
+- 2025-02-23 VOCALOID:UNION STAR @ CIRCUS TOKYO
+- 2025-02-15 ぼかいと @ 渋谷 R Lounge
+- 2025-02-09 TRY FORCE vol.2.0 @ Asakusa Stella
+- 2025-01-19 ルカファンタジア リユニオン @ 秋葉原エンタス — 音/映像オペレーション
+- 2025-01-11 TRY FORCE vol.1.0 @ 新宿 motion
+- 2024-12-22 VOCAMONO @ 新宿 azito
+- 2024-12-21 TRY FORCE vol.0.0 @ twitch live
+- 2024-12-14 ボーカロイド流体力学 @ 新宿 motion
+- 2024-12-07 ボカロ曲聴きながら食うピザが1番美味い @ PIZZA＆WINE CONA Bivi沼津店
+- 2024-11-17 ミク廃の集い @ 新宿 azito
+- 2024-11-16 VOCALOID 治安倶楽部 @ 新宿 motion
+- 2024-10-20 HELLO, VOCALOID vol.9 @ 新宿 azito
+- 2024-09-22 HELLO, VOCALOID vol.8 @ 新宿 azito
+- 2024-09-07 竜胆の集い @ 新宿 azito
+- 2024-08-12 ミクストリーム vol.3 @ music lounge 24/7
+- 2024-07-28 Road to ボカチバ @ Vocabar Melty
+- 2024-07-27 鏡像異性体 @ 新宿 azito
+- 2024-07-26 tonight! @ Bar FROG
+- 2024-07-21 TRY FORCE vol.1 @ 秋葉原MOGRA
+- 2024-07-13 Presto VOCALOID @ Asakusa Stella
+- 2024-07-13 VOCALOID CONTEXT @ Cafe BAr LIVRE
+- 2024-07-06 Color-full VOCALOID vol.1 @ 新宿 azito
+- 2024-06-29 39's Luminous @ 渋谷 WOMB LOUNGE
+- 2024-05-26 ルカファンタジア @ 埼玉県県民活動総合センター — 映像オペレーション
+- 2024-05-26 ルカファンタジア アフターDJイベ @ 埼玉県県民活動総合センター
+- 2024-04-06 Try Force -Front Line- vol.1 @ twitch live
+- 2024-04-01 Raise our Flag @ 秋葉原 エンタス — 代表、映像オペレーション
+- 2024-03-03 MIKU's TAPE @ 東京外国語大学 プロメテウス・ホール — OWN LIVEとしてのリハーサル準備協力
+- 2024-03-02 Try Force -Boot Camp- vol.2 @ 04SQUAD
+- 2024-03-02 Try Force -Boot Camp- vol.3 @ 04SQUAD
+- 2024-02-23 HELLO, VOCALOID vol.4 @ 新宿 azito
+- 2024-02-12 ボカラフ vol.2 @ 音部屋 スクエア
+- 2024-02-03 Try Force -Boot Camp- vol.1 @ 04SQUAD
+- 2023-08-18 HELLO, VOCALOID vol.1 @ 新宿 azito
