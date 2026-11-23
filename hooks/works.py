@@ -3,6 +3,7 @@
 - 予定/過去はビルド時点の日付（JST）で振り分ける。過ぎた告知前の予定は出さない。
 - ローカルのフライヤーは Pillow があればサムネイル（webp）と縦横比・代表色を作る。
 - データに不備があればビルドを止める。
+- イベント・シリーズごとのページと、works.json / works.ics / feed.xml / llms*.txt を作る（tools/works_publish.py）。
 """
 from __future__ import annotations
 
@@ -16,6 +17,8 @@ from mkdocs.utils import get_relative_url
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import works_lib as W  # noqa: E402
+import works_publish as P  # noqa: E402
+from mkdocs.structure.files import File  # noqa: E402
 
 try:
     from PIL import Image
@@ -29,6 +32,7 @@ THUMB_DIR = "img/works/thumbs"
 THUMB_W = 640
 TEXT_KEYS = ["title", "venue", "venue_url", "organizer", "organizer_url", "role"]
 _thumb_jobs: list[tuple[Path, str]] = []
+_pub: dict = {}  # on_files で作った公開用データ（evs: イベント, series: シリーズ, by_slug）
 
 
 def validate(events: list[dict]) -> list[str]:
@@ -83,6 +87,7 @@ def mmdd(d: dt.date) -> str:
 
 
 def item(e: dict, i: int, today: dt.date, page_url: str) -> dict:
+    slug = _pub.get("slug_of", {}).get((e["date"], e.get("title") or ""))
     d, end = e["date"], e.get("end")
     rng = mmdd(d) + (f" – {mmdd(end)}" if end else "")
     status = "past" if (end or d) < today else ("upcoming" if W.announced(e) else "tba")
@@ -93,64 +98,63 @@ def item(e: dict, i: int, today: dt.date, page_url: str) -> dict:
         "tickets": e.get("tickets") or [],
         "alt": e.get("flyer_alt") or f"{e.get('title') or ''} フライヤー",
         **flyer(e.get("flyer") or "", page_url),
+        "page": get_relative_url(f"works/{slug}/", page_url) if slug else "",
     }
 
 
-def event_jsonld(events: list[dict], site: str, page_url: str) -> str:
-    """告知済みイベントを schema.org の MusicEvent として並べる（検索エンジン・LLM 向け）。"""
-    def absu(u: str) -> str:
-        return u if not u or u.startswith("http") else f"{site}/{u.lstrip('/')}"
-
-    performer = {"@id": f"{site}/#person"}
-    out = []
-    for e in events:
-        if not W.announced(e):
-            continue
-        ev = {
-            "@type": "MusicEvent",
-            "name": e["title"],
-            "startDate": e["date"].isoformat(),
-            "endDate": (e.get("end") or e["date"]).isoformat(),
-            "eventStatus": "https://schema.org/EventScheduled",
-            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-            "inLanguage": "ja",
-            "url": f"{site}/{page_url}",
-            "performer": performer,
-            "description": f"{e['title']}（{e.get('venue') or '会場未定'}）に Zect が {e.get('role') or 'VJ'} として出演。",
-        }
-        if e.get("venue"):
-            place = {"@type": "Place", "name": e["venue"], "address": {"@type": "PostalAddress", "addressCountry": "JP"}}
-            if e.get("venue_url"):
-                place["url"] = e["venue_url"]
-            ev["location"] = place
-        if e.get("organizer"):
-            org = {"@type": "Organization", "name": e["organizer"]}
-            if e.get("organizer_url"):
-                org["url"] = e["organizer_url"]
-            ev["organizer"] = org
-        if e.get("flyer"):
-            ev["image"] = absu(e["flyer"])
-        offers = [{"@type": "Offer", "url": t["url"]} for t in e.get("tickets") or [] if t.get("url")]
-        if offers:
-            ev["offers"] = offers
-        out.append(ev)
-    data = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Zect の VJ 出演一覧",
-        "numberOfItems": len(out),
-        "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": ev} for i, ev in enumerate(out)],
-    }
-    return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+def index_groups(evs: list[dict], page_url: str) -> dict:
+    """works ページ下部のテキスト索引（年ごと・新しい順）。クローラーと AI が全イベントへたどれるように。"""
+    years: dict[int, list[dict]] = {}
+    for e in reversed(evs):
+        years.setdefault(e["date"].year, []).append({
+            "title": e["title"], "md": mmdd(e["date"]), "venue": e.get("venue") or "",
+            "url": get_relative_url(f"works/{e['_slug']}/", page_url), "upcoming": e["_status"] == "upcoming"})
+    series = sorted(((m[0]["_series"], get_relative_url(f"works/series/{s}/", page_url), len(m))
+                     for s, m in _pub["series"].items()), key=lambda x: -x[2])
+    return {"years": [{"year": y, "items": it} for y, it in years.items()], "series": series}
 
 
-def on_page_context(context, page, config, nav):  # noqa: ARG001
-    if page.file.src_uri != "works.md":
-        return context
+def now_jst() -> dt.datetime:
+    return dt.datetime.now(JST)
+
+
+def on_files(files, config):
+    """イベント・シリーズのページを生成してサイトに足す。"""
     events = W.load()
     if errs := validate(events):
         raise PluginError("works.yml にエラーがあります:\n  " + "\n  ".join(errs))
-    today = dt.datetime.now(JST).date()
+    evs = P.prepare(events, now_jst().date())
+    groups = P.series_groups(evs)
+    _pub.update(evs=evs, series=groups, by_slug={e["_slug"]: e for e in evs},
+                slug_of={(e["date"], e["title"]): e["_slug"] for e in evs})
+    for i, e in enumerate(evs):
+        size = None
+        if (f := e.get("flyer")) and not f.startswith("http") and Image is not None:
+            try:
+                with Image.open(DOCS / f.lstrip("/")) as im:
+                    size = im.size
+            except Exception:  # noqa: BLE001
+                pass
+        content = P.event_page(e, evs[i - 1] if i else None, evs[i + 1] if i + 1 < len(evs) else None,
+                               groups.get(e.get("_series_slug"), []), size)
+        files.append(File.generated(config, f"works/{e['_slug']}.md", content=content))
+    for slug, members in groups.items():
+        files.append(File.generated(config, f"works/series/{slug}.md", content=P.series_page(slug, members)))
+    return files
+
+
+def on_page_context(context, page, config, nav):  # noqa: ARG001
+    site = config["site_url"].rstrip("/")
+    if slug := page.meta.get("event_slug"):
+        context["page_jsonld"] = P.event_page_ld(_pub["by_slug"][slug], site)
+        return context
+    if slug := page.meta.get("series_slug"):
+        context["page_jsonld"] = P.series_page_ld(slug, _pub["series"][slug], site)
+        return context
+    if page.file.src_uri != "works.md":
+        return context
+    events = W.load()
+    today = now_jst().date()
     _thumb_jobs.clear()
     shown = [e for e in sorted(events, key=lambda e: e["date"])
              if W.announced(e) or (e.get("end") or e["date"]) >= today]
@@ -164,32 +168,24 @@ def on_page_context(context, page, config, nav):  # noqa: ARG001
                              {"upcoming": False, "tiles": past}) if g["tiles"]],
         "count": len(past),
         "json": json.dumps(items, ensure_ascii=False).replace("</", "<\\/"),
-        "jsonld": event_jsonld(sorted(events, key=lambda e: e["date"], reverse=True),
-                               config["site_url"].rstrip("/"), page.url),
+        "jsonld": P.works_list_ld(_pub["evs"], site),
+        "index": index_groups(_pub["evs"], page.url),
     }
     return context
 
 
-def write_llms_txt(site: Path) -> None:
-    """docs/llms.txt の末尾に出演履歴を足す（LLM が出演情報を拾えるように）。"""
-    path = site / "llms.txt"
-    if not path.exists():
-        return
-    events = sorted((e for e in W.load() if W.announced(e)), key=lambda e: e["date"], reverse=True)
-    today = dt.datetime.now(JST).date()
-    lines = ["", "## VJ 出演履歴（新しい順）", ""]
-    for e in events:
-        d = e["date"].isoformat() + (f"〜{e['end'].isoformat()}" if e.get("end") else "")
-        tag = "（予定）" if (e.get("end") or e["date"]) >= today else ""
-        venue = f" @ {e['venue']}" if e.get("venue") else ""
-        role = f" — {e['role']}" if e.get("role") else ""
-        lines.append(f"- {d} {e['title']}{venue}{role}{tag}")
-    path.write_text(path.read_text(encoding="utf-8").rstrip() + "\n" + "\n".join(lines) + "\n", encoding="utf-8")
-
-
 def on_post_build(config):
     site = Path(config["site_dir"])
-    write_llms_txt(site)
+    url = config["site_url"].rstrip("/")
+    evs, now = _pub["evs"], now_jst()
+    (site / "works.json").write_text(P.works_json(evs, url, now), encoding="utf-8")
+    (site / "works.ics").write_text(P.works_ics(evs, url, now), encoding="utf-8", newline="")
+    (site / "works" / "feed.xml").write_text(P.works_feed(evs, url, now), encoding="utf-8")
+    llms = site / "llms.txt"
+    if llms.exists():
+        head = llms.read_text(encoding="utf-8")
+        llms.write_text(head.rstrip() + "\n" + P.llms_events(evs, url), encoding="utf-8")
+        (site / "llms-full.txt").write_text(P.llms_full(head, evs, url), encoding="utf-8")
     if Image is None:
         return
     for src, rel in _thumb_jobs:

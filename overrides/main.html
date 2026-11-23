@@ -15,8 +15,10 @@
   <meta property="og:description" content="{{ ogp_desc | e }}">
   <meta property="og:url" content="{{ page.canonical_url }}">
   <meta property="og:image" content="{{ ogp_img }}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  {%- if page.meta.ogp_image_w or not page.meta.ogp_image or page.meta.ogp_image == "img/ogp/works.png" %}
+  <meta property="og:image:width" content="{{ page.meta.ogp_image_w or 1200 }}">
+  <meta property="og:image:height" content="{{ page.meta.ogp_image_h or 630 }}">
+  {%- endif %}
   <meta property="og:image:alt" content="{{ ogp_title | e }}">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
@@ -25,6 +27,8 @@
   <meta name="twitter:image" content="{{ ogp_img }}">
 {%- endblock %}
 <link rel="alternate" type="text/markdown" title="llms.txt" href="{{ site }}/llms.txt">
+<link rel="alternate" type="application/json" title="Zect VJ 出演データ" href="{{ site }}/works.json">
+<link rel="alternate" type="text/calendar" title="Zect VJ 出演カレンダー" href="{{ site }}/works.ics">
 {#- 構造化データ：サイトと運営者（Person）。各ページから @id で参照する #}
 <script type="application/ld+json">
 {{ {
@@ -64,7 +68,12 @@
   ]
 } | tojson }}
 </script>
-{%- block jsonld_extra scoped %}{% endblock %}
+{%- block jsonld_extra scoped %}
+{%- if page_jsonld %}
+<script type="application/ld+json">{{ page_jsonld }}</script>
+{%- endif %}
+{%- endblock %}
+<link rel="alternate" type="application/atom+xml" title="Zect VJ Works" href="{{ site }}/works/feed.xml">
 {%- endif %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9340856335389661" crossorigin="anonymous"></script>
 {% endblock %}

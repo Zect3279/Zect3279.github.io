@@ -226,7 +226,7 @@
             <div><p class="zw-mono zw-dmeta">${esc(it.y)} · ${esc(it.dow)}${it.status === "upcoming" ? " · NEXT" : ""}</p>
               <h2 class="zw-ddate">${esc(it.range)}</h2></div>
             <h3 class="zw-dtitle">${esc(label(it))}</h3>
-            ${tba ? "" : `<dl class="zw-dl">${row("VENUE", it.venue && link(it.venue, it.venue_url))}${row("ORGANIZER", it.organizer && link(it.organizer, it.organizer_url))}${row("TICKET", tickets)}${row("ROLE", esc(it.role))}</dl>`}
+            ${tba ? "" : `<dl class="zw-dl">${row("VENUE", it.venue && link(it.venue, it.venue_url))}${row("ORGANIZER", it.organizer && link(it.organizer, it.organizer_url))}${row("TICKET", tickets)}${row("ROLE", esc(it.role))}${row("PAGE", it.page && `<a href="${esc(it.page)}">イベントページ →</a>`)}</dl>`}
           </div>
           <div class="zw-dnav"><button type="button" data-d="-1" ${it.i === 0 ? "disabled" : ""}>← PREV</button><button type="button" data-d="1" ${it.i === N - 1 ? "disabled" : ""}>NEXT →</button></div>
         </section>`;

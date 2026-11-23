@@ -42,6 +42,40 @@
       </div>
     </section>
     {% endfor %}
+
+    {#- テキストの索引：全イベントのページへのリンク（検索エンジン・AI・スクリーンリーダー向け） #}
+    <nav class="zw-index" aria-label="イベント一覧（テキスト）">
+      <div class="zw-heading" id="index"><span>Index</span></div>
+      <div class="zw-index-cols">
+      {% for y in works.index.years %}
+        <section>
+          <h2 class="zw-mono">{{ y.year }}</h2>
+          <ul>
+          {% for it in y["items"] %}
+            <li><a href="{{ it.url }}"><span class="zw-mono">{{ it.md }}</span> {{ it.title | e }}</a>{% if it.venue %}<span class="zw-index-venue"> · {{ it.venue | e }}</span>{% endif %}</li>
+          {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+      {% if works.index.series %}
+        <section>
+          <h2 class="zw-mono">SERIES</h2>
+          <ul>
+          {% for name, url, n in works.index.series %}
+            <li><a href="{{ url }}">{{ name | e }}</a><span class="zw-index-venue"> · {{ n }}回</span></li>
+          {% endfor %}
+          </ul>
+          <h2 class="zw-mono">DATA</h2>
+          <ul>
+            <li><a href="{{ 'works.json' | url }}">works.json</a><span class="zw-index-venue"> · 出演データ（JSON）</span></li>
+            <li><a href="{{ 'works.ics' | url }}">works.ics</a><span class="zw-index-venue"> · カレンダー購読</span></li>
+            <li><a href="{{ 'works/feed.xml' | url }}">feed.xml</a><span class="zw-index-venue"> · Atom フィード</span></li>
+            <li><a href="{{ 'llms.txt' | url }}">llms.txt</a><span class="zw-index-venue"> · AI 向けの要約</span></li>
+          </ul>
+        </section>
+      {% endif %}
+      </div>
+    </nav>
   </main>
 
   <section class="zw-ring" id="zw-ring" hidden aria-label="リング表示"></section>

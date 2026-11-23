@@ -13,6 +13,14 @@ extra:
             - https://linktr.ee/zect3279
             - https://zect.booth.pm/
 
+nav:
+    - Home: index.md
+    - Works: works.md
+
+# イベント・シリーズのページ（hooks/works.py が生成）はナビに出さない
+not_in_nav: |
+    /works/
+
 theme:
     name: material
     custom_dir: overrides
