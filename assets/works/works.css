@@ -917,6 +917,66 @@ body {
   }
 }
 
+/* ---------- リード文（WALL の一番上）と ABOUT（INDEX の上）：docs/works.md の手書き部分 ---------- */
+.zw-lead {
+  max-width: 40em;
+  margin: 0 2px 40px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+
+  @media (max-width: 600px) {
+    margin: 0 8px 24px;
+    font-size: 15px;
+  }
+}
+.zw-about {
+  margin-top: 72px;
+  padding: 0 2px;
+
+  & .zw-about-cols {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 24px 48px;
+    padding-top: 8px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  & .zw-about-body {
+    max-width: 40em;
+    font-size: 15px;
+    line-height: 1.9;
+
+    & :is(h2, h3) {
+      margin: 1.6em 0 .4em;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    & > :first-child {
+      margin-top: 0;
+    }
+    & p {
+      margin: 0 0 1em;
+    }
+    & a {
+      color: var(--zw-accent);
+    }
+    & .headerlink {
+      display: none;
+    }
+  }
+  & .zw-about-dl dd {
+    font-size: 15px;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 48px;
+    padding: 0 8px;
+  }
+}
+
 /* ---------- INDEX：全イベントへのテキストリンク（WALL の下） ---------- */
 .zw-index {
   margin-top: 72px;
