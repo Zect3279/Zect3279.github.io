@@ -18,6 +18,8 @@
 <div class="zw" id="zw">
 
   <main class="zw-wall" id="zw-wall">
+    {#- リード文（docs/works.md の lead） #}
+    {% if works.about.lead %}<p class="zw-lead">{{ works.about.lead | e }}</p>{% endif %}
     {% for g in works.wall %}
     <section class="zw-group{% if g.upcoming %} zw-group--upcoming{% endif %}">
       {% set name = 'Upcoming' if g.upcoming else 'Archive' %}
@@ -42,6 +44,27 @@
       </div>
     </section>
     {% endfor %}
+
+    {#- ABOUT（docs/works.md の profile と本文）。どちらも空なら出さない #}
+    {% set prof = works.about.profile %}
+    {% if prof or works.about.body %}
+    <section class="zw-about" aria-labelledby="about">
+      <div class="zw-heading" id="about"><span>About</span></div>
+      <div class="zw-about-cols">
+        {% if works.about.body %}<div class="zw-about-body">{{ page.content }}</div>{% endif %}
+        {% if prof %}
+        <dl class="zw-dl zw-about-dl">
+          {% if prof.since %}<div><dt>SINCE</dt><dd>{{ prof.since | e }}</dd></div>{% endif %}
+          {% if prof.base %}<div><dt>BASE</dt><dd>{{ prof.base | e }}</dd></div>{% endif %}
+          {% if prof.style %}<div><dt>STYLE</dt><dd>{{ prof.style | e }}</dd></div>{% endif %}
+          {% if prof.tools %}<div><dt>TOOLS</dt><dd>{% for t in prof.tools %}<span>{{ t | e }}</span>{% endfor %}</dd></div>{% endif %}
+          {% if prof.contact %}<div><dt>CONTACT</dt><dd>{% set c = prof.contact | string %}<a href="{{ c if '://' in c else 'mailto:' ~ c }}" rel="noopener">{{ c | e }}</a></dd></div>{% endif %}
+          {% if prof.links %}<div><dt>LINKS</dt><dd>{% for u in prof.links %}<a href="{{ u }}" target="_blank" rel="me noopener">{{ u | replace("https://", "") | replace("www.", "") | e }} ↗</a>{% endfor %}</dd></div>{% endif %}
+        </dl>
+        {% endif %}
+      </div>
+    </section>
+    {% endif %}
 
     {#- テキストの索引：全イベントのページへのリンク（検索エンジン・AI・スクリーンリーダー向け） #}
     <nav class="zw-index" aria-label="イベント一覧（テキスト）">

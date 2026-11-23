@@ -4,7 +4,6 @@
 <meta name="theme-color" content="#1A2C99">
 {%- if page and page.canonical_url %}
 {%- set site = config.site_url | trim("/") %}
-{%- set person = config.extra.person %}
 {%- block ogp scoped %}
   {%- set ogp_title = page.meta.ogp_title or (config.site_name if page.is_homepage else page.title ~ " | " ~ config.site_name) %}
   {%- set ogp_desc = page.meta.description or config.site_description %}
@@ -27,9 +26,20 @@
   <meta name="twitter:image" content="{{ ogp_img }}">
 {%- endblock %}
 <link rel="alternate" type="text/markdown" title="llms.txt" href="{{ site }}/llms.txt">
-<link rel="alternate" type="application/json" title="Zect VJ 出演データ" href="{{ site }}/works.json">
-<link rel="alternate" type="text/calendar" title="Zect VJ 出演カレンダー" href="{{ site }}/works.ics">
-{#- 構造化データ：サイトと運営者（Person）。各ページから @id で参照する #}
+{#- 構造化データ：サイト全体は WebSite だけ。Zect（Person）は works 配下のページにだけ出す（zect_person は hooks/works.py） #}
+{%- set webpage = {
+  "@type": "ProfilePage" if zect_person and page.file.src_uri == "works.md" else "WebPage",
+  "@id": page.canonical_url ~ "#webpage",
+  "url": page.canonical_url,
+  "name": page.title if not page.is_homepage else config.site_name,
+  "description": page.meta.description or config.site_description,
+  "inLanguage": "ja",
+  "isPartOf": {"@id": site ~ "/#website"}
+} %}
+{%- if zect_person %}
+  {%- set _ = webpage.update({"about": {"@id": zect_person["@id"]}}) %}
+  {%- if page.file.src_uri == "works.md" %}{% set _ = webpage.update({"mainEntity": {"@id": zect_person["@id"]}}) %}{% endif %}
+{%- endif %}
 <script type="application/ld+json">
 {{ {
   "@context": "https://schema.org",
@@ -40,32 +50,10 @@
       "url": site ~ "/",
       "name": config.site_name,
       "description": config.site_description,
-      "inLanguage": "ja",
-      "publisher": {"@id": site ~ "/#person"}
+      "inLanguage": "ja"
     },
-    {
-      "@type": "Person",
-      "@id": site ~ "/#person",
-      "name": person.name,
-      "alternateName": person.alternate_name,
-      "url": site ~ "/",
-      "image": site ~ "/img/ogp/home.png",
-      "jobTitle": person.job_title,
-      "knowsAbout": ["VJ", "映像演出", "ライブ制作", "Unity", "Python", "C#", "Webアプリ開発", "Discord Bot"],
-      "sameAs": person.same_as
-    },
-    {
-      "@type": "ProfilePage" if page.is_homepage else "WebPage",
-      "@id": page.canonical_url ~ "#webpage",
-      "url": page.canonical_url,
-      "name": page.title if not page.is_homepage else config.site_name,
-      "description": page.meta.description or config.site_description,
-      "inLanguage": "ja",
-      "isPartOf": {"@id": site ~ "/#website"},
-      "about": {"@id": site ~ "/#person"},
-      "mainEntity": {"@id": site ~ "/#person"} if page.is_homepage else none
-    }
-  ]
+    webpage
+  ] + ([zect_person] if zect_person else [])
 } | tojson }}
 </script>
 {%- block jsonld_extra scoped %}
@@ -73,7 +61,11 @@
 <script type="application/ld+json">{{ page_jsonld }}</script>
 {%- endif %}
 {%- endblock %}
+{%- if zect_person %}
+<link rel="alternate" type="application/json" title="Zect VJ 出演データ" href="{{ site }}/works.json">
+<link rel="alternate" type="text/calendar" title="Zect VJ 出演カレンダー" href="{{ site }}/works.ics">
 <link rel="alternate" type="application/atom+xml" title="Zect VJ Works" href="{{ site }}/works/feed.xml">
+{%- endif %}
 {%- endif %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9340856335389661" crossorigin="anonymous"></script>
 {% endblock %}

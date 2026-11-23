@@ -2,7 +2,16 @@ just a web site
 
 ## works の更新
 
-イベントは `data/works.yml`、フライヤーは `docs/img/works/` に置く。`docs/works.md` は `hooks/works.py` がビルド時に生成するので直接書かない。
+イベントは `data/works.yml`、フライヤーは `docs/img/works/` に置く。イベント・シリーズごとのページ、`works.json` / `works.ics` / `works/feed.xml` / `llms*.txt` はビルド時に自動生成（`hooks/works.py` → `tools/works_publish.py`）。
+
+### 手書きする場所
+
+- `docs/works.md` の `lead`：WALL の一番上に出るリード文（1〜2文）
+- `docs/works.md` の `profile`：About 欄の表（VJ 歴・拠点・スタイル・ソフト・連絡先・リンク）
+- `docs/works.md` の本文（front matter の下）：About 本文。Markdown
+- `data/works.yml` の各イベントの `note`（Issue フォームの「ひとこと」）：イベントページの「ひとこと」
+
+どれも空ならページに出ない。書いた内容は検索エンジン向けの構造化データと `llms.txt` にも入る。Zect の名前・情報は works 配下（`/works/`）にだけ出し、トップやサイト共通の部分には出さない。
 
 - **追加（ふだん）**：Issues → New issue →「works にイベントを追加」。フライヤー画像はフォームにドラッグ&ドロップ。送信すると Actions が yml 追記・画像保存・デプロイまで行い、Issue にコメントして閉じる。直したい時は Issue を編集すると反映し直される。
 - **告知前の予定**：イベント名を空欄で送ると日付だけ表示。告知が出たら同じ日付で新しく Issue を立てると上書きされる。

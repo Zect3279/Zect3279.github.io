@@ -14,7 +14,7 @@ IMG_URL = "/img/works"
 
 # yml に書き出すキーの順序
 KEYS = ["date", "end", "title", "kind", "venue", "venue_url", "organizer",
-        "organizer_url", "tickets", "role", "flyer", "flyer_alt", "issue"]
+        "organizer_url", "tickets", "role", "note", "flyer", "flyer_alt", "issue"]
 KINDS = ("club", "live")
 
 

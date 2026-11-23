@@ -1,7 +1,5 @@
 ---
-title: Zect | VJ・エンジニア
-ogp_title: Zect | VJ・エンジニア
-description: Zect（Zscode）のプロフィール。ボカロ系クラブイベントを中心に活動する VJ・エンジニア。VJ ソフト「ZVJ」や WebGL VJ ツールの開発、ライブ制作・DJ イベント運営、所属団体、制作中・過去のプロジェクトを紹介します。
+description: Zscode のプロフィール。エンジニア・VJ としての活動、ライブ制作・DJ イベント運営、所属団体、開発中や過去のプロジェクトを紹介しています。
 hide:
   - navigation
 ---

@@ -65,6 +65,11 @@ body:
       label: 役割
       placeholder: VJ
   - type: textarea
+    id: note
+    attributes:
+      label: ひとこと
+      description: 任意。イベントページに「ひとこと」として出ます（演出のこと、見どころ、思い出など）。Markdown 可
+  - type: textarea
     id: flyer
     attributes:
       label: フライヤー

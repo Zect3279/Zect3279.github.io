@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -19,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import works_lib as W  # noqa: E402
 import works_publish as P  # noqa: E402
 from mkdocs.structure.files import File  # noqa: E402
+from mkdocs.utils.meta import get_data  # noqa: E402
 
 try:
     from PIL import Image
@@ -118,8 +120,17 @@ def now_jst() -> dt.datetime:
     return dt.datetime.now(JST)
 
 
+def load_about() -> dict:
+    """docs/works.md の手書き部分（lead / profile / 本文）。本文は HTML コメントを除いて空なら ""。"""
+    body, meta = get_data((DOCS / "works.md").read_text(encoding="utf-8"))
+    body = re.sub(r"<!--.*?-->", "", body, flags=re.S).strip()
+    prof = {k: v for k, v in (meta.get("profile") or {}).items() if v not in (None, "", [])}
+    return {"lead": (meta.get("lead") or "").strip(), "profile": prof, "body": body}
+
+
 def on_files(files, config):
     """イベント・シリーズのページを生成してサイトに足す。"""
+    _pub["about"] = load_about()
     events = W.load()
     if errs := validate(events):
         raise PluginError("works.yml にエラーがあります:\n  " + "\n  ".join(errs))
@@ -145,6 +156,8 @@ def on_files(files, config):
 
 def on_page_context(context, page, config, nav):  # noqa: ARG001
     site = config["site_url"].rstrip("/")
+    if page.url.startswith("works/"):  # Zect の情報は works 配下だけに出す
+        context["zect_person"] = P.person_ld(_pub["about"], site)
     if slug := page.meta.get("event_slug"):
         context["page_jsonld"] = P.event_page_ld(_pub["by_slug"][slug], site)
         return context
@@ -170,6 +183,7 @@ def on_page_context(context, page, config, nav):  # noqa: ARG001
         "json": json.dumps(items, ensure_ascii=False).replace("</", "<\\/"),
         "jsonld": P.works_list_ld(_pub["evs"], site),
         "index": index_groups(_pub["evs"], page.url),
+        "about": _pub["about"],
     }
     return context
 
@@ -184,8 +198,9 @@ def on_post_build(config):
     llms = site / "llms.txt"
     if llms.exists():
         head = llms.read_text(encoding="utf-8")
-        llms.write_text(head.rstrip() + "\n" + P.llms_events(evs, url), encoding="utf-8")
-        (site / "llms-full.txt").write_text(P.llms_full(head, evs, url), encoding="utf-8")
+        about = _pub["about"]
+        llms.write_text(head.rstrip() + "\n" + P.llms_events(evs, url, about), encoding="utf-8")
+        (site / "llms-full.txt").write_text(P.llms_full(head, evs, url, about), encoding="utf-8")
     if Image is None:
         return
     for src, rel in _thumb_jobs:

@@ -147,6 +147,8 @@ def event_page(e: dict, prev: dict | None, nxt: dict | None, series: list[dict],
     badge = "開催予定" if e["_status"] == "upcoming" else "開催済み"
     out.append(f"**{jrange(e)}**{' · ' + md(e['venue']) if e.get('venue') else ''} · {badge}\n\n")
     out.append(md(summary(e)) + "\n\n")
+    if e.get("note"):  # works.yml の note（手書きのひとこと。Markdown のまま出す）
+        out.append(f"## ひとこと\n\n{str(e['note']).strip()}\n\n")
     out.append("| 項目 | 内容 |\n|---|---|\n" + "".join(f"| {k} | {v} |\n" for k, v in rows) + "\n")
     if flyer:
         src = flyer if flyer.startswith("http") else "../" + flyer.lstrip("/")
@@ -188,6 +190,22 @@ def series_page(slug: str, members: list[dict]) -> str:
 
 # ---------- 構造化データ（JSON-LD） ----------
 
+def person_id(site: str) -> str:
+    return f"{site}/works/#zect"
+
+
+def person_ld(about: dict, site: str) -> dict:
+    """works の Zect（docs/works.md の lead / profile から。空の項目は出さない）。"""
+    prof = about.get("profile") or {}
+    ld = {
+        "@type": "Person", "@id": person_id(site), "name": PERSON, "url": f"{site}/works/",
+        "jobTitle": "VJ", "description": about.get("lead") or None,
+        "knowsAbout": ["VJ", "映像演出", *(prof.get("tools") or [])],
+        "homeLocation": {"@type": "Place", "name": prof["base"]} if prof.get("base") else None,
+        "sameAs": prof.get("links") or None,
+    }
+    return {k: v for k, v in ld.items() if v}
+
 def absu(site: str, u: str) -> str:
     return u if not u or u.startswith("http") else f"{site}/{u.lstrip('/')}"
 
@@ -209,7 +227,7 @@ def event_ld(e: dict, site: str) -> dict:
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "inLanguage": "ja",
         "description": summary(e),
-        "performer": {"@id": f"{site}/#person"},
+        "performer": {"@id": person_id(site)},
     }
     if e.get("venue"):
         place = {"@type": "Place", "name": e["venue"], "address": {"@type": "PostalAddress", "addressCountry": "JP"}}
@@ -280,6 +298,7 @@ def record(e: dict, site: str) -> dict:
         "venue": e.get("venue"), "venue_url": e.get("venue_url"),
         "organizer": e.get("organizer"), "organizer_url": e.get("organizer_url"),
         "series": e.get("_series"),
+        "note": str(e["note"]).strip() if e.get("note") else None,
         "tickets": [t for t in e.get("tickets") or [] if t.get("url")],
         "flyer": absu(site, e["flyer"]) if e.get("flyer") else None,
         "page": page_url(site, e),
@@ -358,8 +377,23 @@ def works_feed(evs: list[dict], site: str, now: dt.datetime) -> str:
             f"  <rights>{xesc(LICENSE_NOTE)}</rights>\n" + "".join(entries) + "</feed>\n")
 
 
-def llms_events(evs: list[dict], site: str) -> str:
-    lines = ["", "## VJ 出演（新しい順）", "",
+def llms_about(about: dict, site: str) -> list[str]:
+    """works の About（docs/works.md の手書き部分）。"""
+    prof = about.get("profile") or {}
+    lines = ["", f"## VJ Works — {PERSON}", "", f"[VJ Works]({site}/works/) は VJ・{PERSON} の出演履歴のページ。", ""]
+    if about.get("lead"):
+        lines += [about["lead"], ""]
+    rows = [("VJ 歴", f"{prof['since']}年〜" if prof.get("since") else ""), ("活動拠点", prof.get("base")),
+            ("スタイル", prof.get("style")), ("使用ソフト・機材", ", ".join(prof.get("tools") or [])),
+            ("依頼・連絡", prof.get("contact")), ("リンク", " ".join(prof.get("links") or []))]
+    lines += [f"- {k}: {v}" for k, v in rows if v]
+    if about.get("body"):  # 本文の見出しはこの節の下に入るよう 1 段下げる
+        lines += ["", re.sub(r"^(#{1,5})(?=\s)", r"#\1", about["body"], flags=re.M)]
+    return lines
+
+
+def llms_events(evs: list[dict], site: str, about: dict | None = None) -> str:
+    lines = llms_about(about or {}, site) + ["", "### 出演（新しい順）", "",
              f"各イベントの詳細ページがあります。機械可読データ: [works.json]({site}/works.json) / "
              f"[カレンダー（ICS）]({site}/works.ics) / [Atom フィード]({site}/works/feed.xml) / "
              f"[全文版 llms-full.txt]({site}/llms-full.txt)", "",
@@ -371,13 +405,15 @@ def llms_events(evs: list[dict], site: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def llms_full(head: str, evs: list[dict], site: str) -> str:
-    out = [head.rstrip(), "", "## VJ 出演の詳細（新しい順）", ""]
+def llms_full(head: str, evs: list[dict], site: str, about: dict | None = None) -> str:
+    out = [head.rstrip(), *llms_about(about or {}, site), "", "### 出演の詳細（新しい順）", ""]
     for e in reversed(evs):
-        out.append(f"### {e['title']}")
+        out.append(f"#### {e['title']}")
         out.append("")
         out.append(summary(e))
         out.append("")
+        if e.get("note"):
+            out += [str(e["note"]).strip(), ""]
         for k, v in [("日付", jrange(e)), ("会場", e.get("venue")), ("会場URL", e.get("venue_url")),
                      ("主催", e.get("organizer")), ("種別", KIND_JA.get(e.get("kind") or "")),
                      ("担当", role(e)), ("シリーズ", e.get("_series")),

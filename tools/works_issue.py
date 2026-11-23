@@ -17,7 +17,7 @@ from fetch_flyers import download, save_image  # noqa: E402
 LABELS = {
     "日付": "date", "最終日": "end", "イベント名": "title", "種別": "kind",
     "会場": "venue", "会場URL": "venue_url", "主催": "organizer", "主催URL": "organizer_url",
-    "チケット": "tickets", "役割": "role", "フライヤー": "flyer",
+    "チケット": "tickets", "役割": "role", "ひとこと": "note", "フライヤー": "flyer",
 }
 RESULT = W.ROOT / "works_issue_result.md"
 
@@ -94,6 +94,8 @@ def main() -> None:
         "venue": form.get("venue") or None, "venue_url": form.get("venue_url") or None,
         "organizer": form.get("organizer") or None, "organizer_url": form.get("organizer_url") or None,
         "tickets": parse_tickets(form.get("tickets", "")), "role": form.get("role") or None,
+        # ひとこと欄の無い古い Issue を編集し直しても、yml に手で書いた note は消さない
+        "note": (form.get("note") or None) if "note" in form else target.get("note"),
         "issue": issue,
     })
 

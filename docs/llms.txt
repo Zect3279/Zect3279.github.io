@@ -1,29 +1,18 @@
-# Zect（Zscode）
+# Zscode
 
-> Zect は、ボカロ系クラブイベントを中心に活動する日本の VJ・エンジニア。音と映像の研究開発、ライブ制作・運営、DJ イベント運営を行い、VJ ソフト「ZVJ」や Web ブラウザで動く VJ ツールなどを開発している。Zscode（zscode.net）は Zect の個人サイト。
-
-- 活動名: Zect（サイト名・屋号: Zscode）
-- 肩書き: VJ / エンジニア
-- 活動: クラブイベント・ライブでの VJ（映像演出）、ライブ制作・運営、DJ イベント運営、音と映像の研究開発
-- 使用言語・技術: Python, C#, Unity（Shader 含む）, JavaScript, Java, HTML/CSS, MySQL, PostgreSQL
-
-## 利用について
-
-このサイトの出演データ（日付・イベント名・会場・主催などのテキスト）は CC BY 4.0（https://creativecommons.org/licenses/by/4.0/deed.ja）で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用、AI による引用・要約も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。
+> Zscode（zscode.net）の Web サイト。トップページでは VJ・ライブ制作・DJ イベント運営などの活動、所属団体、開発中や過去のプロジェクトを紹介している。VJ Works は VJ・Zect の出演履歴のページ。
 
 ## ページ
 
-- [トップ / プロフィール](https://zscode.net/): プロフィール、所属団体、開発中・過去のプロジェクト一覧
-- [VJ Works](https://zscode.net/works/): VJ 出演履歴と出演予定（日付・イベント名・会場・フライヤー）
+- [トップ](https://zscode.net/): プロフィール、所属団体、開発中・過去のプロジェクト一覧
+- [VJ Works](https://zscode.net/works/): VJ・Zect の出演履歴と出演予定（イベントごとの詳細ページあり）
 
-## 制作物
+## プロジェクト
 
-- [ZVJ](https://zect.booth.pm/items/4976418): 簡単に VJ ができるソフト（BOOTH で頒布）
+- [ZVJ](https://zect.booth.pm/items/4976418): 簡単に VJ ができるソフト
 - [WebGL VJ](https://webgl.zscode.net): Web ブラウザで VJ ができるソフト
 - AuraLink: ライブの映像オペレーション用ソフト
 
-## リンク
+## 利用について
 
-- [GitHub](https://github.com/Zect3279)
-- [Linktree](https://linktr.ee/zect3279)
-- [BOOTH](https://zect.booth.pm/)
+VJ Works の出演データ（日付・イベント名・会場・主催などのテキスト）は CC BY 4.0（https://creativecommons.org/licenses/by/4.0/deed.ja）で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用、AI による引用・要約も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。
