@@ -1,7 +1,17 @@
 site_name: Zscode
-site_description: The web site of Zscode
-site_author: Z
-site_url: https://Zect3279.github.io
+site_description: Zect（Zscode）のポートフォリオ。ボカロ系クラブイベントを中心に活動する VJ・エンジニア。VJ 出演履歴と、VJ ソフト・Web・Unity・Discord Bot などの制作物。
+site_author: Zect
+site_url: https://zscode.net/
+
+extra:
+    person:
+        name: Zect
+        alternate_name: Zscode
+        job_title: [VJ, エンジニア]
+        same_as:
+            - https://github.com/Zect3279
+            - https://linktr.ee/zect3279
+            - https://zect.booth.pm/
 
 theme:
     name: material

@@ -2,7 +2,69 @@
 
 {% block extrahead %}
 <meta name="theme-color" content="#1A2C99">
+{%- if page and page.canonical_url %}
+{%- set site = config.site_url | trim("/") %}
+{%- set person = config.extra.person %}
+{%- block ogp scoped %}
+  {%- set ogp_title = page.meta.ogp_title or (config.site_name if page.is_homepage else page.title ~ " | " ~ config.site_name) %}
+  {%- set ogp_desc = page.meta.description or config.site_description %}
+  {%- set ogp_img = site ~ "/" ~ (page.meta.ogp_image or "img/ogp/home.png") %}
+  <meta property="og:type" content="{{ 'website' if page.is_homepage else 'article' }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ ogp_title | e }}">
+  <meta property="og:description" content="{{ ogp_desc | e }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="{{ ogp_img }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ ogp_title | e }}">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ ogp_title | e }}">
+  <meta name="twitter:description" content="{{ ogp_desc | e }}">
+  <meta name="twitter:image" content="{{ ogp_img }}">
+{%- endblock %}
+<link rel="alternate" type="text/markdown" title="llms.txt" href="{{ site }}/llms.txt">
+{#- 構造化データ：サイトと運営者（Person）。各ページから @id で参照する #}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": site ~ "/#website",
+      "url": site ~ "/",
+      "name": config.site_name,
+      "description": config.site_description,
+      "inLanguage": "ja",
+      "publisher": {"@id": site ~ "/#person"}
+    },
+    {
+      "@type": "Person",
+      "@id": site ~ "/#person",
+      "name": person.name,
+      "alternateName": person.alternate_name,
+      "url": site ~ "/",
+      "image": site ~ "/img/ogp/home.png",
+      "jobTitle": person.job_title,
+      "knowsAbout": ["VJ", "映像演出", "ライブ制作", "Unity", "Python", "C#", "Webアプリ開発", "Discord Bot"],
+      "sameAs": person.same_as
+    },
+    {
+      "@type": "ProfilePage" if page.is_homepage else "WebPage",
+      "@id": page.canonical_url ~ "#webpage",
+      "url": page.canonical_url,
+      "name": page.title if not page.is_homepage else config.site_name,
+      "description": page.meta.description or config.site_description,
+      "inLanguage": "ja",
+      "isPartOf": {"@id": site ~ "/#website"},
+      "about": {"@id": site ~ "/#person"},
+      "mainEntity": {"@id": site ~ "/#person"} if page.is_homepage else none
+    }
+  ]
+} | tojson }}
+</script>
+{%- block jsonld_extra scoped %}{% endblock %}
+{%- endif %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9340856335389661" crossorigin="anonymous"></script>
 {% endblock %}
-
-

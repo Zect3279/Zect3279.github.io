@@ -96,6 +96,54 @@ def item(e: dict, i: int, today: dt.date, page_url: str) -> dict:
     }
 
 
+def event_jsonld(events: list[dict], site: str, page_url: str) -> str:
+    """告知済みイベントを schema.org の MusicEvent として並べる（検索エンジン・LLM 向け）。"""
+    def absu(u: str) -> str:
+        return u if not u or u.startswith("http") else f"{site}/{u.lstrip('/')}"
+
+    performer = {"@id": f"{site}/#person"}
+    out = []
+    for e in events:
+        if not W.announced(e):
+            continue
+        ev = {
+            "@type": "MusicEvent",
+            "name": e["title"],
+            "startDate": e["date"].isoformat(),
+            "endDate": (e.get("end") or e["date"]).isoformat(),
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "inLanguage": "ja",
+            "url": f"{site}/{page_url}",
+            "performer": performer,
+            "description": f"{e['title']}（{e.get('venue') or '会場未定'}）に Zect が {e.get('role') or 'VJ'} として出演。",
+        }
+        if e.get("venue"):
+            place = {"@type": "Place", "name": e["venue"], "address": {"@type": "PostalAddress", "addressCountry": "JP"}}
+            if e.get("venue_url"):
+                place["url"] = e["venue_url"]
+            ev["location"] = place
+        if e.get("organizer"):
+            org = {"@type": "Organization", "name": e["organizer"]}
+            if e.get("organizer_url"):
+                org["url"] = e["organizer_url"]
+            ev["organizer"] = org
+        if e.get("flyer"):
+            ev["image"] = absu(e["flyer"])
+        offers = [{"@type": "Offer", "url": t["url"]} for t in e.get("tickets") or [] if t.get("url")]
+        if offers:
+            ev["offers"] = offers
+        out.append(ev)
+    data = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Zect の VJ 出演一覧",
+        "numberOfItems": len(out),
+        "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": ev} for i, ev in enumerate(out)],
+    }
+    return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+
 def on_page_context(context, page, config, nav):  # noqa: ARG001
     if page.file.src_uri != "works.md":
         return context
@@ -116,14 +164,34 @@ def on_page_context(context, page, config, nav):  # noqa: ARG001
                              {"upcoming": False, "tiles": past}) if g["tiles"]],
         "count": len(past),
         "json": json.dumps(items, ensure_ascii=False).replace("</", "<\\/"),
+        "jsonld": event_jsonld(sorted(events, key=lambda e: e["date"], reverse=True),
+                               config["site_url"].rstrip("/"), page.url),
     }
     return context
 
 
+def write_llms_txt(site: Path) -> None:
+    """docs/llms.txt の末尾に出演履歴を足す（LLM が出演情報を拾えるように）。"""
+    path = site / "llms.txt"
+    if not path.exists():
+        return
+    events = sorted((e for e in W.load() if W.announced(e)), key=lambda e: e["date"], reverse=True)
+    today = dt.datetime.now(JST).date()
+    lines = ["", "## VJ 出演履歴（新しい順）", ""]
+    for e in events:
+        d = e["date"].isoformat() + (f"〜{e['end'].isoformat()}" if e.get("end") else "")
+        tag = "（予定）" if (e.get("end") or e["date"]) >= today else ""
+        venue = f" @ {e['venue']}" if e.get("venue") else ""
+        role = f" — {e['role']}" if e.get("role") else ""
+        lines.append(f"- {d} {e['title']}{venue}{role}{tag}")
+    path.write_text(path.read_text(encoding="utf-8").rstrip() + "\n" + "\n".join(lines) + "\n", encoding="utf-8")
+
+
 def on_post_build(config):
+    site = Path(config["site_dir"])
+    write_llms_txt(site)
     if Image is None:
         return
-    site = Path(config["site_dir"])
     for src, rel in _thumb_jobs:
         out = site / rel
         if out.exists():
