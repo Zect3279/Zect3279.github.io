@@ -17,6 +17,9 @@ import works_lib as W
 DOW_JA = "月火水木金土日"
 KIND_JA = {"club": "クラブイベント", "live": "ライブ"}
 PERSON = "Zect"
+LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/deed.ja"
+LICENSE_NOTE = (f"出演データ（テキスト）は CC BY 4.0 で公開しています。出典「{PERSON}（zscode.net）」を表示すれば、"
+                "転載・加工・商用利用も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。")
 
 
 # ---------- 下ごしらえ ----------
@@ -290,6 +293,10 @@ def works_json(evs: list[dict], site: str, now: dt.datetime) -> str:
         "description": f"VJ・{PERSON} の出演履歴と出演予定（クラブイベント・ライブ）。イベント資料・カレンダー・調べものにどうぞ。",
         "source": f"{site}/works/",
         "performer": {"name": PERSON, "url": f"{site}/"},
+        "license": "CC-BY-4.0",
+        "license_url": LICENSE_URL,
+        "license_note": LICENSE_NOTE,
+        "attribution": f"出典: {PERSON}（{site}/works/）",
         "updated": now.isoformat(timespec="seconds"),
         "count": len(evs),
         "events": [record(e, site) for e in reversed(evs)],
@@ -317,7 +324,7 @@ def works_ics(evs: list[dict], site: str, now: dt.datetime) -> str:
     host = site.split("://", 1)[-1]
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", f"PRODID:-//{host}//works//JA", "CALSCALE:GREGORIAN",
              "METHOD:PUBLISH", f"X-WR-CALNAME:{PERSON} VJ 出演", "X-WR-TIMEZONE:Asia/Tokyo",
-             f"X-WR-CALDESC:VJ・{PERSON} の出演予定と出演履歴（{site}/works/）"]
+             f"X-WR-CALDESC:VJ・{PERSON} の出演予定と出演履歴（{site}/works/）。{_ics_text(LICENSE_NOTE)}"]
     for e in evs:
         end = (e.get("end") or e["date"]) + dt.timedelta(days=1)
         lines += ["BEGIN:VEVENT", f"UID:{e['_slug']}@{host}", f"DTSTAMP:{stamp}",
@@ -347,14 +354,16 @@ def works_feed(evs: list[dict], site: str, now: dt.datetime) -> str:
             f"  <title>{PERSON} VJ Works</title>\n  <subtitle>VJ・{PERSON} の出演予定と出演履歴</subtitle>\n"
             f"  <link href=\"{site}/works/\"/>\n  <link rel=\"self\" href=\"{site}/works/feed.xml\"/>\n"
             f"  <id>{site}/works/</id>\n  <updated>{now.isoformat(timespec='seconds')}</updated>\n"
-            f"  <author><name>{PERSON}</name><uri>{site}/</uri></author>\n" + "".join(entries) + "</feed>\n")
+            f"  <author><name>{PERSON}</name><uri>{site}/</uri></author>\n"
+            f"  <rights>{xesc(LICENSE_NOTE)}</rights>\n" + "".join(entries) + "</feed>\n")
 
 
 def llms_events(evs: list[dict], site: str) -> str:
     lines = ["", "## VJ 出演（新しい順）", "",
              f"各イベントの詳細ページがあります。機械可読データ: [works.json]({site}/works.json) / "
              f"[カレンダー（ICS）]({site}/works.ics) / [Atom フィード]({site}/works/feed.xml) / "
-             f"[全文版 llms-full.txt]({site}/llms-full.txt)", ""]
+             f"[全文版 llms-full.txt]({site}/llms-full.txt)", "",
+             f"ライセンス: {LICENSE_NOTE}（{LICENSE_URL}）", ""]
     for e in reversed(evs):
         venue = f" @ {e['venue']}" if e.get("venue") else ""
         tag = "（予定）" if e["_status"] == "upcoming" else ""

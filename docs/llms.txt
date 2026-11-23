@@ -7,6 +7,10 @@
 - 活動: クラブイベント・ライブでの VJ（映像演出）、ライブ制作・運営、DJ イベント運営、音と映像の研究開発
 - 使用言語・技術: Python, C#, Unity（Shader 含む）, JavaScript, Java, HTML/CSS, MySQL, PostgreSQL
 
+## 利用について
+
+このサイトの出演データ（日付・イベント名・会場・主催などのテキスト）は CC BY 4.0（https://creativecommons.org/licenses/by/4.0/deed.ja）で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用、AI による引用・要約も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。
+
 ## ページ
 
 - [トップ / プロフィール](https://zscode.net/): プロフィール、所属団体、開発中・過去のプロジェクト一覧
