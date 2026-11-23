@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+  <title>Zect VJ Works</title>
+  <subtitle>VJ・Zect の出演予定と出演履歴</subtitle>
+  <link href="https://zscode.net/works/"/>
+  <link rel="self" href="https://zscode.net/works/feed.xml"/>
+  <id>https://zscode.net/works/</id>
+  <updated>2026-11-24T04:41:06+09:00</updated>
+  <author><name>Zect</name><uri>https://zscode.net/</uri></author>
+  <rights>出演データ（テキスト）は CC BY 4.0 で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。</rights>
+  <entry>
+    <title>MAGICA TAKASAKI β（2027年2月19日（金）〜2月21日（日））</title>
+    <link href="https://zscode.net/works/2027-02-19/"/>
+    <id>https://zscode.net/works/2027-02-19/</id>
+    <published>2027-02-19T00:00:00+09:00</published>
+    <updated>2027-02-19T00:00:00+09:00</updated>
+    <summary>2027年2月19日（金）〜2月21日（日）に群馬 新町文化ホール で開催されるライブ「MAGICA TAKASAKI β」に、Zect が VJ として出演します。</summary>
+  </entry>
+  <entry>
+    <title>コラボカ2026（2026年11月23日（月））</title>
+    <link href="https://zscode.net/works/2026-11-23/"/>
+    <id>https://zscode.net/works/2026-11-23/</id>
+    <published>2026-11-23T00:00:00+09:00</published>
+    <updated>2026-11-23T00:00:00+09:00</updated>
+    <summary>2026年11月23日（月）、アニソンDJカフェ・バー雷神 で開催されたクラブイベント「コラボカ2026」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>SENA FES ~10th Anniversary Party~（2026年11月7日（土））</title>
+    <link href="https://zscode.net/works/2026-11-07/"/>
+    <id>https://zscode.net/works/2026-11-07/</id>
+    <published>2026-11-07T00:00:00+09:00</published>
+    <updated>2026-11-07T00:00:00+09:00</updated>
+    <summary>2026年11月7日（土）、六本木CUBE で開催されたクラブイベント「SENA FES ~10th Anniversary Party~」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』（2026年10月30日（金））</title>
+    <link href="https://zscode.net/works/2026-10-30/"/>
+    <id>https://zscode.net/works/2026-10-30/</id>
+    <published>2026-10-30T00:00:00+09:00</published>
+    <updated>2026-10-30T00:00:00+09:00</updated>
+    <summary>2026年10月30日（金）、clubasia で開催されたライブ「Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』」に、Zect が VJ として出演しました。主催は Hellzapoppin'。</summary>
+  </entry>
+  <entry>
+    <title>ボカスシ VOCASUSHI（2026年10月4日（日））</title>
+    <link href="https://zscode.net/works/2026-10-04/"/>
+    <id>https://zscode.net/works/2026-10-04/</id>
+    <published>2026-10-04T00:00:00+09:00</published>
+    <updated>2026-10-04T00:00:00+09:00</updated>
+    <summary>2026年10月4日（日）、渋谷 PUBLICPUBLIC で開催されたクラブイベント「ボカスシ VOCASUSHI」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>UNTIL. LT #0x0B（2026年10月3日（土））</title>
+    <link href="https://zscode.net/works/2026-10-03/"/>
+    <id>https://zscode.net/works/2026-10-03/</id>
+    <published>2026-10-03T00:00:00+09:00</published>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <summary>2026年10月3日（土）、筑波大学 3A209 で開催されたクラブイベント「UNTIL. LT #0x0B」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO,VOCALOID Vol.17（2026年8月9日（日））</title>
+    <link href="https://zscode.net/works/2026-08-09/"/>
+    <id>https://zscode.net/works/2026-08-09/</id>
+    <published>2026-08-09T00:00:00+09:00</published>
+    <updated>2026-08-09T00:00:00+09:00</updated>
+    <summary>2026年8月9日（日）、六本木CUBE で開催されたクラブイベント「HELLO,VOCALOID Vol.17」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>re:master-LT#1（2026年7月25日（土））</title>
+    <link href="https://zscode.net/works/2026-07-25/"/>
+    <id>https://zscode.net/works/2026-07-25/</id>
+    <published>2026-07-25T00:00:00+09:00</published>
+    <updated>2026-07-25T00:00:00+09:00</updated>
+    <summary>2026年7月25日（土）、筑波大学 クリエイティブメディアラボ で開催されたクラブイベント「re:master-LT#1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Imag(in)e（2026年7月18日（土））</title>
+    <link href="https://zscode.net/works/2026-07-18/"/>
+    <id>https://zscode.net/works/2026-07-18/</id>
+    <published>2026-07-18T00:00:00+09:00</published>
+    <updated>2026-07-18T00:00:00+09:00</updated>
+    <summary>2026年7月18日（土）、筑波大学 未来社会デザイン棟 で開催されたクラブイベント「Imag(in)e」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>【I.C.U+】in AKIHABARA（2026年7月11日（土））</title>
+    <link href="https://zscode.net/works/2026-07-11/"/>
+    <id>https://zscode.net/works/2026-07-11/</id>
+    <published>2026-07-11T00:00:00+09:00</published>
+    <updated>2026-07-11T00:00:00+09:00</updated>
+    <summary>2026年7月11日（土）、秋葉原 雷神 で開催されたクラブイベント「【I.C.U+】in AKIHABARA」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>M_arch Vol.3（2026年7月5日（日））</title>
+    <link href="https://zscode.net/works/2026-07-05/"/>
+    <id>https://zscode.net/works/2026-07-05/</id>
+    <published>2026-07-05T00:00:00+09:00</published>
+    <updated>2026-07-05T00:00:00+09:00</updated>
+    <summary>2026年7月5日（日）、渋谷 R Lounge 7F で開催されたクラブイベント「M_arch Vol.3」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID 治安倶楽部 Vol.05（2026年6月7日（日））</title>
+    <link href="https://zscode.net/works/2026-06-07/"/>
+    <id>https://zscode.net/works/2026-06-07/</id>
+    <published>2026-06-07T00:00:00+09:00</published>
+    <updated>2026-06-07T00:00:00+09:00</updated>
+    <summary>2026年6月7日（日）、渋谷 R Lounge で開催されたクラブイベント「VOCALOID 治安倶楽部 Vol.05」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID Crossing Vol.53（2026年6月6日（土））</title>
+    <link href="https://zscode.net/works/2026-06-06/"/>
+    <id>https://zscode.net/works/2026-06-06/</id>
+    <published>2026-06-06T00:00:00+09:00</published>
+    <updated>2026-06-06T00:00:00+09:00</updated>
+    <summary>2026年6月6日（土）、nagomix で開催されたクラブイベント「VOCALOID Crossing Vol.53」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-（2026年5月31日（日））</title>
+    <link href="https://zscode.net/works/2026-05-31/"/>
+    <id>https://zscode.net/works/2026-05-31/</id>
+    <published>2026-05-31T00:00:00+09:00</published>
+    <updated>2026-05-31T00:00:00+09:00</updated>
+    <summary>2026年5月31日（日）、浦安市文化会館 で開催されたライブ「Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-」に、Zect が 映像オペレーション として出演しました。主催は KAITO 20th Anniversary ファンメイドライブ制作委員会。</summary>
+  </entry>
+  <entry>
+    <title>はじまりのUTA vol.3（2026年5月30日（土））</title>
+    <link href="https://zscode.net/works/2026-05-30/"/>
+    <id>https://zscode.net/works/2026-05-30/</id>
+    <published>2026-05-30T00:00:00+09:00</published>
+    <updated>2026-05-30T00:00:00+09:00</updated>
+    <summary>2026年5月30日（土）、nagomix で開催されたクラブイベント「はじまりのUTA vol.3」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.16（2026年5月24日（日））</title>
+    <link href="https://zscode.net/works/2026-05-24/"/>
+    <id>https://zscode.net/works/2026-05-24/</id>
+    <published>2026-05-24T00:00:00+09:00</published>
+    <updated>2026-05-24T00:00:00+09:00</updated>
+    <summary>2026年5月24日（日）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.16」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>tonight!（2026年5月15日（金））</title>
+    <link href="https://zscode.net/works/2026-05-15/"/>
+    <id>https://zscode.net/works/2026-05-15/</id>
+    <published>2026-05-15T00:00:00+09:00</published>
+    <updated>2026-05-15T00:00:00+09:00</updated>
+    <summary>2026年5月15日（金）、aNTENA で開催されたクラブイベント「tonight!」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>アキバ治安倶楽部 Vol.01（2026年5月8日（金））</title>
+    <link href="https://zscode.net/works/2026-05-08/"/>
+    <id>https://zscode.net/works/2026-05-08/</id>
+    <published>2026-05-08T00:00:00+09:00</published>
+    <updated>2026-05-08T00:00:00+09:00</updated>
+    <summary>2026年5月8日（金）、アンセムアキバ で開催されたクラブイベント「アキバ治安倶楽部 Vol.01」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCAMONO vol.2（2026年4月29日（水））</title>
+    <link href="https://zscode.net/works/2026-04-29/"/>
+    <id>https://zscode.net/works/2026-04-29/</id>
+    <published>2026-04-29T00:00:00+09:00</published>
+    <updated>2026-04-29T00:00:00+09:00</updated>
+    <summary>2026年4月29日（水）、新宿 azito で開催されたクラブイベント「VOCAMONO vol.2」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>GSK FES 2026（2026年4月25日（土））</title>
+    <link href="https://zscode.net/works/2026-04-25/"/>
+    <id>https://zscode.net/works/2026-04-25/</id>
+    <published>2026-04-25T00:00:00+09:00</published>
+    <updated>2026-04-25T00:00:00+09:00</updated>
+    <summary>2026年4月25日（土）、筑波大学 未来社会デザイン棟 で開催されたライブ「GSK FES 2026」に、Zect が VJ、音/映像オペレーション として出演しました。主催は 筑波大学現代視覚研究会。</summary>
+  </entry>
+  <entry>
+    <title>Butler Service 2026（2026年4月11日（土））</title>
+    <link href="https://zscode.net/works/2026-04-11/"/>
+    <id>https://zscode.net/works/2026-04-11/</id>
+    <published>2026-04-11T00:00:00+09:00</published>
+    <updated>2026-04-11T00:00:00+09:00</updated>
+    <summary>2026年4月11日（土）、渋谷 R Lounge で開催されたクラブイベント「Butler Service 2026」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ぼかこみゅ！ Vol.03（2026年4月4日（土））</title>
+    <link href="https://zscode.net/works/2026-04-04/"/>
+    <id>https://zscode.net/works/2026-04-04/</id>
+    <published>2026-04-04T00:00:00+09:00</published>
+    <updated>2026-04-04T00:00:00+09:00</updated>
+    <summary>2026年4月4日（土）、渋谷 R Lounge で開催されたクラブイベント「ぼかこみゅ！ Vol.03」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID:UNION Future（2026年3月28日（土））</title>
+    <link href="https://zscode.net/works/2026-03-28/"/>
+    <id>https://zscode.net/works/2026-03-28/</id>
+    <published>2026-03-28T00:00:00+09:00</published>
+    <updated>2026-03-28T00:00:00+09:00</updated>
+    <summary>2026年3月28日（土）、CIRCUS TOKYO で開催されたクラブイベント「VOCALOID:UNION Future」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカミュージアム 〜プラネタリウム〜（2026年3月23日（月））</title>
+    <link href="https://zscode.net/works/2026-03-23/"/>
+    <id>https://zscode.net/works/2026-03-23/</id>
+    <published>2026-03-23T00:00:00+09:00</published>
+    <updated>2026-03-23T00:00:00+09:00</updated>
+    <summary>2026年3月23日（月）、西新井・ギャラクシティ2F まるちたいけんドーム で開催されたクラブイベント「ボカミュージアム 〜プラネタリウム〜」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>M_arch Vol.2（2026年2月15日（日））</title>
+    <link href="https://zscode.net/works/2026-02-15/"/>
+    <id>https://zscode.net/works/2026-02-15/</id>
+    <published>2026-02-15T00:00:00+09:00</published>
+    <updated>2026-02-15T00:00:00+09:00</updated>
+    <summary>2026年2月15日（日）、渋谷 R Lounge で開催されたクラブイベント「M_arch Vol.2」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.14（2026年1月4日（日））</title>
+    <link href="https://zscode.net/works/2026-01-04/"/>
+    <id>https://zscode.net/works/2026-01-04/</id>
+    <published>2026-01-04T00:00:00+09:00</published>
+    <updated>2026-01-04T00:00:00+09:00</updated>
+    <summary>2026年1月4日（日）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.14」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>I.C.U（2025年12月21日（日））</title>
+    <link href="https://zscode.net/works/2025-12-21/"/>
+    <id>https://zscode.net/works/2025-12-21/</id>
+    <published>2025-12-21T00:00:00+09:00</published>
+    <updated>2025-12-21T00:00:00+09:00</updated>
+    <summary>2025年12月21日（日）、新宿 azito で開催されたクラブイベント「I.C.U」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID 治安倶楽部 1st Anniversary（2025年11月22日（土））</title>
+    <link href="https://zscode.net/works/2025-11-22/"/>
+    <id>https://zscode.net/works/2025-11-22/</id>
+    <published>2025-11-22T00:00:00+09:00</published>
+    <updated>2025-11-22T00:00:00+09:00</updated>
+    <summary>2025年11月22日（土）、六本木CUBE で開催されたクラブイベント「VOCALOID 治安倶楽部 1st Anniversary」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID Crossing Vol.49（2025年11月8日（土））</title>
+    <link href="https://zscode.net/works/2025-11-08/"/>
+    <id>https://zscode.net/works/2025-11-08/</id>
+    <published>2025-11-08T00:00:00+09:00</published>
+    <updated>2025-11-08T00:00:00+09:00</updated>
+    <summary>2025年11月8日（土）、nagomix で開催されたクラブイベント「VOCALOID Crossing Vol.49」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ぼかこみゅ！ Vol.02（2025年10月4日（土））</title>
+    <link href="https://zscode.net/works/2025-10-04/"/>
+    <id>https://zscode.net/works/2025-10-04/</id>
+    <published>2025-10-04T00:00:00+09:00</published>
+    <updated>2025-10-04T00:00:00+09:00</updated>
+    <summary>2025年10月4日（土）、渋谷 R Lounge で開催されたクラブイベント「ぼかこみゅ！ Vol.02」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Future Basser（2025年9月27日（土））</title>
+    <link href="https://zscode.net/works/2025-09-27/"/>
+    <id>https://zscode.net/works/2025-09-27/</id>
+    <published>2025-09-27T00:00:00+09:00</published>
+    <updated>2025-09-27T00:00:00+09:00</updated>
+    <summary>2025年9月27日（土）、bar granma MITO で開催されたクラブイベント「Future Basser」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカミュージアム ～プロローグ～（2025年9月22日（月））</title>
+    <link href="https://zscode.net/works/2025-09-22/"/>
+    <id>https://zscode.net/works/2025-09-22/</id>
+    <published>2025-09-22T00:00:00+09:00</published>
+    <updated>2025-09-22T00:00:00+09:00</updated>
+    <summary>2025年9月22日（月）、nagomix で開催されたクラブイベント「ボカミュージアム ～プロローグ～」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカブラックvol.3（2025年9月14日（日））</title>
+    <link href="https://zscode.net/works/2025-09-14/"/>
+    <id>https://zscode.net/works/2025-09-14/</id>
+    <published>2025-09-14T00:00:00+09:00</published>
+    <updated>2025-09-14T00:00:00+09:00</updated>
+    <summary>2025年9月14日（日）、阿佐ヶ谷 drift で開催されたクラブイベント「ボカブラックvol.3」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCA_Tetra（2025年9月6日（土））</title>
+    <link href="https://zscode.net/works/2025-09-06/"/>
+    <id>https://zscode.net/works/2025-09-06/</id>
+    <published>2025-09-06T00:00:00+09:00</published>
+    <updated>2025-09-06T00:00:00+09:00</updated>
+    <summary>2025年9月6日（土）、なんば MILULARI Delight で開催されたクラブイベント「VOCA_Tetra」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカ流し（2025年8月17日（日））</title>
+    <link href="https://zscode.net/works/2025-08-17/"/>
+    <id>https://zscode.net/works/2025-08-17/</id>
+    <published>2025-08-17T00:00:00+09:00</published>
+    <updated>2025-08-17T00:00:00+09:00</updated>
+    <summary>2025年8月17日（日）、秋葉原 雷神 &amp; BECK で開催されたクラブイベント「ボカ流し」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカブキ 1st Anniversary（2025年8月2日（土））</title>
+    <link href="https://zscode.net/works/2025-08-02/"/>
+    <id>https://zscode.net/works/2025-08-02/</id>
+    <published>2025-08-02T00:00:00+09:00</published>
+    <updated>2025-08-02T00:00:00+09:00</updated>
+    <summary>2025年8月2日（土）、新宿 motion で開催されたクラブイベント「ボカブキ 1st Anniversary」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.12（2025年7月27日（日））</title>
+    <link href="https://zscode.net/works/2025-07-27/"/>
+    <id>https://zscode.net/works/2025-07-27/</id>
+    <published>2025-07-27T00:00:00+09:00</published>
+    <updated>2025-07-27T00:00:00+09:00</updated>
+    <summary>2025年7月27日（日）、Asakusa Stella で開催されたクラブイベント「HELLO, VOCALOID vol.12」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカ地雷（2025年7月25日（金））</title>
+    <link href="https://zscode.net/works/2025-07-25/"/>
+    <id>https://zscode.net/works/2025-07-25/</id>
+    <published>2025-07-25T00:00:00+09:00</published>
+    <updated>2025-07-25T00:00:00+09:00</updated>
+    <summary>2025年7月25日（金）、新宿 motion で開催されたクラブイベント「ボカ地雷」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>M_arch Vol.1（2025年7月21日（月））</title>
+    <link href="https://zscode.net/works/2025-07-21/"/>
+    <id>https://zscode.net/works/2025-07-21/</id>
+    <published>2025-07-21T00:00:00+09:00</published>
+    <updated>2025-07-21T00:00:00+09:00</updated>
+    <summary>2025年7月21日（月）、渋谷 R Lounge で開催されたクラブイベント「M_arch Vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>まじまりのUTA（2025年7月5日（土））</title>
+    <link href="https://zscode.net/works/2025-07-05/"/>
+    <id>https://zscode.net/works/2025-07-05/</id>
+    <published>2025-07-05T00:00:00+09:00</published>
+    <updated>2025-07-05T00:00:00+09:00</updated>
+    <summary>2025年7月5日（土）、nagomix で開催されたクラブイベント「まじまりのUTA」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>MKL Party（2025年6月29日（日））</title>
+    <link href="https://zscode.net/works/2025-06-29/"/>
+    <id>https://zscode.net/works/2025-06-29/</id>
+    <published>2025-06-29T00:00:00+09:00</published>
+    <updated>2025-06-29T00:00:00+09:00</updated>
+    <summary>2025年6月29日（日）、渋谷 R Lounge で開催されたクラブイベント「MKL Party」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>鏡像異性体（2025年6月21日（土））</title>
+    <link href="https://zscode.net/works/2025-06-21-2/"/>
+    <id>https://zscode.net/works/2025-06-21-2/</id>
+    <published>2025-06-21T00:00:00+09:00</published>
+    <updated>2025-06-21T00:00:00+09:00</updated>
+    <summary>2025年6月21日（土）、新宿azito で開催されたクラブイベント「鏡像異性体」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ぼかこみゅ！（2025年6月21日（土））</title>
+    <link href="https://zscode.net/works/2025-06-21/"/>
+    <id>https://zscode.net/works/2025-06-21/</id>
+    <published>2025-06-21T00:00:00+09:00</published>
+    <updated>2025-06-21T00:00:00+09:00</updated>
+    <summary>2025年6月21日（土）、渋谷 R Lounge で開催されたクラブイベント「ぼかこみゅ！」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID 治安倶楽部（2025年5月31日（土））</title>
+    <link href="https://zscode.net/works/2025-05-31/"/>
+    <id>https://zscode.net/works/2025-05-31/</id>
+    <published>2025-05-31T00:00:00+09:00</published>
+    <updated>2025-05-31T00:00:00+09:00</updated>
+    <summary>2025年5月31日（土）、新宿 motion で開催されたクラブイベント「VOCALOID 治安倶楽部」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.4.0（2025年4月5日（土））</title>
+    <link href="https://zscode.net/works/2025-04-05/"/>
+    <id>https://zscode.net/works/2025-04-05/</id>
+    <published>2025-04-05T00:00:00+09:00</published>
+    <updated>2025-04-05T00:00:00+09:00</updated>
+    <summary>2025年4月5日（土）、御徒町KKP -&gt; 新宿motion で開催されたクラブイベント「TRY FORCE vol.4.0」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>4 GROOVE vol.3 -1st Aniv.-（2025年3月22日（土））</title>
+    <link href="https://zscode.net/works/2025-03-22/"/>
+    <id>https://zscode.net/works/2025-03-22/</id>
+    <published>2025-03-22T00:00:00+09:00</published>
+    <updated>2025-03-22T00:00:00+09:00</updated>
+    <summary>2025年3月22日（土）、六本木CUBE で開催されたクラブイベント「4 GROOVE vol.3 -1st Aniv.-」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.3.0（2025年3月16日（日））</title>
+    <link href="https://zscode.net/works/2025-03-16/"/>
+    <id>https://zscode.net/works/2025-03-16/</id>
+    <published>2025-03-16T00:00:00+09:00</published>
+    <updated>2025-03-16T00:00:00+09:00</updated>
+    <summary>2025年3月16日（日）、ギルドネオ で開催されたクラブイベント「TRY FORCE vol.3.0」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>MAGICA高崎 -Reboot-（2025年3月15日（土））</title>
+    <link href="https://zscode.net/works/2025-03-15/"/>
+    <id>https://zscode.net/works/2025-03-15/</id>
+    <published>2025-03-15T00:00:00+09:00</published>
+    <updated>2025-03-15T00:00:00+09:00</updated>
+    <summary>2025年3月15日（土）、群馬県 高崎市 新町文化ホール で開催されたクラブイベント「MAGICA高崎 -Reboot-」に、Zect が 映像オペレーション として出演しました。主催は 高経大ミクライブ！。</summary>
+  </entry>
+  <entry>
+    <title>ThkU39（2025年3月9日（日））</title>
+    <link href="https://zscode.net/works/2025-03-09/"/>
+    <id>https://zscode.net/works/2025-03-09/</id>
+    <published>2025-03-09T00:00:00+09:00</published>
+    <updated>2025-03-09T00:00:00+09:00</updated>
+    <summary>2025年3月9日（日）、Bar Locntonte で開催されたクラブイベント「ThkU39」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Color-full VOCALOID vol.03（2025年3月1日（土））</title>
+    <link href="https://zscode.net/works/2025-03-01/"/>
+    <id>https://zscode.net/works/2025-03-01/</id>
+    <published>2025-03-01T00:00:00+09:00</published>
+    <updated>2025-03-01T00:00:00+09:00</updated>
+    <summary>2025年3月1日（土）、新宿 azito で開催されたクラブイベント「Color-full VOCALOID vol.03」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>KEYITEM FES（2025年2月24日（月））</title>
+    <link href="https://zscode.net/works/2025-02-24/"/>
+    <id>https://zscode.net/works/2025-02-24/</id>
+    <published>2025-02-24T00:00:00+09:00</published>
+    <updated>2025-02-24T00:00:00+09:00</updated>
+    <summary>2025年2月24日（月）、渋谷 R Lounge で開催されたクラブイベント「KEYITEM FES」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID:UNION STAR（2025年2月23日（日））</title>
+    <link href="https://zscode.net/works/2025-02-23/"/>
+    <id>https://zscode.net/works/2025-02-23/</id>
+    <published>2025-02-23T00:00:00+09:00</published>
+    <updated>2025-02-23T00:00:00+09:00</updated>
+    <summary>2025年2月23日（日）、CIRCUS TOKYO で開催されたクラブイベント「VOCALOID:UNION STAR」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ぼかいと（2025年2月15日（土））</title>
+    <link href="https://zscode.net/works/2025-02-15/"/>
+    <id>https://zscode.net/works/2025-02-15/</id>
+    <published>2025-02-15T00:00:00+09:00</published>
+    <updated>2025-02-15T00:00:00+09:00</updated>
+    <summary>2025年2月15日（土）、渋谷 R Lounge で開催されたクラブイベント「ぼかいと」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.2.0（2025年2月9日（日））</title>
+    <link href="https://zscode.net/works/2025-02-09/"/>
+    <id>https://zscode.net/works/2025-02-09/</id>
+    <published>2025-02-09T00:00:00+09:00</published>
+    <updated>2025-02-09T00:00:00+09:00</updated>
+    <summary>2025年2月9日（日）、Asakusa Stella で開催されたクラブイベント「TRY FORCE vol.2.0」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ルカファンタジア リユニオン（2025年1月19日（日））</title>
+    <link href="https://zscode.net/works/2025-01-19/"/>
+    <id>https://zscode.net/works/2025-01-19/</id>
+    <published>2025-01-19T00:00:00+09:00</published>
+    <updated>2025-01-19T00:00:00+09:00</updated>
+    <summary>2025年1月19日（日）、秋葉原エンタス で開催されたライブ「ルカファンタジア リユニオン」に、Zect が 音/映像オペレーション として出演しました。主催は FuLUKAlor ink.。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.1.0（2025年1月11日（土））</title>
+    <link href="https://zscode.net/works/2025-01-11/"/>
+    <id>https://zscode.net/works/2025-01-11/</id>
+    <published>2025-01-11T00:00:00+09:00</published>
+    <updated>2025-01-11T00:00:00+09:00</updated>
+    <summary>2025年1月11日（土）、新宿 motion で開催されたクラブイベント「TRY FORCE vol.1.0」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCAMONO（2024年12月22日（日））</title>
+    <link href="https://zscode.net/works/2024-12-22/"/>
+    <id>https://zscode.net/works/2024-12-22/</id>
+    <published>2024-12-22T00:00:00+09:00</published>
+    <updated>2024-12-22T00:00:00+09:00</updated>
+    <summary>2024年12月22日（日）、新宿 azito で開催されたクラブイベント「VOCAMONO」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.0.0（2024年12月21日（土））</title>
+    <link href="https://zscode.net/works/2024-12-21/"/>
+    <id>https://zscode.net/works/2024-12-21/</id>
+    <published>2024-12-21T00:00:00+09:00</published>
+    <updated>2024-12-21T00:00:00+09:00</updated>
+    <summary>2024年12月21日（土）、twitch live で開催されたクラブイベント「TRY FORCE vol.0.0」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボーカロイド流体力学（2024年12月14日（土））</title>
+    <link href="https://zscode.net/works/2024-12-14/"/>
+    <id>https://zscode.net/works/2024-12-14/</id>
+    <published>2024-12-14T00:00:00+09:00</published>
+    <updated>2024-12-14T00:00:00+09:00</updated>
+    <summary>2024年12月14日（土）、新宿 motion で開催されたクラブイベント「ボーカロイド流体力学」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカロ曲聴きながら食うピザが1番美味い（2024年12月7日（土））</title>
+    <link href="https://zscode.net/works/2024-12-07/"/>
+    <id>https://zscode.net/works/2024-12-07/</id>
+    <published>2024-12-07T00:00:00+09:00</published>
+    <updated>2024-12-07T00:00:00+09:00</updated>
+    <summary>2024年12月7日（土）、PIZZA＆WINE CONA Bivi沼津店 で開催されたクラブイベント「ボカロ曲聴きながら食うピザが1番美味い」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ミク廃の集い（2024年11月17日（日））</title>
+    <link href="https://zscode.net/works/2024-11-17/"/>
+    <id>https://zscode.net/works/2024-11-17/</id>
+    <published>2024-11-17T00:00:00+09:00</published>
+    <updated>2024-11-17T00:00:00+09:00</updated>
+    <summary>2024年11月17日（日）、新宿 azito で開催されたクラブイベント「ミク廃の集い」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID 治安倶楽部（2024年11月16日（土））</title>
+    <link href="https://zscode.net/works/2024-11-16/"/>
+    <id>https://zscode.net/works/2024-11-16/</id>
+    <published>2024-11-16T00:00:00+09:00</published>
+    <updated>2024-11-16T00:00:00+09:00</updated>
+    <summary>2024年11月16日（土）、新宿 motion で開催されたクラブイベント「VOCALOID 治安倶楽部」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.9（2024年10月20日（日））</title>
+    <link href="https://zscode.net/works/2024-10-20/"/>
+    <id>https://zscode.net/works/2024-10-20/</id>
+    <published>2024-10-20T00:00:00+09:00</published>
+    <updated>2024-10-20T00:00:00+09:00</updated>
+    <summary>2024年10月20日（日）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.9」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.8（2024年9月22日（日））</title>
+    <link href="https://zscode.net/works/2024-09-22/"/>
+    <id>https://zscode.net/works/2024-09-22/</id>
+    <published>2024-09-22T00:00:00+09:00</published>
+    <updated>2024-09-22T00:00:00+09:00</updated>
+    <summary>2024年9月22日（日）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.8」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>竜胆の集い（2024年9月7日（土））</title>
+    <link href="https://zscode.net/works/2024-09-07/"/>
+    <id>https://zscode.net/works/2024-09-07/</id>
+    <published>2024-09-07T00:00:00+09:00</published>
+    <updated>2024-09-07T00:00:00+09:00</updated>
+    <summary>2024年9月7日（土）、新宿 azito で開催されたクラブイベント「竜胆の集い」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ミクストリーム vol.3（2024年8月12日（月））</title>
+    <link href="https://zscode.net/works/2024-08-12/"/>
+    <id>https://zscode.net/works/2024-08-12/</id>
+    <published>2024-08-12T00:00:00+09:00</published>
+    <updated>2024-08-12T00:00:00+09:00</updated>
+    <summary>2024年8月12日（月）、music lounge 24/7 で開催されたクラブイベント「ミクストリーム vol.3」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Road to ボカチバ（2024年7月28日（日））</title>
+    <link href="https://zscode.net/works/2024-07-28/"/>
+    <id>https://zscode.net/works/2024-07-28/</id>
+    <published>2024-07-28T00:00:00+09:00</published>
+    <updated>2024-07-28T00:00:00+09:00</updated>
+    <summary>2024年7月28日（日）、Vocabar Melty で開催されたクラブイベント「Road to ボカチバ」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>鏡像異性体（2024年7月27日（土））</title>
+    <link href="https://zscode.net/works/2024-07-27/"/>
+    <id>https://zscode.net/works/2024-07-27/</id>
+    <published>2024-07-27T00:00:00+09:00</published>
+    <updated>2024-07-27T00:00:00+09:00</updated>
+    <summary>2024年7月27日（土）、新宿 azito で開催されたクラブイベント「鏡像異性体」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>tonight!（2024年7月26日（金））</title>
+    <link href="https://zscode.net/works/2024-07-26/"/>
+    <id>https://zscode.net/works/2024-07-26/</id>
+    <published>2024-07-26T00:00:00+09:00</published>
+    <updated>2024-07-26T00:00:00+09:00</updated>
+    <summary>2024年7月26日（金）、Bar FROG で開催されたクラブイベント「tonight!」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>TRY FORCE vol.1（2024年7月21日（日））</title>
+    <link href="https://zscode.net/works/2024-07-21/"/>
+    <id>https://zscode.net/works/2024-07-21/</id>
+    <published>2024-07-21T00:00:00+09:00</published>
+    <updated>2024-07-21T00:00:00+09:00</updated>
+    <summary>2024年7月21日（日）、秋葉原MOGRA で開催されたクラブイベント「TRY FORCE vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>VOCALOID CONTEXT（2024年7月13日（土））</title>
+    <link href="https://zscode.net/works/2024-07-13-2/"/>
+    <id>https://zscode.net/works/2024-07-13-2/</id>
+    <published>2024-07-13T00:00:00+09:00</published>
+    <updated>2024-07-13T00:00:00+09:00</updated>
+    <summary>2024年7月13日（土）、Cafe BAr LIVRE で開催されたクラブイベント「VOCALOID CONTEXT」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Presto VOCALOID（2024年7月13日（土））</title>
+    <link href="https://zscode.net/works/2024-07-13/"/>
+    <id>https://zscode.net/works/2024-07-13/</id>
+    <published>2024-07-13T00:00:00+09:00</published>
+    <updated>2024-07-13T00:00:00+09:00</updated>
+    <summary>2024年7月13日（土）、Asakusa Stella で開催されたクラブイベント「Presto VOCALOID」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Color-full VOCALOID vol.1（2024年7月6日（土））</title>
+    <link href="https://zscode.net/works/2024-07-06/"/>
+    <id>https://zscode.net/works/2024-07-06/</id>
+    <published>2024-07-06T00:00:00+09:00</published>
+    <updated>2024-07-06T00:00:00+09:00</updated>
+    <summary>2024年7月6日（土）、新宿 azito で開催されたクラブイベント「Color-full VOCALOID vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>39's Luminous（2024年6月29日（土））</title>
+    <link href="https://zscode.net/works/2024-06-29/"/>
+    <id>https://zscode.net/works/2024-06-29/</id>
+    <published>2024-06-29T00:00:00+09:00</published>
+    <updated>2024-06-29T00:00:00+09:00</updated>
+    <summary>2024年6月29日（土）、渋谷 WOMB LOUNGE で開催されたクラブイベント「39's Luminous」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ルカファンタジア アフターDJイベ（2024年5月26日（日））</title>
+    <link href="https://zscode.net/works/2024-05-26-2/"/>
+    <id>https://zscode.net/works/2024-05-26-2/</id>
+    <published>2024-05-26T00:00:00+09:00</published>
+    <updated>2024-05-26T00:00:00+09:00</updated>
+    <summary>2024年5月26日（日）、埼玉県県民活動総合センター で開催されたクラブイベント「ルカファンタジア アフターDJイベ」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ルカファンタジア（2024年5月26日（日））</title>
+    <link href="https://zscode.net/works/2024-05-26/"/>
+    <id>https://zscode.net/works/2024-05-26/</id>
+    <published>2024-05-26T00:00:00+09:00</published>
+    <updated>2024-05-26T00:00:00+09:00</updated>
+    <summary>2024年5月26日（日）、埼玉県県民活動総合センター で開催されたライブ「ルカファンタジア」に、Zect が 映像オペレーション として出演しました。主催は FuLUKAlor ink.。</summary>
+  </entry>
+  <entry>
+    <title>Try Force -Front Line- vol.1（2024年4月6日（土））</title>
+    <link href="https://zscode.net/works/2024-04-06/"/>
+    <id>https://zscode.net/works/2024-04-06/</id>
+    <published>2024-04-06T00:00:00+09:00</published>
+    <updated>2024-04-06T00:00:00+09:00</updated>
+    <summary>2024年4月6日（土）、twitch live で開催されたクラブイベント「Try Force -Front Line- vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Raise our Flag（2024年4月1日（月））</title>
+    <link href="https://zscode.net/works/2024-04-01/"/>
+    <id>https://zscode.net/works/2024-04-01/</id>
+    <published>2024-04-01T00:00:00+09:00</published>
+    <updated>2024-04-01T00:00:00+09:00</updated>
+    <summary>2024年4月1日（月）、秋葉原 エンタス で開催されたライブ「Raise our Flag」に、Zect が 代表、映像オペレーション として出演しました。主催は 04SQUAD。</summary>
+  </entry>
+  <entry>
+    <title>MIKU's TAPE（2024年3月3日（日））</title>
+    <link href="https://zscode.net/works/2024-03-03/"/>
+    <id>https://zscode.net/works/2024-03-03/</id>
+    <published>2024-03-03T00:00:00+09:00</published>
+    <updated>2024-03-03T00:00:00+09:00</updated>
+    <summary>2024年3月3日（日）、東京外国語大学 プロメテウス・ホール で開催されたライブ「MIKU's TAPE」に、Zect が OWN LIVEとしてのリハーサル準備協力 として出演しました。主催は 東京外大ミクライブ研究会。</summary>
+  </entry>
+  <entry>
+    <title>Try Force -Boot Camp- vol.3（2024年3月2日（土））</title>
+    <link href="https://zscode.net/works/2024-03-02-2/"/>
+    <id>https://zscode.net/works/2024-03-02-2/</id>
+    <published>2024-03-02T00:00:00+09:00</published>
+    <updated>2024-03-02T00:00:00+09:00</updated>
+    <summary>2024年3月2日（土）、04SQUAD で開催されたクラブイベント「Try Force -Boot Camp- vol.3」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Try Force -Boot Camp- vol.2（2024年3月2日（土））</title>
+    <link href="https://zscode.net/works/2024-03-02/"/>
+    <id>https://zscode.net/works/2024-03-02/</id>
+    <published>2024-03-02T00:00:00+09:00</published>
+    <updated>2024-03-02T00:00:00+09:00</updated>
+    <summary>2024年3月2日（土）、04SQUAD で開催されたクラブイベント「Try Force -Boot Camp- vol.2」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.4（2024年2月23日（金））</title>
+    <link href="https://zscode.net/works/2024-02-23/"/>
+    <id>https://zscode.net/works/2024-02-23/</id>
+    <published>2024-02-23T00:00:00+09:00</published>
+    <updated>2024-02-23T00:00:00+09:00</updated>
+    <summary>2024年2月23日（金）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.4」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>ボカラフ vol.2（2024年2月12日（月））</title>
+    <link href="https://zscode.net/works/2024-02-12/"/>
+    <id>https://zscode.net/works/2024-02-12/</id>
+    <published>2024-02-12T00:00:00+09:00</published>
+    <updated>2024-02-12T00:00:00+09:00</updated>
+    <summary>2024年2月12日（月）、音部屋 スクエア で開催されたクラブイベント「ボカラフ vol.2」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>Try Force -Boot Camp- vol.1（2024年2月3日（土））</title>
+    <link href="https://zscode.net/works/2024-02-03/"/>
+    <id>https://zscode.net/works/2024-02-03/</id>
+    <published>2024-02-03T00:00:00+09:00</published>
+    <updated>2024-02-03T00:00:00+09:00</updated>
+    <summary>2024年2月3日（土）、04SQUAD で開催されたクラブイベント「Try Force -Boot Camp- vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+  <entry>
+    <title>HELLO, VOCALOID vol.1（2023年8月18日（金））</title>
+    <link href="https://zscode.net/works/2023-08-18/"/>
+    <id>https://zscode.net/works/2023-08-18/</id>
+    <published>2023-08-18T00:00:00+09:00</published>
+    <updated>2023-08-18T00:00:00+09:00</updated>
+    <summary>2023年8月18日（金）、新宿 azito で開催されたクラブイベント「HELLO, VOCALOID vol.1」に、Zect が VJ として出演しました。</summary>
+  </entry>
+</feed>

@@ -1,0 +1,1315 @@
+{
+  "title": "Zect VJ 出演データ",
+  "description": "VJ・Zect の出演履歴と出演予定（クラブイベント・ライブ）。イベント資料・カレンダー・調べものにどうぞ。",
+  "source": "https://zscode.net/works/",
+  "performer": {
+    "name": "Zect",
+    "url": "https://zscode.net/"
+  },
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+  "license_note": "出演データ（テキスト）は CC BY 4.0 で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。",
+  "attribution": "出典: Zect（https://zscode.net/works/）",
+  "updated": "2026-11-24T04:41:06+09:00",
+  "count": 85,
+  "events": [
+    {
+      "date": "2027-02-19",
+      "end": "2027-02-21",
+      "title": "MAGICA TAKASAKI β",
+      "status": "upcoming",
+      "kind": "live",
+      "role": "VJ",
+      "venue": "群馬 新町文化ホール",
+      "flyer": "https://zscode.net/img/works/2027-02-19.jpg",
+      "page": "https://zscode.net/works/2027-02-19/"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "コラボカ2026",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "アニソンDJカフェ・バー雷神",
+      "venue_url": "http://www.raizeen.com/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/744635"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-11-23.jpg",
+      "page": "https://zscode.net/works/2026-11-23/"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "SENA FES ~10th Anniversary Party~",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "六本木CUBE",
+      "tickets": [
+        {
+          "url": "https://tiget.net/events/530499"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-11-07.jpg",
+      "page": "https://zscode.net/works/2026-11-07/"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Hellzapoppin’ 2nd One Man Live 『FULL HOUSE』",
+      "status": "past",
+      "kind": "live",
+      "role": "VJ",
+      "venue": "clubasia",
+      "venue_url": "https://clubasia.jp/",
+      "organizer": "Hellzapoppin'",
+      "organizer_url": "https://x.com/Hellzapoppin_JP",
+      "tickets": [
+        {
+          "url": "https://ticketdive.com/event/hellzapoppin_FULLHOUSE"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-10-30.jpg",
+      "page": "https://zscode.net/works/2026-10-30/"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "ボカスシ VOCASUSHI",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 PUBLICPUBLIC",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/742950"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-10-04.jpg",
+      "page": "https://zscode.net/works/2026-10-04/"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "UNTIL. LT #0x0B",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "筑波大学 3A209",
+      "tickets": [
+        {
+          "url": "https://until-tsukuba.connpass.com/event/401509/"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-10-03.jpg",
+      "page": "https://zscode.net/works/2026-10-03/"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "HELLO,VOCALOID Vol.17",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "六本木CUBE",
+      "venue_url": "https://mp-cube.net/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/735910"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-08-09.jpg",
+      "page": "https://zscode.net/works/2026-08-09/"
+    },
+    {
+      "date": "2026-07-25",
+      "title": "re:master-LT#1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "筑波大学 クリエイティブメディアラボ",
+      "tickets": [
+        {
+          "url": "https://remaster-lt.connpass.com/event/398763/"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-07-25.png",
+      "page": "https://zscode.net/works/2026-07-25/"
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Imag(in)e",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "筑波大学 未来社会デザイン棟",
+      "flyer": "https://zscode.net/img/works/2026-07-18.jpg",
+      "page": "https://zscode.net/works/2026-07-18/"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "【I.C.U+】in AKIHABARA",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "秋葉原 雷神",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/714376"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-07-11.jpg",
+      "page": "https://zscode.net/works/2026-07-11/"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "M_arch Vol.3",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge 7F",
+      "series": "M_arch",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/728080"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-07-05.jpg",
+      "page": "https://zscode.net/works/2026-07-05/"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "VOCALOID 治安倶楽部 Vol.05",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "VOCALOID 治安倶楽部",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/727513"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-06-07.jpg",
+      "page": "https://zscode.net/works/2026-06-07/"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "VOCALOID Crossing Vol.53",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "series": "VOCALOID Crossing",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/725096"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-06-06.jpg",
+      "page": "https://zscode.net/works/2026-06-06/"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Blue Sky Tone. -KAITO 20th Anniversary ファンメイドライブ-",
+      "status": "past",
+      "kind": "live",
+      "role": "映像オペレーション",
+      "venue": "浦安市文化会館",
+      "organizer": "KAITO 20th Anniversary ファンメイドライブ制作委員会",
+      "tickets": [
+        {
+          "url": "https://livepocket.jp/e/z3w88"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-05-31.webp",
+      "page": "https://zscode.net/works/2026-05-31/"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "はじまりのUTA vol.3",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/714376"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-05-30.jpg",
+      "page": "https://zscode.net/works/2026-05-30/"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "HELLO, VOCALOID vol.16",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/723479"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-05-24.jpg",
+      "page": "https://zscode.net/works/2026-05-24/"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "tonight!",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "aNTENA",
+      "series": "tonight!",
+      "flyer": "https://zscode.net/img/works/2026-05-15.jpg",
+      "page": "https://zscode.net/works/2026-05-15/"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "アキバ治安倶楽部 Vol.01",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "アンセムアキバ",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/726708"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-05-08.jpg",
+      "page": "https://zscode.net/works/2026-05-08/"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "VOCAMONO vol.2",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "VOCAMONO",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/719320"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-04-29.jpg",
+      "page": "https://zscode.net/works/2026-04-29/"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "GSK FES 2026",
+      "status": "past",
+      "kind": "live",
+      "role": "VJ、音/映像オペレーション",
+      "venue": "筑波大学 未来社会デザイン棟",
+      "organizer": "筑波大学現代視覚研究会",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/725640"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-04-25.jpg",
+      "page": "https://zscode.net/works/2026-04-25/"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Butler Service 2026",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "tickets": [
+        {
+          "url": "https://livepocket.jp/e/butler-service2026"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-04-11.webp",
+      "page": "https://zscode.net/works/2026-04-11/"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "ぼかこみゅ！ Vol.03",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "ぼかこみゅ！",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/717516"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-04-04.jpg",
+      "page": "https://zscode.net/works/2026-04-04/"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "VOCALOID:UNION Future",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "CIRCUS TOKYO",
+      "venue_url": "https://circus-tokyo.jp/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/710820"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-03-28.jpg",
+      "page": "https://zscode.net/works/2026-03-28/"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "ボカミュージアム 〜プラネタリウム〜",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "西新井・ギャラクシティ2F まるちたいけんドーム",
+      "tickets": [
+        {
+          "url": "https://passmarket.yahoo.co.jp/event/show/detail/0228z1p9ert41.html"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-03-23.jpg",
+      "page": "https://zscode.net/works/2026-03-23/"
+    },
+    {
+      "date": "2026-02-15",
+      "title": "M_arch Vol.2",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "M_arch",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/704456"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-02-15.png",
+      "page": "https://zscode.net/works/2026-02-15/"
+    },
+    {
+      "date": "2026-01-04",
+      "title": "HELLO, VOCALOID vol.14",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/708368"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2026-01-04.jpg",
+      "page": "https://zscode.net/works/2026-01-04/"
+    },
+    {
+      "date": "2025-12-21",
+      "title": "I.C.U",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/691032"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-12-21.jpg",
+      "page": "https://zscode.net/works/2025-12-21/"
+    },
+    {
+      "date": "2025-11-22",
+      "title": "VOCALOID 治安倶楽部 1st Anniversary",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "六本木CUBE",
+      "series": "VOCALOID 治安倶楽部",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/690324"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-11-22.jpg",
+      "page": "https://zscode.net/works/2025-11-22/"
+    },
+    {
+      "date": "2025-11-08",
+      "title": "VOCALOID Crossing Vol.49",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "series": "VOCALOID Crossing",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/700367"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-11-08.jpg",
+      "page": "https://zscode.net/works/2025-11-08/"
+    },
+    {
+      "date": "2025-10-04",
+      "title": "ぼかこみゅ！ Vol.02",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "ぼかこみゅ！",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/694390"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-10-04.jpg",
+      "page": "https://zscode.net/works/2025-10-04/"
+    },
+    {
+      "date": "2025-09-27",
+      "title": "Future Basser",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "bar granma MITO",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/690445"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-09-27.png",
+      "page": "https://zscode.net/works/2025-09-27/"
+    },
+    {
+      "date": "2025-09-22",
+      "title": "ボカミュージアム ～プロローグ～",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/686359"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-09-22.jpg",
+      "page": "https://zscode.net/works/2025-09-22/"
+    },
+    {
+      "date": "2025-09-14",
+      "title": "ボカブラックvol.3",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "阿佐ヶ谷 drift",
+      "tickets": [
+        {
+          "url": "https://www.twipla.jp/events/685056"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-09-14.jpg",
+      "page": "https://zscode.net/works/2025-09-14/"
+    },
+    {
+      "date": "2025-09-06",
+      "title": "VOCA_Tetra",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "なんば MILULARI Delight",
+      "tickets": [
+        {
+          "url": "https://www.twipla.jp/events/687677"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-09-06.jpg",
+      "page": "https://zscode.net/works/2025-09-06/"
+    },
+    {
+      "date": "2025-08-17",
+      "title": "ボカ流し",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "秋葉原 雷神 & BECK",
+      "tickets": [
+        {
+          "url": "https://www.twipla.jp/events/678323"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-08-17.jpg",
+      "page": "https://zscode.net/works/2025-08-17/"
+    },
+    {
+      "date": "2025-08-02",
+      "title": "ボカブキ 1st Anniversary",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "flyer": "https://zscode.net/img/works/2025-08-02.jpg",
+      "page": "https://zscode.net/works/2025-08-02/"
+    },
+    {
+      "date": "2025-07-27",
+      "title": "HELLO, VOCALOID vol.12",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Asakusa Stella",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/683318"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-07-27.jpg",
+      "page": "https://zscode.net/works/2025-07-27/"
+    },
+    {
+      "date": "2025-07-25",
+      "title": "ボカ地雷",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "flyer": "https://zscode.net/img/works/2025-07-25.jpg",
+      "page": "https://zscode.net/works/2025-07-25/"
+    },
+    {
+      "date": "2025-07-21",
+      "title": "M_arch Vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "M_arch",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/676639"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-07-21.png",
+      "page": "https://zscode.net/works/2025-07-21/"
+    },
+    {
+      "date": "2025-07-05",
+      "title": "まじまりのUTA",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/673371"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-07-05.jpg",
+      "page": "https://zscode.net/works/2025-07-05/"
+    },
+    {
+      "date": "2025-06-29",
+      "title": "MKL Party",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/671454"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-06-29.jpg",
+      "page": "https://zscode.net/works/2025-06-29/"
+    },
+    {
+      "date": "2025-06-21",
+      "title": "鏡像異性体",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿azito",
+      "series": "鏡像異性体",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/674433"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-06-21-2.jpg",
+      "page": "https://zscode.net/works/2025-06-21-2/"
+    },
+    {
+      "date": "2025-06-21",
+      "title": "ぼかこみゅ！",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "series": "ぼかこみゅ！",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/678076"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-06-21.jpg",
+      "page": "https://zscode.net/works/2025-06-21/"
+    },
+    {
+      "date": "2025-05-31",
+      "title": "VOCALOID 治安倶楽部",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "series": "VOCALOID 治安倶楽部",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/669911"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-05-31.jpg",
+      "page": "https://zscode.net/works/2025-05-31/"
+    },
+    {
+      "date": "2025-04-05",
+      "title": "TRY FORCE vol.4.0",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "御徒町KKP -> 新宿motion",
+      "series": "TRY FORCE",
+      "flyer": "https://zscode.net/img/works/2025-04-05.jpg",
+      "page": "https://zscode.net/works/2025-04-05/"
+    },
+    {
+      "date": "2025-03-22",
+      "title": "4 GROOVE vol.3 -1st Aniv.-",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "六本木CUBE",
+      "venue_url": "https://mp-cube.net/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/644274"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-03-22.jpg",
+      "page": "https://zscode.net/works/2025-03-22/"
+    },
+    {
+      "date": "2025-03-16",
+      "title": "TRY FORCE vol.3.0",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "ギルドネオ",
+      "series": "TRY FORCE",
+      "flyer": "https://zscode.net/img/works/2025-03-16.jpg",
+      "page": "https://zscode.net/works/2025-03-16/"
+    },
+    {
+      "date": "2025-03-15",
+      "title": "MAGICA高崎 -Reboot-",
+      "status": "past",
+      "kind": "club",
+      "role": "映像オペレーション",
+      "venue": "群馬県 高崎市 新町文化ホール",
+      "organizer": "高経大ミクライブ！",
+      "organizer_url": "https://twitter.com/takakei_miku",
+      "flyer": "https://zscode.net/img/works/2025-03-15.jpg",
+      "page": "https://zscode.net/works/2025-03-15/"
+    },
+    {
+      "date": "2025-03-09",
+      "title": "ThkU39",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Bar Locntonte",
+      "venue_url": "https://www.locotonte.com/",
+      "flyer": "https://zscode.net/img/works/2025-03-09.jpg",
+      "page": "https://zscode.net/works/2025-03-09/"
+    },
+    {
+      "date": "2025-03-01",
+      "title": "Color-full VOCALOID vol.03",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "series": "Color-full VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/664492"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-03-01.jpg",
+      "page": "https://zscode.net/works/2025-03-01/"
+    },
+    {
+      "date": "2025-02-24",
+      "title": "KEYITEM FES",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/657341"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-02-24.jpg",
+      "page": "https://zscode.net/works/2025-02-24/"
+    },
+    {
+      "date": "2025-02-23",
+      "title": "VOCALOID:UNION STAR",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "CIRCUS TOKYO",
+      "venue_url": "https://circus-tokyo.jp/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/644198"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-02-23.jpg",
+      "page": "https://zscode.net/works/2025-02-23/"
+    },
+    {
+      "date": "2025-02-15",
+      "title": "ぼかいと",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 R Lounge",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/638841"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-02-15.jpg",
+      "page": "https://zscode.net/works/2025-02-15/"
+    },
+    {
+      "date": "2025-02-09",
+      "title": "TRY FORCE vol.2.0",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Asakusa Stella",
+      "series": "TRY FORCE",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/662657"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-02-09.png",
+      "page": "https://zscode.net/works/2025-02-09/"
+    },
+    {
+      "date": "2025-01-19",
+      "title": "ルカファンタジア リユニオン",
+      "status": "past",
+      "kind": "live",
+      "role": "音/映像オペレーション",
+      "venue": "秋葉原エンタス",
+      "organizer": "FuLUKAlor ink.",
+      "organizer_url": "https://twitter.com/luka_fanmade",
+      "tickets": [
+        {
+          "label": "朝公演",
+          "url": "https://t.livepocket.jp/e/sb9u5"
+        },
+        {
+          "label": "昼公演",
+          "url": "https://t.livepocket.jp/e/xxrvb"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2025-01-19.jpg",
+      "page": "https://zscode.net/works/2025-01-19/"
+    },
+    {
+      "date": "2025-01-11",
+      "title": "TRY FORCE vol.1.0",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "series": "TRY FORCE",
+      "flyer": "https://zscode.net/img/works/2025-01-11.jpg",
+      "page": "https://zscode.net/works/2025-01-11/"
+    },
+    {
+      "date": "2024-12-22",
+      "title": "VOCAMONO",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "VOCAMONO",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/639476"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-12-22.jpg",
+      "page": "https://zscode.net/works/2024-12-22/"
+    },
+    {
+      "date": "2024-12-21",
+      "title": "TRY FORCE vol.0.0",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "twitch live",
+      "series": "TRY FORCE",
+      "flyer": "https://zscode.net/img/works/2024-12-21.jpg",
+      "page": "https://zscode.net/works/2024-12-21/"
+    },
+    {
+      "date": "2024-12-14",
+      "title": "ボーカロイド流体力学",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/639193"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-12-14.jpg",
+      "page": "https://zscode.net/works/2024-12-14/"
+    },
+    {
+      "date": "2024-12-07",
+      "title": "ボカロ曲聴きながら食うピザが1番美味い",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "PIZZA＆WINE CONA Bivi沼津店",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/636398"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-12-07.jpg",
+      "page": "https://zscode.net/works/2024-12-07/"
+    },
+    {
+      "date": "2024-11-17",
+      "title": "ミク廃の集い",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/639441"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-11-17.jpg",
+      "page": "https://zscode.net/works/2024-11-17/"
+    },
+    {
+      "date": "2024-11-16",
+      "title": "VOCALOID 治安倶楽部",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 motion",
+      "venue_url": "https://www.shinjyuku-motion.jp/",
+      "series": "VOCALOID 治安倶楽部",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/636261"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-11-16.jpg",
+      "page": "https://zscode.net/works/2024-11-16/"
+    },
+    {
+      "date": "2024-10-20",
+      "title": "HELLO, VOCALOID vol.9",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/636253"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-10-20.jpg",
+      "page": "https://zscode.net/works/2024-10-20/"
+    },
+    {
+      "date": "2024-09-22",
+      "title": "HELLO, VOCALOID vol.8",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/632027"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-09-22.png",
+      "page": "https://zscode.net/works/2024-09-22/"
+    },
+    {
+      "date": "2024-09-07",
+      "title": "竜胆の集い",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/627498"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-09-07.jpg",
+      "page": "https://zscode.net/works/2024-09-07/"
+    },
+    {
+      "date": "2024-08-12",
+      "title": "ミクストリーム vol.3",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "music lounge 24/7",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/608683"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-08-12.jpg",
+      "page": "https://zscode.net/works/2024-08-12/"
+    },
+    {
+      "date": "2024-07-28",
+      "title": "Road to ボカチバ",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Vocabar Melty",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/623158"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-28.jpg",
+      "page": "https://zscode.net/works/2024-07-28/"
+    },
+    {
+      "date": "2024-07-27",
+      "title": "鏡像異性体",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "series": "鏡像異性体",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/614066"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-27.jpg",
+      "page": "https://zscode.net/works/2024-07-27/"
+    },
+    {
+      "date": "2024-07-26",
+      "title": "tonight!",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Bar FROG",
+      "series": "tonight!",
+      "flyer": "https://zscode.net/img/works/2024-07-26.jpg",
+      "page": "https://zscode.net/works/2024-07-26/"
+    },
+    {
+      "date": "2024-07-21",
+      "title": "TRY FORCE vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "秋葉原MOGRA",
+      "series": "TRY FORCE",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/621593"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-21.png",
+      "page": "https://zscode.net/works/2024-07-21/"
+    },
+    {
+      "date": "2024-07-13",
+      "title": "VOCALOID CONTEXT",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Cafe BAr LIVRE",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/614866"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-13-2.jpg",
+      "page": "https://zscode.net/works/2024-07-13-2/"
+    },
+    {
+      "date": "2024-07-13",
+      "title": "Presto VOCALOID",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "Asakusa Stella",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/602143"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-13.jpg",
+      "page": "https://zscode.net/works/2024-07-13/"
+    },
+    {
+      "date": "2024-07-06",
+      "title": "Color-full VOCALOID vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "series": "Color-full VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/613722"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-07-06.jpg",
+      "page": "https://zscode.net/works/2024-07-06/"
+    },
+    {
+      "date": "2024-06-29",
+      "title": "39's Luminous",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "渋谷 WOMB LOUNGE",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/607030"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-06-29.jpg",
+      "page": "https://zscode.net/works/2024-06-29/"
+    },
+    {
+      "date": "2024-05-26",
+      "title": "ルカファンタジア アフターDJイベ",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "埼玉県県民活動総合センター",
+      "tickets": [
+        {
+          "label": "昼公演",
+          "url": "https://livepocket.jp/e/z3w88"
+        },
+        {
+          "label": "夜公演",
+          "url": "https://t.livepocket.jp/e/6j42t"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-05-26-2.jpg",
+      "page": "https://zscode.net/works/2024-05-26-2/"
+    },
+    {
+      "date": "2024-05-26",
+      "title": "ルカファンタジア",
+      "status": "past",
+      "kind": "live",
+      "role": "映像オペレーション",
+      "venue": "埼玉県県民活動総合センター",
+      "organizer": "FuLUKAlor ink.",
+      "organizer_url": "https://twitter.com/luka_fanmade",
+      "tickets": [
+        {
+          "label": "昼公演",
+          "url": "https://livepocket.jp/e/z3w88"
+        },
+        {
+          "label": "夜公演",
+          "url": "https://t.livepocket.jp/e/6j42t"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-05-26.jpg",
+      "page": "https://zscode.net/works/2024-05-26/"
+    },
+    {
+      "date": "2024-04-06",
+      "title": "Try Force -Front Line- vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "twitch live",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/608289"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-04-06.png",
+      "page": "https://zscode.net/works/2024-04-06/"
+    },
+    {
+      "date": "2024-04-01",
+      "title": "Raise our Flag",
+      "status": "past",
+      "kind": "live",
+      "role": "代表、映像オペレーション",
+      "venue": "秋葉原 エンタス",
+      "organizer": "04SQUAD",
+      "organizer_url": "https://twitter.com/04squ4d",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/601407"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-04-01.jpg",
+      "page": "https://zscode.net/works/2024-04-01/"
+    },
+    {
+      "date": "2024-03-03",
+      "title": "MIKU's TAPE",
+      "status": "past",
+      "kind": "live",
+      "role": "OWN LIVEとしてのリハーサル準備協力",
+      "venue": "東京外国語大学 プロメテウス・ホール",
+      "organizer": "東京外大ミクライブ研究会",
+      "organizer_url": "https://twitter.com/Tufs_Mikulive",
+      "flyer": "https://zscode.net/img/works/2024-03-03.jpg",
+      "page": "https://zscode.net/works/2024-03-03/"
+    },
+    {
+      "date": "2024-03-02",
+      "title": "Try Force -Boot Camp- vol.3",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "04SQUAD",
+      "venue_url": "https://twitter.com/04squ4d",
+      "series": "Try Force -Boot Camp",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/609613"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-03-02-2.png",
+      "page": "https://zscode.net/works/2024-03-02-2/"
+    },
+    {
+      "date": "2024-03-02",
+      "title": "Try Force -Boot Camp- vol.2",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "04SQUAD",
+      "venue_url": "https://twitter.com/04squ4d",
+      "series": "Try Force -Boot Camp",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/601512"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-03-02.png",
+      "page": "https://zscode.net/works/2024-03-02/"
+    },
+    {
+      "date": "2024-02-23",
+      "title": "HELLO, VOCALOID vol.4",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/597854"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-02-23.jpg",
+      "page": "https://zscode.net/works/2024-02-23/"
+    },
+    {
+      "date": "2024-02-12",
+      "title": "ボカラフ vol.2",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "音部屋 スクエア",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/597327"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2024-02-12.jpg",
+      "page": "https://zscode.net/works/2024-02-12/"
+    },
+    {
+      "date": "2024-02-03",
+      "title": "Try Force -Boot Camp- vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "04SQUAD",
+      "venue_url": "https://twitter.com/04squ4d",
+      "series": "Try Force -Boot Camp",
+      "flyer": "https://zscode.net/img/works/2024-02-03.jpg",
+      "page": "https://zscode.net/works/2024-02-03/"
+    },
+    {
+      "date": "2023-08-18",
+      "title": "HELLO, VOCALOID vol.1",
+      "status": "past",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "新宿 azito",
+      "venue_url": "https://sinjuku-azito.com/",
+      "series": "HELLO, VOCALOID",
+      "tickets": [
+        {
+          "url": "https://twipla.jp/events/570191"
+        }
+      ],
+      "flyer": "https://zscode.net/img/works/2023-08-18.jpg",
+      "page": "https://zscode.net/works/2023-08-18/"
+    }
+  ]
+}
