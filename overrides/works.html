@@ -58,7 +58,10 @@
           {% if prof.base %}<div><dt>BASE</dt><dd>{{ prof.base | e }}</dd></div>{% endif %}
           {% if prof.style %}<div><dt>STYLE</dt><dd>{{ prof.style | e }}</dd></div>{% endif %}
           {% if prof.tools %}<div><dt>TOOLS</dt><dd>{% for t in prof.tools %}<span>{{ t | e }}</span>{% endfor %}</dd></div>{% endif %}
-          {% if prof.contact %}<div><dt>CONTACT</dt><dd>{% set c = prof.contact | string %}<a href="{{ c if '://' in c else 'mailto:' ~ c }}" rel="noopener">{{ c | e }}</a></dd></div>{% endif %}
+          {% if prof.contact %}<div><dt>CONTACT</dt><dd>{% set c = prof.contact | string %}
+            {%- if c.startswith("http") %}<a href="{{ c }}" target="_blank" rel="noopener">{{ c | replace("https://", "") | e }} ↗</a>
+            {%- elif "@" in c and " " not in c and "：" not in c and not c.startswith("@") %}<a href="mailto:{{ c }}">{{ c | e }}</a>
+            {%- else %}{{ c | e }}{% endif %}</dd></div>{% endif %}
           {% if prof.links %}<div><dt>LINKS</dt><dd>{% for u in prof.links %}<a href="{{ u }}" target="_blank" rel="me noopener">{{ u | replace("https://", "") | replace("www.", "") | e }} ↗</a>{% endfor %}</dd></div>{% endif %}
         </dl>
         {% endif %}
