@@ -92,6 +92,13 @@ def mdlink(text: str, url: str | None) -> str:
     return f"[{md(text)}]({url})" if url else md(text)
 
 
+def price_ja(t: dict) -> str:
+    p = t.get("price")
+    if p is None:
+        return ""
+    return "（無料）" if int(p) == 0 else f"（{int(p):,}円）"
+
+
 def role(e: dict) -> str:
     return e.get("role") or "VJ"
 
@@ -137,7 +144,7 @@ def event_page(e: dict, prev: dict | None, nxt: dict | None, series: list[dict],
         rows.append(("主催", mdlink(e["organizer"], e.get("organizer_url"))))
     rows.append(("種別", KIND_JA.get(e.get("kind") or "", "イベント")))
     rows.append(("出演", f"{PERSON}（{md(role(e))}）"))
-    tickets = [mdlink(t.get("label") or "チケット・詳細", t.get("url")) for t in e.get("tickets") or []]
+    tickets = [mdlink(t.get("label") or "チケット・詳細", t.get("url")) + price_ja(t) for t in e.get("tickets") or []]
     if tickets:
         rows.append(("チケット・告知", " / ".join(tickets)))
     if e.get("_series"):
@@ -241,7 +248,21 @@ def event_ld(e: dict, site: str) -> dict:
         ev["organizer"] = org
     if e.get("flyer"):
         ev["image"] = absu(site, e["flyer"])
-    offers = [{"@type": "Offer", "url": t["url"]} for t in e.get("tickets") or [] if t.get("url")]
+    # offers は料金の分かるチケットだけ（URL だけだと Google に price / priceCurrency 不足と言われる）
+    offers = []
+    for t in e.get("tickets") or []:
+        if t.get("price") is None:
+            continue
+        o = {"@type": "Offer", "price": str(t["price"]), "priceCurrency": "JPY"}
+        if t.get("url"):
+            o["url"] = t["url"]
+        if t.get("label"):
+            o["name"] = t["label"]
+        if t.get("on_sale"):
+            o["validFrom"] = str(t["on_sale"])
+        if e["_status"] == "upcoming":
+            o["availability"] = "https://schema.org/InStock"
+        offers.append(o)
     if offers:
         ev["offers"] = offers
     if e.get("_series"):
@@ -299,7 +320,7 @@ def record(e: dict, site: str) -> dict:
         "organizer": e.get("organizer"), "organizer_url": e.get("organizer_url"),
         "series": e.get("_series"),
         "note": str(e["note"]).strip() if e.get("note") else None,
-        "tickets": [t for t in e.get("tickets") or [] if t.get("url")],
+        "tickets": [t for t in e.get("tickets") or [] if t.get("url") or t.get("price") is not None],
         "flyer": absu(site, e["flyer"]) if e.get("flyer") else None,
         "page": page_url(site, e),
     }

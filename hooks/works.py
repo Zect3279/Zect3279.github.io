@@ -53,6 +53,9 @@ def validate(events: list[dict]) -> list[str]:
             errs.append(f"{where}: flyer のファイルが見つかりません: {f}")
         if any(not isinstance(t, dict) or not (t.get("url") or t.get("label")) for t in e.get("tickets") or []):
             errs.append(f"{where}: tickets の書式が不正です")
+        for t in e.get("tickets") or []:
+            if isinstance(t, dict) and t.get("price") is not None and (not isinstance(t["price"], int) or t["price"] < 0):
+                errs.append(f"{where}: tickets の price は 0 以上の整数（円）にしてください（無料は 0）")
     return errs
 
 

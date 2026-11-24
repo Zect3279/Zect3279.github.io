@@ -47,6 +47,7 @@ body:
     id: organizer
     attributes:
       label: 主催
+      description: 分かれば入れてください（検索結果のイベント表示で推奨されている項目です）
   - type: input
     id: organizer_url
     attributes:
@@ -55,10 +56,11 @@ body:
     id: tickets
     attributes:
       label: チケット
-      description: 1行に1件。「ラベル | URL」か URL だけ
+      description: 1行に1件。「URL」「ラベル | URL」「ラベル | URL | 料金」。料金は円の数字か「無料」（検索結果のイベント表示に使われます）
       placeholder: |
         https://twipla.jp/events/000000
         昼公演 | https://livepocket.jp/e/xxxx
+        前売 | https://livepocket.jp/e/yyyy | 2500
   - type: input
     id: role
     attributes:

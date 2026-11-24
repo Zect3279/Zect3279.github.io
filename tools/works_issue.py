@@ -38,17 +38,35 @@ def parse_form(body: str) -> dict:
     return {k: ("" if v == "_No response_" else v) for k, v in out.items()}
 
 
+def parse_price(text: str) -> int | None:
+    """「2,500円」「¥2500」→ 2500、「無料」「free」→ 0。読めなければ None。"""
+    t = text.strip()
+    if not t:
+        return None
+    if t in ("無料", "free", "Free", "FREE", "0"):
+        return 0
+    digits = "".join(c for c in t if c.isdigit())
+    return int(digits) if digits else None
+
+
 def parse_tickets(text: str) -> list[dict]:
+    """1行1件。「URL」「ラベル | URL」「ラベル | URL | 料金」。"""
     items = []
     for line in text.splitlines():
         line = line.strip().lstrip("-").strip()
         if not line:
             continue
-        if "|" in line:
-            label, url = (s.strip() for s in line.split("|", 1))
-            items.append({"label": label, "url": url} if label else {"url": url})
-        else:
-            items.append({"url": line})
+        parts = [s.strip() for s in line.split("|")] if "|" in line else ["", line]
+        label, url = parts[0], parts[1] if len(parts) > 1 else ""
+        item = {}
+        if label:
+            item["label"] = label
+        if url:
+            item["url"] = url
+        if len(parts) > 2 and (price := parse_price(parts[2])) is not None:
+            item["price"] = price
+        if item:
+            items.append(item)
     return items
 
 
