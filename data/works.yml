@@ -711,8 +711,12 @@
   flyer_alt: コラボカ2026 フライヤー
   issue: 3
 - date: 2026-12-12
+  title: 39noPops vol.22
   kind: club
-  issue: 8
+  venue: nagomix
+  flyer: /img/works/2026-12-12.jpg
+  flyer_alt: 39noPops vol.22 フライヤー
+  issue: 11
 - date: 2026-12-30
   kind: club
   issue: 4
