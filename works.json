@@ -10,8 +10,8 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
   "license_note": "出演データ（テキスト）は CC BY 4.0 で公開しています。出典「Zect（zscode.net）」を表示すれば、転載・加工・商用利用も自由です。フライヤー画像の著作権は各イベントの主催者・制作者にあり、このライセンスの対象外です。",
   "attribution": "出典: Zect（https://zscode.net/works/）",
-  "updated": "2026-11-26T08:33:31+09:00",
-  "count": 85,
+  "updated": "2026-11-26T23:47:13+09:00",
+  "count": 86,
   "events": [
     {
       "date": "2027-02-19",
@@ -23,6 +23,16 @@
       "venue": "群馬 新町文化ホール",
       "flyer": "https://zscode.net/img/works/2027-02-19.jpg",
       "page": "https://zscode.net/works/2027-02-19/"
+    },
+    {
+      "date": "2026-12-12",
+      "title": "39noPops vol.22",
+      "status": "upcoming",
+      "kind": "club",
+      "role": "VJ",
+      "venue": "nagomix",
+      "flyer": "https://zscode.net/img/works/2026-12-12.jpg",
+      "page": "https://zscode.net/works/2026-12-12/"
     },
     {
       "date": "2026-11-23",
